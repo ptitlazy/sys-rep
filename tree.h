@@ -1,46 +1,62 @@
+#ifndef TREE_H
+#define TREE_H
+
 #include <iostream>
-#include <sstream>
-#include <vector>
 #include <string>
+#include <vector>
 
 /*
- * Class Tree enable representing a tree of depedencies
+ * Class Tree enable representing a tree of dependencies
  */
-class Tree
-{
+class Tree {
 public:
-        Tree(std::string name) : name(name) {
-        }
+    Tree() {
+    }
 
-        void addChild(Tree child);
+    Tree(std::string name, std::string cmd, std::vector<std::string> dependencies) : name(name), cmd(cmd), dependencies(dependencies) {
+    }
+
+    void addChild(Tree *child);
+
+    void process() const;
+    void execute() const;
+    int size() const;
+
+    std::string &getName() {
+        return name;
+    }
+
+    void setName(std::string &name) {
+        Tree::name = name;
+    }
+
+    std::string &getCmd() {
+        return cmd;
+    }
+
+    void setCmd(std::string &cmd) {
+        Tree::cmd = cmd;
+    }
+
+    std::vector<std::string> &getDependencies() {
+        return dependencies;
+    }
+
+    void setDependencies(std::vector<std::string> &dependencies) {
+        Tree::dependencies = dependencies;
+    }
+
 private:
-        std::string name;
-        std::string cmd;
-        std::string file;
-        std::vector<Tree> children;
+    std::string name;
+    std::string cmd;
+    std::vector<std::string> dependencies;
+    std::vector<Tree*> children;
 
-        void display(std::ostream& out, int indent) const;
+    void display(std::ostream &out, int indent) const;
 
-        friend std::ostream& operator<< (std::ostream& out, const Tree t);
+    friend std::ostream &operator<<(std::ostream &out, const Tree *t);
 };
 
-void Tree::addChild(Tree child) {
-        this->children.push_back(child);
-}
+std::ostream &operator<<(std::ostream &out, const Tree *t);
 
-std::ostream& operator<< (std::ostream& out, const Tree t) {
-        t.display(out, 0);
-        return out;
-}
-
-void Tree::display(std::ostream& out, int indent) const {
-        out << std::string(indent * 4, ' ') << "|- " << this->name << std::endl;
-
-        std::vector<Tree>::const_iterator first = this->children.begin();
-        std::vector<Tree>::const_iterator last = this->children.end();
-
-        while (first != last) {
-                first->display(out, indent + 1);
-                ++first;
-        }
-}
+#endif
