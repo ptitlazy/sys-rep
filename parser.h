@@ -15,7 +15,7 @@
 // typedef std::pair<std::string, std::vector<std::string>> RULE;
 
 typedef Tree Rule;
-typedef std::unordered_map<std::string, Rule*> RuleMap;
+typedef std::unordered_map<std::string, Rule *> RuleMap;
 
 void parseFile(RuleMap &rules, std::string fileName);
 

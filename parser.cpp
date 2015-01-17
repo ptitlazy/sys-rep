@@ -8,7 +8,7 @@ void parseFile(RuleMap &rules, std::string fileName) {
     std::ifstream myFile(fileName);
     std::string lineRaw;
 
-    Rule* currentRule = new Rule();
+    Rule *currentRule = new Rule();
     //std::pair<std::string, std::vector<std::string>> currentRule;
 
     if (myFile.is_open()) {

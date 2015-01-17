@@ -1,8 +1,4 @@
 #include <mpi.h>
-#include <unordered_map>
-#include <vector>
-#include <algorithm>
-#include <iomanip>
 
 #include "tree.h"
 #include "parser.h"
@@ -39,11 +35,6 @@ int main(int argc, char **argv) {
     char hostname[MPI_MAX_PROCESSOR_NAME] = {};
     int TAG = 123456;
 
-    RuleMap rules;
-    Tree* tree = new Tree();
-
-    try {
-
     MPI_Status status;
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &taille);
@@ -51,20 +42,19 @@ int main(int argc, char **argv) {
     MPI_Get_processor_name(hostname, &hostlen);
 
     if (rang == 0) {
-
         RuleMap rules;
-        Tree tree("ROOT");
+        Tree *tree = new Tree();
 
         try {
-        parseFile(rules, string(argv[1]));
-        //cout << rules;
-        createTree(tree, rules, string(argv[2]));
-        //cout << tree;
-        tree->process();
-    } catch (string &s) {
-        cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
+            parseFile(rules, string(argv[1]));
+            //cout << rules;
+            createTree(tree, rules, string(argv[2]));
+            //cout << tree;
+            tree->process();
+        } catch (string &s) {
+            cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
+        }
     }
-}
     else {
         cout << "<<< Hi! Here is " << rang << ">>>" << endl;
     }
