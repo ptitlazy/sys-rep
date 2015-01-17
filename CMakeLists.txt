@@ -3,7 +3,7 @@ project(sys_rep)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp tree.cpp parser.cpp utils.cpp makefile.cpp)
+set(SOURCE_FILES main.cpp tree.cpp parser.cpp utils.cpp)
 
 add_executable(sys_rep ${SOURCE_FILES})
 

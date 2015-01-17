@@ -1,6 +1,3 @@
-#include <iostream>
-#include <sstream>
-#include <vector>
 #include <iomanip>
 
 #include <stdio.h>

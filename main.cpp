@@ -10,6 +10,7 @@
 using namespace std;
 
 int main(int argc, char **argv) {
+#if 0
     /*int taille, rang, hostlen;
     char hostname[MPI_MAX_PROCESSOR_NAME] = {};
     double message = rang + 123;
@@ -32,11 +33,29 @@ int main(int argc, char **argv) {
     }
 
     MPI_Finalize();*/
+#endif
+
+    int taille, rang, hostlen;
+    char hostname[MPI_MAX_PROCESSOR_NAME] = {};
+    int TAG = 123456;
 
     RuleMap rules;
     Tree* tree = new Tree();
 
     try {
+
+    MPI_Status status;
+    MPI_Init(&argc, &argv);
+    MPI_Comm_size(MPI_COMM_WORLD, &taille);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rang);
+    MPI_Get_processor_name(hostname, &hostlen);
+
+    if (rang == 0) {
+
+        RuleMap rules;
+        Tree tree("ROOT");
+
+        try {
         parseFile(rules, string(argv[1]));
         //cout << rules;
         createTree(tree, rules, string(argv[2]));
@@ -45,4 +64,10 @@ int main(int argc, char **argv) {
     } catch (string &s) {
         cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
     }
+}
+    else {
+        cout << "<<< Hi! Here is " << rang << ">>>" << endl;
+    }
+
+    MPI_Finalize();
 }
