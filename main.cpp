@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
 
     int taille, rang, hostlen;
     char hostname[MPI_MAX_PROCESSOR_NAME] = {};
-    int TAG = 123456;
+    int TAG = 1;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &taille);
