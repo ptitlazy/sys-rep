@@ -15,6 +15,10 @@ void Tree::addChild(Tree *child) {
     this->children.push_back(child);
 }
 
+void Tree::addParent(Tree *parent) {
+    this->parents.push_back(parent);
+}
+
 void Tree::display(std::ostream &out, int indent) const {
     out << std::string(indent * 4, ' ') << "|- " << this->name << std::endl;
 

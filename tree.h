@@ -18,6 +18,7 @@ public:
     }
 
     void addChild(Tree *child);
+    void addParent(Tree *parent);
 
     void process() const;
 
@@ -53,7 +54,8 @@ private:
     std::string name;
     std::string cmd;
     std::vector<std::string> dependencies;
-    std::vector<Tree *> children;
+    std::vector<Tree*> children;
+    std::vector<Tree*> parents;
 
     void display(std::ostream &out, int indent) const;
 
