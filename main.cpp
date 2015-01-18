@@ -2,6 +2,8 @@
 
 #include "tree.h"
 #include "parser.h"
+#include "worker.h"
+#include "master.h"
 
 using namespace std;
 
@@ -35,7 +37,6 @@ int main(int argc, char **argv) {
     char hostname[MPI_MAX_PROCESSOR_NAME] = {};
     int TAG = 123456;
 
-    MPI_Status status;
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &taille);
     MPI_Comm_rank(MPI_COMM_WORLD, &rang);
@@ -57,6 +58,7 @@ int main(int argc, char **argv) {
     }
     else {
         cout << "<<< Hi! Here is " << rang << ">>>" << endl;
+        worker(rang);
     }
 
     MPI_Finalize();
