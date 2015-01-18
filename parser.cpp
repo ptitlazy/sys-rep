@@ -70,6 +70,7 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
     }
 
     Tree *subTree = rules[target];
+    subTree->addParent(tree);
 
     Rule *rule = rules[target];
 
