@@ -37,8 +37,9 @@ bool testParent(Tree *child){
  * Prend en paramètre la taille de l'univers MPI
  */
 void Finalize(int taille){
+	std::string blank = "";
 	for(int i; i=1; i<taille){
-		//TODO : Envoi message MPI
+		MPI_Send((void *)blank.c_str(), blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
 }
 
