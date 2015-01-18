@@ -51,7 +51,6 @@ int main(int argc, char **argv) {
 			//cout << rules;
 			createTree(tree, rules, string(argv[2]));
 			//cout << tree;
-			cout << tree->getLeafs();
 			//tree->process();
 		} catch (string &s) {
 			cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
