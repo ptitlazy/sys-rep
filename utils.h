@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <set>
 
 // trim from start
 std::string &ltrim(std::string &s);
@@ -17,22 +18,50 @@ std::string &trim(std::string &s);
 // display vectors
 template<typename T>
 std::ostream &operator<<(std::ostream &out, const std::vector<T> &v) {
-    out << "[";
-    size_t last = v.size() - 1;
-    for (size_t i = 0; i < v.size(); ++i) {
-        out << v[i];
-        if (i != last)
-            out << ", ";
-    }
-    out << "]";
-    return out;
+	out << "[";
+
+	typename std::vector<T>::const_iterator first = v.cbegin();
+	typename std::vector<T>::const_iterator last = v.cend();
+
+	while (first != last) {
+		out << *first;
+		++first;
+
+		if (first != last) {
+			out << ", ";
+		}
+	}
+
+	out << "]";
+	return out;
+}
+
+// display set
+template<typename T>
+std::ostream &operator<<(std::ostream &out, const std::set<T> &v) {
+	out << "{";
+
+	typename std::set<T>::const_iterator first = v.cbegin();
+	typename std::set<T>::const_iterator last = v.cend();
+
+	while (first != last) {
+		out << *first;
+		++first;
+
+		if (first != last) {
+			out << ", ";
+		}
+	}
+
+	out << "}";
+	return out;
 }
 
 // display pairs
 template<typename T, typename U>
 std::ostream &operator<<(std::ostream &out, const std::pair<T, U> &v) {
-    out << "<" << v.first << "," << v.second << ">";
-    return out;
+	out << "<" << v.first << "," << v.second << ">";
+	return out;
 }
 
 #endif

@@ -1,67 +1,65 @@
 #include "worker.h"
-#include <mpi.h>
-#include <string>
 #include <vector>
 
 void worker(int rang) {
-    bool istasks = true;
-    int res = 0;
-    MPI_Status status;
+	bool istasks = true;
+	int res = 0;
+	MPI_Status status;
 
-    while (istasks) {
-        /*
-        Reception de la target
-         */
-        //Maintenant qu'on connait la longeur de la chaîne, on récupère celle-ci
-        std::string target = recv_string(status);
+	while (istasks) {
+		/*
+		Reception de la target
+		 */
+		//Maintenant qu'on connait la longeur de la chaï¿½ne, on rï¿½cupï¿½re celle-ci
+		std::string target = recv_string(status);
 
-        //Si la cible est "STOP", on arrête tout
-        if (target == "STOP") {
-            break;
-        }
+		//Si la cible est "STOP", on arrï¿½te tout
+		if (target == "STOP") {
+			break;
+		}
 
-        /*
-        Récupération de la commande
-         */
-        std::string cmd = recv_string(status);
+		/*
+		Rï¿½cupï¿½ration de la commande
+		 */
+		std::string cmd = recv_string(status);
 
-        /*
-        Récupération des dépendances
-         */
+		/*
+		Rï¿½cupï¿½ration des dï¿½pendances
+		 */
 
-        //Nombre de dépendances
-        int nb_dep;
-        MPI_Recv(&nb_dep, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
+		//Nombre de dï¿½pendances
+		int nb_dep;
+		MPI_Recv(&nb_dep, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
 
-        //Liste des dependances
-        std::vector<std::string> liste_dep;
+		//Liste des dependances
+		std::vector<std::string> liste_dep;
 
-        for (int i=1 ; i<= nb_dep ; i++) {
-            liste_dep.push_back(recv_string(status));
-        }
+		for (int i = 1; i <= nb_dep; i++) {
+			liste_dep.push_back(recv_string(status));
+		}
 
 
-        /*
-        Do the job
-         */
-        //TODO : 1. récupérer les fichiers
-        //TODO : 2. executer la tâche
+		/*
+		Do the job
+		 */
+		//TODO : 1. rï¿½cupï¿½rer les fichiers
+		//TODO : 2. executer la tï¿½che
 
-        /*
-        Send the response
-         */
-        //TODO
+		/*
+		Send the response
+		 */
+		//TODO
 
-        //TODO : a suppr, debug
-        istasks = false;
-    }
+		//TODO : a suppr, debug
+		istasks = false;
+	}
 }
 
 std::string recv_string(MPI_Status status) {
-    MPI_Probe(0, 1, MPI_COMM_WORLD, &status);
-    int length;
-    MPI_Get_count(&status, MPI_CHAR, &length);
-    char *buf = new char[length];
-    MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, &status);
-    return std::string(buf, length);
+	MPI_Probe(0, 1, MPI_COMM_WORLD, &status);
+	int length;
+	MPI_Get_count(&status, MPI_CHAR, &length);
+	char *buf = new char[length];
+	MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, &status);
+	return std::string(buf, length);
 }

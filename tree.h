@@ -4,62 +4,66 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <set>
 
 /*
  * Class Tree enable representing a tree of dependencies
  */
 class Tree {
 public:
-    Tree() {
-    }
+	Tree() {
+	}
 
-    Tree(std::string name, std::string cmd, std::vector<std::string> dependencies)
-            : name(name), cmd(cmd), dependencies(dependencies) {
-    }
+	Tree(std::string name, std::string cmd, std::vector<std::string> dependencies)
+			: name(name), cmd(cmd), dependencies(dependencies) {
+	}
 
-    void addChild(Tree *child);
-    void addParent(Tree *parent);
+	void addChild(Tree *child);
 
-    void process() const;
+	void addParent(Tree *parent);
 
-    void execute() const;
+	void process() const;
 
-    int size() const;
+	void execute() const;
 
-    std::string &getName() {
-        return name;
-    }
+	int size() const;
 
-    void setName(std::string &name) {
-        Tree::name = name;
-    }
+	std::set<const Tree *> getLeafs() const;
 
-    std::string &getCmd() {
-        return cmd;
-    }
+	std::string &getName() {
+		return name;
+	}
 
-    void setCmd(std::string &cmd) {
-        Tree::cmd = cmd;
-    }
+	void setName(std::string &name) {
+		Tree::name = name;
+	}
 
-    std::vector<std::string> &getDependencies() {
-        return dependencies;
-    }
+	std::string &getCmd() {
+		return cmd;
+	}
 
-    void setDependencies(std::vector<std::string> &dependencies) {
-        Tree::dependencies = dependencies;
-    }
+	void setCmd(std::string &cmd) {
+		Tree::cmd = cmd;
+	}
+
+	std::vector<std::string> &getDependencies() {
+		return dependencies;
+	}
+
+	void setDependencies(std::vector<std::string> &dependencies) {
+		Tree::dependencies = dependencies;
+	}
 
 private:
-    std::string name;
-    std::string cmd;
-    std::vector<std::string> dependencies;
-    std::vector<Tree*> children;
-    std::vector<Tree*> parents;
+	std::string name;
+	std::string cmd;
+	std::vector<std::string> dependencies;
+	std::vector<Tree *> children;
+	std::vector<Tree *> parents;
 
-    void display(std::ostream &out, int indent) const;
+	void display(std::ostream &out, int indent) const;
 
-    friend std::ostream &operator<<(std::ostream &out, const Tree *t);
+	friend std::ostream &operator<<(std::ostream &out, const Tree *t);
 };
 
 std::ostream &operator<<(std::ostream &out, const Tree *t);

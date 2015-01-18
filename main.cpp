@@ -33,35 +33,36 @@ int main(int argc, char **argv) {
     MPI_Finalize();*/
 #endif
 
-    int taille, rang, hostlen;
-    char hostname[MPI_MAX_PROCESSOR_NAME] = {};
-    int TAG = 1;
+	int taille, rang, hostlen;
+	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
+	int TAG = 1;
 
-    MPI_Init(&argc, &argv);
-    MPI_Comm_size(MPI_COMM_WORLD, &taille);
-    MPI_Comm_rank(MPI_COMM_WORLD, &rang);
-    MPI_Get_processor_name(hostname, &hostlen);
+	MPI_Init(&argc, &argv);
+	MPI_Comm_size(MPI_COMM_WORLD, &taille);
+	MPI_Comm_rank(MPI_COMM_WORLD, &rang);
+	MPI_Get_processor_name(hostname, &hostlen);
 
-    if (rang == 0) {
-	//Création de l'arbre
-	RuleMap rules;
-        Tree *tree = new Tree();
-	try {
-            parseFile(rules, string(argv[1]));
-            //cout << rules;
-            createTree(tree, rules, string(argv[2]));
-            //cout << tree;
-            tree->process();
-        } catch (string &s) {
-            cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
-        }
-        //Fonction master
-        master(tree, &rules);
-    }
-    else {
-        cout << "<<< Hi! Here is " << rang << ">>>" << endl;
-        worker(rang);
-    }
+	if (rang == 0) {
+		//Création de l'arbre
+		RuleMap rules;
+		Tree *tree = new Tree();
+		try {
+			parseFile(rules, string(argv[1]));
+			//cout << rules;
+			createTree(tree, rules, string(argv[2]));
+			//cout << tree;
+			cout << tree->getLeafs();
+			//tree->process();
+		} catch (string &s) {
+			cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
+		}
+		//Fonction master
+		master(tree, &rules);
+	}
+	else {
+		cout << "<<< Hi! Here is " << rang << ">>>" << endl;
+		worker(rang);
+	}
 
-    MPI_Finalize();
+	MPI_Finalize();
 }

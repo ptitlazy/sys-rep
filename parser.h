@@ -23,15 +23,15 @@ void createTree(Tree *tree, RuleMap &rules, std::string target);
 
 template<typename T, typename U>
 std::ostream &operator<<(std::ostream &out, const std::unordered_map<T, U> &m) {
-    RuleMap::const_iterator first = m.begin();
-    RuleMap::const_iterator last = m.end();
+	RuleMap::const_iterator first = m.begin();
+	RuleMap::const_iterator last = m.end();
 
-    while (first != last) {
-        std::cout << "[" << std::setw(15) << std::left << first->first << "] " << first->second << std::endl;
-        ++first;
-    }
+	while (first != last) {
+		std::cout << "[" << std::setw(15) << std::left << first->first << "] " << first->second << std::endl;
+		++first;
+	}
 
-    return out;
+	return out;
 }
 
 #endif
