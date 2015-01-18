@@ -1,6 +1,7 @@
 #include "worker.h"
 #include <mpi.h>
 #include <string>
+#include <vector>
 
 void worker(int rang) {
     bool istasks = true;
@@ -32,13 +33,27 @@ void worker(int rang) {
         int nb_dep;
         MPI_Recv(&nb_dep, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
 
-        //If stop, quit
-        istasks = false;
-            //Else,
-                //Recv dependencies and cmd
-                //Do the job
-                //Send the response
+        //Liste des dependances
+        std::vector<std::string> liste_dep;
 
+        for (int i=1 ; i<= nb_dep ; i++) {
+            liste_dep.push_back(recv_string(status));
+        }
+
+
+        /*
+        Do the job
+         */
+        //TODO : 1. récupérer les fichiers
+        //TODO : 2. executer la tâche
+
+        /*
+        Send the response
+         */
+        //TODO
+
+        //TODO : a suppr, debug
+        istasks = false;
     }
 }
 
