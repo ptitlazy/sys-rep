@@ -43,10 +43,10 @@ int main(int argc, char **argv) {
     MPI_Get_processor_name(hostname, &hostlen);
 
     if (rang == 0) {
-        RuleMap rules;
+	//Création de l'arbre
+	RuleMap rules;
         Tree *tree = new Tree();
-
-        try {
+	try {
             parseFile(rules, string(argv[1]));
             //cout << rules;
             createTree(tree, rules, string(argv[2]));
@@ -55,6 +55,8 @@ int main(int argc, char **argv) {
         } catch (string &s) {
             cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
         }
+        //Fonction master
+        master(tree, &rules);
     }
     else {
         cout << "<<< Hi! Here is " << rang << ">>>" << endl;
