@@ -13,7 +13,8 @@ void master(Tree *tree, RuleMap *rules) {
 	MPI_Get_processor_name(hostname, &hostlen);
 
 	//Init List Tâches (Feuilles de l'arbre)
-	std::set<Tree const *> tasks = tree->getLeafs();
+	std::set<Tree const *> tasks_set = tree->getLeafs();
+	std::vector<Tree const *> tasks(tasks_set.begin(), tasks_set.end());
 
 	//Init List Workers
 	std::vector<int> idleWorkers(taille - 1);
