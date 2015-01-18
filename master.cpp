@@ -1,5 +1,7 @@
 #include "master.h"
 
+void Finalize(int taille);
+
 void master(Tree *tree, RuleMap *rules) {
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
 	//Récupération des infos MPI
