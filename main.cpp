@@ -45,7 +45,8 @@ int main(int argc, char **argv) {
 	if (rang == 0) {
 		//Création de l'arbre
 		RuleMap rules;
-		Tree *tree = new Tree();
+		Tree *tree = new Tree("Name", "", std::vector<std::string>());
+
 		try {
 			parseFile(rules, string(argv[1]));
 			//cout << rules;
