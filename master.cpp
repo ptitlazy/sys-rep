@@ -44,7 +44,7 @@ void master(Tree *tree, RuleMap *rules) {
 		//Attente puis traitement d'un message d'un worker.
 		MPI_Probe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
 		Tree *finished = (Tree *)tracker[status.MPI_SOURCE];
-		finished->setIsExecuted(true);
+		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;
 		idleWorkers.push_back(status.MPI_SOURCE);
 		
@@ -52,9 +52,9 @@ void master(Tree *tree, RuleMap *rules) {
 		//S'il s'agit de la racine, ou non.
 		if(finished==tree){
 			bool end=true;
-			for(std::vector<Tree *>::iterator it = finished->children.begin(); it != finished->children.end(); ++it){
-				if(!it->getIsExecuted()){
-					parentDependenciesOk = false;
+			for(std::vector<Tree *>::iterator it = finished->getChildren().begin(); it != finished->getChildren().end(); ++it){
+				if(!(*it)->isExecuted()){
+					end = false;
 					break;
 				}
 			}
@@ -63,18 +63,18 @@ void master(Tree *tree, RuleMap *rules) {
 			}
 		} else {
 			//Pour chaque parent
-			for(std::vector<Tree *>::iterator it = finished->parents.begin(); it != finished->parents.end(); ++it) {
+			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
 				//Pour chaque dépendance de chaque parent.
 				bool dependenciesOk = true;
-				for(std::vector<Tree *>::iterator it2 = it->children.begin(); it2 != it->children.end(); ++it2) {
-					if(!it2->getIsExecuted()){
-					parentDependenciesOk = false;
+				for(std::vector<Tree *>::iterator it2 = (*it)->getChildren().begin(); it2 != (*it)->getChildren().end(); ++it2) {
+					if(!(*it2)->isExecuted()){
+					dependenciesOk = false;
 					break;
 					}
 				}
 				//Si les dépendances sont OK
 				if(dependenciesOk){
-					tasks.push_back(it);
+					tasks.push_back((*it));
 				}
 			}
 		}
@@ -85,15 +85,6 @@ void master(Tree *tree, RuleMap *rules) {
 	Finalize(taille);
 }
 
-/**
-* Fonction testant les parents d'un enfant venant d'être effectué
-* afin de voir si toutes ses dépendances sont réalisées et s'il peut l'être à son tour.
-*/
-//TODO : Editer retour de la fonction. On renverra directement le parent.
-bool testParent(Tree *child) {
-	//TODO
-	return false;
-}
 
 /**
 * Termine la communication en envoyant un message de fin à tous les workers

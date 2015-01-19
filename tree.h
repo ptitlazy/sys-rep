@@ -63,6 +63,14 @@ public:
 	void setDependencies(std::vector<std::string> &dependencies) {
 		Tree::dependencies = dependencies;
 	}
+	
+	std::vector<Tree *> &getParents(){
+		return parents;
+	}
+	
+	std::vector<Tree *> &getChildren(){
+		return children;
+	}
 
 private:
 	bool executed;
