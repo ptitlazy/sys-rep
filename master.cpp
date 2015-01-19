@@ -19,7 +19,7 @@ void master(Tree *tree, RuleMap *rules) {
 
 	//Init List Workers
 	std::vector<int> idleWorkers(taille - 1);
-	for (int i =1; i < taille; i++) {
+	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
 	
