@@ -11,6 +11,7 @@ void master(Tree *tree, RuleMap *rules) {
 	MPI_Comm_size(MPI_COMM_WORLD, &taille);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rang);
 	MPI_Get_processor_name(hostname, &hostlen);
+	MPI_Status Status;
 
 	//Init List Tâches (Feuilles de l'arbre)
 	std::set<Tree const *> tasks_set = tree->getLeafs();
@@ -21,9 +22,23 @@ void master(Tree *tree, RuleMap *rules) {
 	for (int i =1; i < taille; i++) {
 		idleWorkers.push_back(i);
 	}
+	
+	//Tracker des tâches courantes
+	Tree *tracker[taille-1];
+	for(int i=0; i<(taille-1); i++){
+		tracker[i]=NULL;
+	}
 
 	while (1) {
-		//TODO : Envoi des tâches aux workers idle. (1 more while)
+		//Envoi des tâches aux workers idle.
+		while(!tasks.empty() && !idleWorkers.empty()){
+			//Récupération & mise à jour des données.
+			int worker = idleWorkers.back();
+			idleWorkers.pop_back();
+			tracker[worker-1] = tasks.back();
+			tasks.pop_back();
+			//TODO: Envoi messages.
+		}
 
 		//TODO : Attente d'un message d'un worker.
 
