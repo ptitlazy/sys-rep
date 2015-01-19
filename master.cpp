@@ -1,5 +1,6 @@
 #include "master.h"
 
+bool testChildren(Tree *parent);
 void Finalize(int taille);
 
 void master(Tree *tree, RuleMap *rules) {
@@ -51,29 +52,13 @@ void master(Tree *tree, RuleMap *rules) {
 		//testParents de Tree *finished.
 		//S'il s'agit de la racine, ou non.
 		if(finished==tree){
-			bool end=true;
-			for(std::vector<Tree *>::iterator it = finished->getChildren().begin(); it != finished->getChildren().end(); ++it){
-				if(!(*it)->isExecuted()){
-					end = false;
-					break;
-				}
-			}
-			if(end){
+			if(testChildren(finished)){
 				break; //fin.
 			}
 		} else {
 			//Pour chaque parent
-			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
-				//Pour chaque dépendance de chaque parent.
-				bool dependenciesOk = true;
-				for(std::vector<Tree *>::iterator it2 = (*it)->getChildren().begin(); it2 != (*it)->getChildren().end(); ++it2) {
-					if(!(*it2)->isExecuted()){
-					dependenciesOk = false;
-					break;
-					}
-				}
-				//Si les dépendances sont OK
-				if(dependenciesOk){
+			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it){
+				if(testChildren(*it)){
 					tasks.push_back((*it));
 				}
 			}
@@ -95,6 +80,22 @@ void Finalize(int taille) {
 	for (int i = 1; i < taille ; i++) {
 		MPI_Send((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
+}
+
+/**
+ * Vérifie si les dépendances de l'arbre passé en argument ont été exécutées.
+ */
+bool testChildren(Tree *parent){
+	//Pour chaque enfant de chaque parent.
+	bool dependenciesOk = true;
+	for(std::vector<Tree *>::iterator it = parent->getChildren().begin(); it != parent->getChildren().end(); ++it) {
+		if(!(*it)->isExecuted()){
+			dependenciesOk = false;
+			break;
+		}
+	}
+	
+	return dependenciesOk;
 }
 
 
