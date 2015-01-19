@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
 			//cout << tree;
 			//tree->process();
 		} catch (string &s) {
-			cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
+			cerr << "\033[22;41m\033[91m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
 		}
 
 		if (taille == 1) {
