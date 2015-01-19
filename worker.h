@@ -8,5 +8,7 @@ void worker(int rang);
 
 std::string recv_string(MPI_Status status);
 
+void executer(std::string cmd);
+
 
 #endif

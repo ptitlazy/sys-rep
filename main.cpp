@@ -55,11 +55,16 @@ int main(int argc, char **argv) {
 		} catch (string &s) {
 			cerr << "\033[41;2m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
 		}
-		//Fonction master
-		master(tree, &rules);
-	}
-	else {
-		cout << "<<< Hi! Here is " << rang << ">>>" << endl;
+
+		if (taille == 1) {
+			tree->process();
+		} else {
+			//Fonction master
+			master(tree, &rules);
+		}
+	} else {
+		cout << "<<< Hi! Here is " << rang << " on " << hostname << ">>>" << endl;
+		cout << getCurrentDir() << endl;
 		worker(rang);
 	}
 

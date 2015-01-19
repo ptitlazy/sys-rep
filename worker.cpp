@@ -6,28 +6,30 @@ void worker(int rang) {
 	int res = 0;
 	MPI_Status status;
 
+	//TODO : recevoir le hostname et le dossier dans lequel le master travail
+	//scp master:dir/* .
+
 	while (istasks) {
 		/*
 		Reception de la target
 		 */
-		//Maintenant qu'on connait la longeur de la cha�ne, on r�cup�re celle-ci
 		std::string target = recv_string(status);
 
-		//Si la cible est "STOP", on arr�te tout
+		//Si la cible est "STOP", on arrête tout
 		if (target == "STOP") {
 			break;
 		}
 
 		/*
-		R�cup�ration de la commande
+		Récupération de la commande
 		 */
 		std::string cmd = recv_string(status);
 
 		/*
-		R�cup�ration des d�pendances
+		Récupération des dépendances
 		 */
 
-		//Nombre de d�pendances
+		//Nombre de dépendances
 		int nb_dep;
 		MPI_Recv(&nb_dep, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
 
@@ -42,8 +44,8 @@ void worker(int rang) {
 		/*
 		Do the job
 		 */
-		//TODO : 1. r�cup�rer les fichiers
-		//TODO : 2. executer la t�che
+		//TODO : 1. récupérer les fichiers
+		//TODO : 2. executer la tâche
 
 		/*
 		Send the response
@@ -61,5 +63,11 @@ std::string recv_string(MPI_Status status) {
 	MPI_Get_count(&status, MPI_CHAR, &length);
 	char *buf = new char[length];
 	MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, &status);
-	return std::string(buf, length);
+	std::string res(buf, length);
+	delete buf;
+	return res;
+}
+
+void executer(std::string cmd) {
+
 }
