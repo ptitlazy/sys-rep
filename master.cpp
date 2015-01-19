@@ -11,7 +11,7 @@ void master(Tree *tree, RuleMap *rules) {
 	MPI_Comm_size(MPI_COMM_WORLD, &taille);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rang);
 	MPI_Get_processor_name(hostname, &hostlen);
-	MPI_Status Status;
+	MPI_Status status;
 
 	//Init List Tâches (Feuilles de l'arbre)
 	std::set<Tree const *> tasks_set = tree->getLeafs();
@@ -24,7 +24,7 @@ void master(Tree *tree, RuleMap *rules) {
 	}
 	
 	//Tracker des tâches courantes
-	Tree *tracker[taille-1];
+	Tree const *tracker[taille-1];
 	for(int i=0; i<(taille-1); i++){
 		tracker[i]=NULL;
 	}
@@ -37,18 +37,49 @@ void master(Tree *tree, RuleMap *rules) {
 			idleWorkers.pop_back();
 			tracker[worker-1] = tasks.back();
 			tasks.pop_back();
-			//TODO: Envoi messages.
+			
+			//TODO: Envoi message. (on a toutes les données nécessaires)
 		}
 
-		//TODO : Attente d'un message d'un worker.
-
-		//TODO : testParent();
-
-		//TODO : test terminaison?
+		//Attente puis traitement d'un message d'un worker.
+		MPI_Probe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+		Tree *finished = (Tree *)tracker[status.MPI_SOURCE];
+		finished->setIsExecuted(true);
+		tracker[status.MPI_SOURCE]=NULL;
+		idleWorkers.push_back(status.MPI_SOURCE);
+		
+		//testParents de Tree *finished.
+		//S'il s'agit de la racine, ou non.
+		if(finished==tree){
+			bool end=true;
+			for(std::vector<Tree *>::iterator it = finished->children.begin(); it != finished->children.end(); ++it){
+				if(!it->getIsExecuted()){
+					parentDependenciesOk = false;
+					break;
+				}
+			}
+			if(end){
+				break; //fin.
+			}
+		} else {
+			//Pour chaque parent
+			for(std::vector<Tree *>::iterator it = finished->parents.begin(); it != finished->parents.end(); ++it) {
+				//Pour chaque dépendance de chaque parent.
+				bool dependenciesOk = true;
+				for(std::vector<Tree *>::iterator it2 = it->children.begin(); it2 != it->children.end(); ++it2) {
+					if(!it2->getIsExecuted()){
+					parentDependenciesOk = false;
+					break;
+					}
+				}
+				//Si les dépendances sont OK
+				if(dependenciesOk){
+					tasks.push_back(it);
+				}
+			}
+		}
 
 		//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
-
-		break;
 	}
 
 	Finalize(taille);
