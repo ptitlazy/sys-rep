@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char **argv) {
 #if 0
-    /*int taille, rang, hostlen;
+    int taille, rang, hostlen;
     char hostname[MPI_MAX_PROCESSOR_NAME] = {};
     double message = rang + 123;
     int TAG = 123456;
@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
         MPI_Send(&message, 1, MPI_DOUBLE, (rang + 1) % taille, TAG, MPI_COMM_WORLD);
     }
 
-    MPI_Finalize();*/
+    MPI_Finalize();
 #endif
 
 	int taille, rang, hostlen;
