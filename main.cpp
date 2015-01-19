@@ -32,7 +32,6 @@ int main(int argc, char **argv) {
 
     MPI_Finalize();
 #endif
-
 	int taille, rang, hostlen;
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
 	int TAG = 1;
