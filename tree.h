@@ -18,6 +18,8 @@ public:
 			: name(name), cmd(cmd), dependencies(dependencies) {
 	}
 
+	std::string serialize();
+
 	void addChild(Tree *child);
 
 	void addParent(Tree *parent);
@@ -29,6 +31,14 @@ public:
 	int size() const;
 
 	std::set<const Tree *> getLeafs() const;
+
+	bool isExecuted() {
+		return executed;
+	}
+
+	void setExecuted(bool e) {
+		executed = e;
+	}
 
 	std::string &getName() {
 		return name;
@@ -55,6 +65,7 @@ public:
 	}
 
 private:
+	bool executed;
 	std::string name;
 	std::string cmd;
 	std::vector<std::string> dependencies;
@@ -68,4 +79,5 @@ private:
 
 std::ostream &operator<<(std::ostream &out, const Tree *t);
 
+void deserialize(std::string s);
 #endif

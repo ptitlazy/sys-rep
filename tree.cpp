@@ -83,14 +83,14 @@ std::string ssystem(std::string cmds) {
 }
 
 void Tree::execute() const {
-	std::string s = ssystem(this->cmd);
+	std::string s = ssystem("cd /tmp/toto;" + this->cmd);
 
 	std::istringstream iss(s);
 	std::string line;
 	while (std::getline(iss, line)) {
 		line = trim(line);
 		if (line.length() > 0) {
-			std::cout << "\033[42;2m" << " OUT " << "\033[0m" << " " << line << std::endl;
+			std::cout << "\033[46;2m" << " OUT " << "\033[0m" << " " << line << std::endl;
 		}
 	}
 
@@ -151,4 +151,53 @@ std::set<const Tree *> Tree::getLeafs() const {
 	}
 
 	return leafs;
+}
+
+// <name>|<dependencies>|<cmd>
+std::string Tree::serialize() {
+	std::stringstream ss;
+
+	ss << this->name << "|";
+
+	std::vector<Tree *>::const_iterator first = this->children.cbegin();
+	std::vector<Tree *>::const_iterator last = this->children.cend();
+
+	while (first != last) {
+		ss << (*first)->name;
+		++first;
+
+		if (first != last) {
+			ss << ";";
+		}
+	}
+
+	ss << "|";
+	ss << this->cmd;
+
+	return ss.str();
+}
+
+void deserialize(std::string s) {
+	std::istringstream iss(s);
+	std::string temp;
+	std::string name;
+	std::vector<std::string> dependencies;
+	std::string cmds;
+
+	// name
+	std::getline(iss, name, '|');
+
+	// dependencies
+	std::getline(iss, temp, '|');
+	std::istringstream iss_temp(s);
+	while (std::getline(iss_temp, temp, ';')) {
+		dependencies.push_back(temp);
+	}
+
+	// cmds
+	std::getline(iss, cmds, '|');
+
+	std::cout << name << std::endl;
+	std::cout << dependencies << std::endl;
+	std::cout << cmds << std::endl;
 }

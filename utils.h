@@ -15,6 +15,8 @@ std::string &rtrim(std::string &s);
 // trim from both ends
 std::string &trim(std::string &s);
 
+std::string getCurrentDir();
+
 // display vectors
 template<typename T>
 std::ostream &operator<<(std::ostream &out, const std::vector<T> &v) {
