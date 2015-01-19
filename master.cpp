@@ -55,8 +55,8 @@ bool testParent(Tree *child) {
 */
 void Finalize(int taille) {
 	std::string blank = "STOP";
-	for (int i; i = 1; i < taille) {
-		MPI_Send((void *) blank.c_str(), blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
+	for (int i = 1; i < taille ; i++) {
+		MPI_Send((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
 }
 
