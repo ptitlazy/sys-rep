@@ -11,21 +11,12 @@ void worker(int rang) {
 	std::string fileNameSCP = "DMAKE_SCP_OK";
 
 	//TODO : recevoir le hostname et le dossier dans lequel le master travail
-	std::ifstream fileSCP(fileNameSCP, std::ios::in);
-
-	if (!fileSCP) {
-		//TODO : scp master:/dossier_master/* .
-
-		std::string cmd = "echo \"OK\" >> " + fileNameSCP + " 2>> " + fileNameSCP;
-	} else {
-		fileSCP.close();
-	}
 
 	while (istasks) {
 		/*
 		Reception du message sous forme de string serialisée
 		 */
-		std::string message = recv_string(status);
+		std::string message = recv_string(&status);
 
 		//Si la cible est "STOP", on arrête tout
 		if (message == "STOP") {
@@ -56,17 +47,6 @@ void worker(int rang) {
 		//TODO : a suppr, debug
 		istasks = false;
 	}
-}
-
-std::string recv_string(MPI_Status status) {
-	MPI_Probe(0, 1, MPI_COMM_WORLD, &status);
-	int length;
-	MPI_Get_count(&status, MPI_CHAR, &length);
-	char *buf = new char[length];
-	MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, &status);
-	std::string res(buf, length);
-	delete buf;
-	return res;
 }
 
 void executer(std::string cmd) {

@@ -133,7 +133,7 @@ std::set<const Tree *> Tree::getLeafs() const {
 }
 
 // <name>|<dependencies>|<cmd>
-std::string Tree::serialize() {
+std::string Tree::serialize() const {
 	std::stringstream ss;
 
 	ss << this->name << "|";

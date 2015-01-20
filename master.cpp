@@ -1,4 +1,7 @@
 #include "master.h"
+#include "worker.h"
+#include <ios>
+#include <fstream>
 
 bool testChildren(Tree *parent);
 void Finalize(int taille);
@@ -39,11 +42,30 @@ void master(Tree *tree, RuleMap *rules) {
 			tracker[worker-1] = tasks.back();
 			tasks.pop_back();
 			
-			//TODO: Envoi message. (on a toutes les données nécessaires)
+			//TODO: Envoi message. (on a toutes les données nécessaires) : noms + contenus fichiers
+			std::string message = tracker[worker-1]->serialize();
+			MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
+
+			for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
+				//TODO : Send each file independently
+				//Récupération du flux d'octets
+				std::ifstream fl(tracker[worker-1]->getDependencies()[i]);
+				fl.seekg( 0, std::ios::end );
+				size_t len = fl.tellg();
+				char *ret = new char[len];
+				fl.seekg(0, std::ios::beg);
+				fl.read(ret, len);
+				fl.close();
+
+				MPI_Send(ret, len, MPI_BYTE, worker, 1, MPI_COMM_WORLD);
+
+				delete ret;
+			}
 		}
 
 		//Attente puis traitement d'un message d'un worker.
-		MPI_Probe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+		int reponse;
+		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
 		Tree *finished = (Tree *)tracker[status.MPI_SOURCE];
 		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;
@@ -96,6 +118,18 @@ bool testChildren(Tree *parent){
 	}
 	
 	return dependenciesOk;
+}
+
+char* readFileBytes(const char *name)
+{
+	ifstream fl(name);
+	fl.seekg( 0, ios::end );
+	size_t len = fl.tellg();
+	char *ret = new char[len];
+	fl.seekg(0, ios::beg);
+	fl.read(ret, len);
+	fl.close();
+	return ret;
 }
 
 

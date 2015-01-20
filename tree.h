@@ -18,7 +18,7 @@ public:
 			: name(name), cmd(cmd), dependencies(dependencies) {
 	}
 
-	std::string serialize();
+	std::string serialize() const;
 
 	void addChild(Tree *child);
 

@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <mpi.h>
 
 // trim from start
 std::string &ltrim(std::string &s);
@@ -67,5 +68,7 @@ std::ostream &operator<<(std::ostream &out, const std::pair<T, U> &v) {
 }
 
 std::string ssystem(std::string cmds);
+
+std::string recv_string(MPI_Status *status);
 
 #endif

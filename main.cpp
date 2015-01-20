@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
 	} else {
 		cout << "<<< Hi! Here is " << rang << " on " << hostname << ">>>" << endl;
 		cout << getCurrentDir() << endl;
-		cout << argv[0] << endl;
+
 //		worker(rang);
 	}
 

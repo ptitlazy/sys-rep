@@ -13,6 +13,7 @@
 
 #include <sstream>
 #include <fstream>
+#include <mpi.h>
 
 // trim from start
 std::string &ltrim(std::string &s) {
@@ -63,4 +64,16 @@ std::string ssystem(std::string cmds) {
 	remove(tmpname);
 	return result;
 }
+
+std::string recv_string(MPI_Status *status) {
+	MPI_Probe(0, 1, MPI_COMM_WORLD, status);
+	int length;
+	MPI_Get_count(status, MPI_CHAR, &length);
+	char *buf = new char[length];
+	MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, status);
+	std::string res(buf, length);
+	delete buf;
+	return res;
+}
+
 
