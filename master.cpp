@@ -65,7 +65,7 @@ void master(Tree *tree) {
 
 		//Attente puis traitement d'un message d'un worker.
 		int reponse;
-		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status); //TODO : modif pour recevoir le fichier
 		Tree *finished = tracker[status.MPI_SOURCE];
 		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;

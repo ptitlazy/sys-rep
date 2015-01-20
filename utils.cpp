@@ -76,4 +76,19 @@ std::string recv_string(MPI_Status *status) {
 	return res;
 }
 
+void recv_file(int &taille, char *buf, MPI_Status *status) {
+	MPI_Probe(0, 1, MPI_COMM_WORLD, status);
+	MPI_Get_count(status, MPI_CHAR, &taille);
+	buf = new char[taille];
+	MPI_Recv(buf, taille, MPI_BYTE, 0, 1, MPI_COMM_WORLD, status);
+}
+
+std::string to_string(int i) {
+	std::string s;
+	std::stringstream out;
+	out << i;
+	s = out.str();
+	return s;
+}
+
 
