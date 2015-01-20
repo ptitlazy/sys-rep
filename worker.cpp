@@ -1,5 +1,7 @@
 #include "worker.h"
+#include "utils.h"
 #include <vector>
+#include <sstream>
 
 void worker(int rang) {
 	bool istasks = true;
@@ -11,46 +13,29 @@ void worker(int rang) {
 
 	while (istasks) {
 		/*
-		Reception de la target
+		Reception du message sous forme de string serialisée
 		 */
-		std::string target = recv_string(status);
+		std::string message = recv_string(status);
 
 		//Si la cible est "STOP", on arrête tout
-		if (target == "STOP") {
+		if (message == "STOP") {
 			break;
 		}
 
-		/*
-		Récupération de la commande
-		 */
-		std::string cmd = recv_string(status);
-
-		/*
-		Récupération des dépendances
-		 */
-
-		//Nombre de dépendances
-		int nb_dep;
-		MPI_Recv(&nb_dep, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
-
-		//Liste des dependances
-		std::vector<std::string> liste_dep;
-
-		for (int i = 1; i <= nb_dep; i++) {
-			liste_dep.push_back(recv_string(status));
-		}
-
+		workerRule rule = deserialize(message);
 
 		/*
 		Do the job
 		 */
 		//TODO : 1. récupérer les fichiers
+
 		//TODO : 2. executer la tâche
+		executer(rule.cmd);
 
 		/*
 		Send the response
 		 */
-		//TODO
+		//TODO : send the "ok, done"
 
 		//TODO : a suppr, debug
 		istasks = false;
@@ -69,5 +54,46 @@ std::string recv_string(MPI_Status status) {
 }
 
 void executer(std::string cmd) {
+	std::string s = ssystem(cmd);
 
+	std::istringstream iss(s);
+	std::string line;
+	while (std::getline(iss, line)) {
+		line = trim(line);
+		if (line.length() > 0) {
+			std::cout << "\033[22;104m\033[97m" << " OUT " << "\033[0m" << " " << line << std::endl;
+		}
+	}
+}
+
+workerRule deserialize(std::string s) {
+	std::istringstream iss(s);
+	std::string temp;
+	std::string name;
+	std::vector<std::string> dependencies;
+	std::string cmds;
+
+	// name
+	std::getline(iss, name, '|');
+
+	// dependencies
+	std::getline(iss, temp, '|');
+	std::istringstream iss_temp(s);
+	while (std::getline(iss_temp, temp, ';')) {
+		dependencies.push_back(temp);
+	}
+
+	// cmds
+	std::getline(iss, cmds, '|');
+
+	std::cout << name << std::endl;
+	std::cout << dependencies << std::endl;
+	std::cout << cmds << std::endl;
+
+	workerRule res;
+	res.cmd = cmds;
+	res.target = name;
+	res.liste_dep = dependencies;
+
+	return res;
 }

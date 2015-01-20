@@ -79,5 +79,4 @@ private:
 
 std::ostream &operator<<(std::ostream &out, const Tree *t);
 
-void deserialize(std::string s);
 #endif

@@ -7,6 +7,7 @@
 
 #include "tree.h"
 #include "utils.h"
+#include "worker.h"
 
 int current = 0;
 int total = -1;
@@ -58,28 +59,6 @@ void Tree::process() const {
 		current = 0;
 		total = -1;
 	}
-}
-
-std::string ssystem(std::string cmds) {
-	char tmpname[L_tmpnam];
-	tmpnam(tmpname);
-
-	std::istringstream iss_cmd(cmds);
-	std::string cmd;
-	while (getline(iss_cmd, cmd, ';')) {
-		cmd = cmd + " >> " + tmpname + " 2>> " + tmpname;
-		system(cmd.c_str());
-	}
-
-	std::ifstream file(tmpname, std::ios::in);
-	std::string result;
-	if (file) {
-		while (!file.eof()) result.push_back(file.get());
-		file.close();
-	}
-
-	remove(tmpname);
-	return result;
 }
 
 void Tree::execute() const {
@@ -177,6 +156,7 @@ std::string Tree::serialize() {
 	return ss.str();
 }
 
+#if 0
 void deserialize(std::string s) {
 	std::istringstream iss(s);
 	std::string temp;
@@ -201,3 +181,4 @@ void deserialize(std::string s) {
 	std::cout << dependencies << std::endl;
 	std::cout << cmds << std::endl;
 }
+#endif

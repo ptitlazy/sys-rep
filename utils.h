@@ -66,4 +66,6 @@ std::ostream &operator<<(std::ostream &out, const std::pair<T, U> &v) {
 	return out;
 }
 
+std::string ssystem(std::string cmds);
+
 #endif
