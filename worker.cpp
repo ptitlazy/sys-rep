@@ -3,16 +3,14 @@
 #include <vector>
 #include <sstream>
 #include <fstream>
+#include <w32api/lmaudit.h>
 
 void worker(int rang) {
-	bool istasks = true;
 	int res = 0;
 	MPI_Status status;
 	std::string fileNameSCP = "DMAKE_SCP_OK";
 
-	//TODO : recevoir le hostname et le dossier dans lequel le master travail
-
-	while (istasks) {
+	while (1) {
 		/*
 		Reception du message sous forme de string serialisée
 		 */
@@ -28,24 +26,28 @@ void worker(int rang) {
 		/*
 		Do the job
 		 */
-		//TODO : 1. récupérer les fichiers
-		//if (not fichier) {
-		//	scp master:/dossier/fichier .
-		//}
+		//Récupération des fichiers de dépendances
+		for (int i=0 ; i<rule.liste_dep.size(); ++i) {
+			std::string name = recv_string(&status);
+			std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
 
-		//TODO : 2. executer la tâche
+			int taille;
+			char *buf;
+
+			recv_file(taille, buf, &status);
+
+			fl.close();
+			delete buf;
+		}
+
+		//Exécution de la tâche
 		executer(rule.cmd);
 
 		/*
 		Envoi de la réponse
 		 */
 		//TODO : 1. Envoyer le fichier créé
-		// if sur machine master, cp ; else scp
 
-		//TODO : 2. send the "ok, done"
-
-		//TODO : a suppr, debug
-		istasks = false;
 	}
 }
 
