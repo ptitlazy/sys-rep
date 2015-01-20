@@ -2,14 +2,24 @@
 #include "utils.h"
 #include <vector>
 #include <sstream>
+#include <fstream>
 
 void worker(int rang) {
 	bool istasks = true;
 	int res = 0;
 	MPI_Status status;
+	std::string fileNameSCP = "DMAKE_SCP_OK";
 
 	//TODO : recevoir le hostname et le dossier dans lequel le master travail
-	//scp master:dir/* .
+	std::ifstream fileSCP(fileNameSCP, std::ios::in);
+
+	if (!fileSCP) {
+		//TODO : scp master:/dossier_master/* .
+
+		std::string cmd = "echo \"OK\" >> " + fileNameSCP + " 2>> " + fileNameSCP;
+	} else {
+		fileSCP.close();
+	}
 
 	while (istasks) {
 		/*
@@ -28,14 +38,20 @@ void worker(int rang) {
 		Do the job
 		 */
 		//TODO : 1. récupérer les fichiers
+		//if (not fichier) {
+		//	scp master:/dossier/fichier .
+		//}
 
 		//TODO : 2. executer la tâche
 		executer(rule.cmd);
 
 		/*
-		Send the response
+		Envoi de la réponse
 		 */
-		//TODO : send the "ok, done"
+		//TODO : 1. Envoyer le fichier créé
+		// if sur machine master, cp ; else scp
+
+		//TODO : 2. send the "ok, done"
 
 		//TODO : a suppr, debug
 		istasks = false;

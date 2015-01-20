@@ -1,5 +1,6 @@
 #include <mpi.h>
 
+
 #include "tree.h"
 #include "parser.h"
 #include "worker.h"
@@ -65,7 +66,8 @@ int main(int argc, char **argv) {
 	} else {
 		cout << "<<< Hi! Here is " << rang << " on " << hostname << ">>>" << endl;
 		cout << getCurrentDir() << endl;
-		worker(rang);
+		cout << argv[0] << endl;
+//		worker(rang);
 	}
 
 	MPI_Finalize();
