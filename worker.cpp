@@ -28,16 +28,9 @@ void worker(int rang) {
 		 */
 		//Récupération des fichiers de dépendances
 		for (int i=0 ; i<rule.liste_dep.size(); ++i) {
-			std::string name = recv_string(&status);
-			std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
 
-			int taille;
-			char *buf;
+			recv_file(0, &status);
 
-			recv_file(taille, buf, &status);
-
-			fl.close();
-			delete buf;
 		}
 
 		//Exécution de la tâche
@@ -46,8 +39,7 @@ void worker(int rang) {
 		/*
 		Envoi de la réponse
 		 */
-		//TODO : 1. Envoyer le fichier créé
-
+		send_file(0, rule.target);
 	}
 }
 

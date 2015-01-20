@@ -76,11 +76,23 @@ std::string recv_string(MPI_Status *status) {
 	return res;
 }
 
-void recv_file(int &taille, char *buf, MPI_Status *status) {
+std::string recv_file(int src, MPI_Status *status) {
+	std::string name = recv_string(status);
+	std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
+
+	int taille;
+	char *buf;
+
 	MPI_Probe(0, 1, MPI_COMM_WORLD, status);
 	MPI_Get_count(status, MPI_CHAR, &taille);
 	buf = new char[taille];
-	MPI_Recv(buf, taille, MPI_BYTE, 0, 1, MPI_COMM_WORLD, status);
+	MPI_Recv(buf, taille, MPI_BYTE, src, 1, MPI_COMM_WORLD, status);
+
+	fl.write(buf, taille);
+	fl.close();
+	delete buf;
+
+	return name;
 }
 
 std::string to_string(int i) {
@@ -94,4 +106,21 @@ std::string to_string(int i) {
 
 void debug(std::string msg) {
 	std::cout << "\033[22;104m\033[97m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+}
+
+void send_file(int dest, std::string file_name) {
+	MPI_Send(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
+
+	//Récupération du flux d'octets
+	std::ifstream fl(file_name);
+	fl.seekg( 0, std::ios::end );
+	size_t len = fl.tellg();
+	char *ret = new char[len];
+	fl.seekg(0, std::ios::beg);
+	fl.read(ret, len);
+	fl.close();
+
+	MPI_Send(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
+
+	delete ret;
 }

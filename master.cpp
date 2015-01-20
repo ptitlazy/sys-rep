@@ -1,4 +1,5 @@
 #include "master.h"
+#include "worker.h"
 
 #include <fstream>
 
@@ -52,26 +53,15 @@ void master(Tree *tree) {
 
 			for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
 				debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker ");// + std::to_string(worker));
-				MPI_Send(tracker[worker-1]->getDependencies()[i].c_str(), tracker[worker-1]->getDependencies()[i].length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
-				//Récupération du flux d'octets
-				std::ifstream fl(tracker[worker-1]->getDependencies()[i]);
-				fl.seekg( 0, std::ios::end );
-				size_t len = fl.tellg();
-				char *ret = new char[len];
-				fl.seekg(0, std::ios::beg);
-				fl.read(ret, len);
-				fl.close();
-
-				MPI_Send(ret, len, MPI_BYTE, worker, 1, MPI_COMM_WORLD);
-
-				delete ret;
+				send_file(worker, tracker[worker-1]->getDependencies()[i]);
 			}
 		}
 
 		//Attente puis traitement d'un message d'un worker.
 		int reponse;
-		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status); //TODO : modif pour recevoir le fichier
+		//MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status); //TODO : modif pour recevoir le fichier
+		recv_file(MPI_ANY_SOURCE, &status);
 		Tree *finished = tracker[status.MPI_SOURCE];
 		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;
