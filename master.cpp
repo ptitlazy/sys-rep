@@ -28,7 +28,7 @@ void master(Tree *tree) {
 	}
 	
 	//Tracker des tâches courantes
-	Tree const *tracker[taille-1];
+	Tree* tracker[taille-1];
 	for(int i=0; i<(taille-1); i++){
 		tracker[i]=NULL;
 	}
@@ -39,7 +39,7 @@ void master(Tree *tree) {
 			//Récupération & mise à jour des données.
 			int worker = idleWorkers.back();
 			idleWorkers.pop_back();
-			tracker[worker-1] = tasks.back();
+			tracker[worker-1] = (Tree*) tasks.back();
 			tasks.pop_back();
 			
 			//TODO: Envoi message. (on a toutes les données nécessaires) : noms + contenus fichiers
@@ -66,7 +66,7 @@ void master(Tree *tree) {
 		//Attente puis traitement d'un message d'un worker.
 		int reponse;
 		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-		Tree *finished = (Tree *)tracker[status.MPI_SOURCE];
+		Tree *finished = tracker[status.MPI_SOURCE];
 		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;
 		idleWorkers.push_back(status.MPI_SOURCE);
@@ -119,17 +119,4 @@ bool testChildren(Tree *parent){
 	
 	return dependenciesOk;
 }
-
-char* readFileBytes(const char *name)
-{
-	ifstream fl(name);
-	fl.seekg( 0, ios::end );
-	size_t len = fl.tellg();
-	char *ret = new char[len];
-	fl.seekg(0, ios::beg);
-	fl.read(ret, len);
-	fl.close();
-	return ret;
-}
-
 
