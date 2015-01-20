@@ -5,7 +5,7 @@
 #include "parser.h"
 #include <mpi.h>
 
-void master(Tree *tree, RuleMap *rules);
+void master(Tree *tree);
 
 
 #endif

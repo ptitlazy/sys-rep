@@ -6,7 +6,7 @@
 bool testChildren(Tree *parent);
 void Finalize(int taille);
 
-void master(Tree *tree, RuleMap *rules) {
+void master(Tree *tree) {
 	std::cout << "Master started" << std::endl;
 
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
