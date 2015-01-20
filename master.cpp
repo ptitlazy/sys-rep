@@ -74,27 +74,36 @@ void master(Tree *tree) {
 		MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status); //TODO : modif pour recevoir le fichier
 		Tree *finished = tracker[status.MPI_SOURCE];
 		finished->setExecuted(true);
+
+		debug("Master: Message received: " + finished->getName() + " executed");
+
 		tracker[status.MPI_SOURCE]=NULL;
 		idleWorkers.push_back(status.MPI_SOURCE);
 
-		//testParents de Tree *finished.
-		//S'il s'agit de la racine, ou non.
-		if(finished==tree){
-			if(testChildren(finished)){
-				break; //fin.
-			}
-		} else {
-			//Pour chaque parent
-			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it){
-				if(testChildren(*it)){
-					tasks.push_back((*it));
+		bool end = false;
+		//Pour chaque parent
+		for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
+			if(testChildren(*it)) {
+				debug("Master: " + (*it)->getName() + " available");
+				// On ne veut pas exécuter root
+				if(*it == tree){
+					if(testChildren(finished)){
+						end = true;
+						break;
+					}
 				}
+
+				tasks.push_back((*it));
 			}
 		}
 
+		if (end) {
+			break;
+		}
 		//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
 	}
 
+	debug("Master: Endless loop ended");
 	Finalize(taille);
 }
 
@@ -106,6 +115,7 @@ void master(Tree *tree) {
 void Finalize(int taille) {
 	std::string blank = "STOP";
 	for (int i = 1; i < taille ; i++) {
+		debug("Master: send STOP to worker " + to_string(i));
 		MPI_Send((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
 }
