@@ -71,4 +71,6 @@ std::string ssystem(std::string cmds);
 
 std::string recv_string(MPI_Status *status);
 
+void debug(std::string msg);
+
 #endif

@@ -77,3 +77,6 @@ std::string recv_string(MPI_Status *status) {
 }
 
 
+void debug(std::string msg) {
+	std::cout << "\033[22;104m\033[97m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+}
