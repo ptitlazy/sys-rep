@@ -1,5 +1,6 @@
 #include "master.h"
 
+bool testChildren(Tree *parent);
 void Finalize(int taille);
 
 void master(Tree *tree, RuleMap *rules) {
@@ -11,6 +12,7 @@ void master(Tree *tree, RuleMap *rules) {
 	MPI_Comm_size(MPI_COMM_WORLD, &taille);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rang);
 	MPI_Get_processor_name(hostname, &hostlen);
+	MPI_Status status;
 
 	//Init List Tâches (Feuilles de l'arbre)
 	std::set<Tree const *> tasks_set = tree->getLeafs();
@@ -21,33 +23,53 @@ void master(Tree *tree, RuleMap *rules) {
 	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
+	
+	//Tracker des tâches courantes
+	Tree const *tracker[taille-1];
+	for(int i=0; i<(taille-1); i++){
+		tracker[i]=NULL;
+	}
 
 	while (1) {
-		//TODO : Envoi des tâches aux workers idle. (1 more while)
+		//Envoi des tâches aux workers idle.
+		while(!tasks.empty() && !idleWorkers.empty()){
+			//Récupération & mise à jour des données.
+			int worker = idleWorkers.back();
+			idleWorkers.pop_back();
+			tracker[worker-1] = tasks.back();
+			tasks.pop_back();
+			
+			//TODO: Envoi message. (on a toutes les données nécessaires)
+		}
 
-		//TODO : Attente d'un message d'un worker.
-
-		//TODO : testParent();
-
-		//TODO : test terminaison?
+		//Attente puis traitement d'un message d'un worker.
+		MPI_Probe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+		Tree *finished = (Tree *)tracker[status.MPI_SOURCE];
+		finished->setExecuted(true);
+		tracker[status.MPI_SOURCE]=NULL;
+		idleWorkers.push_back(status.MPI_SOURCE);
+		
+		//testParents de Tree *finished.
+		//S'il s'agit de la racine, ou non.
+		if(finished==tree){
+			if(testChildren(finished)){
+				break; //fin.
+			}
+		} else {
+			//Pour chaque parent
+			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it){
+				if(testChildren(*it)){
+					tasks.push_back((*it));
+				}
+			}
+		}
 
 		//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
-
-		break;
 	}
 
 	Finalize(taille);
 }
 
-/**
-* Fonction testant les parents d'un enfant venant d'être effectué
-* afin de voir si toutes ses dépendances sont réalisées et s'il peut l'être à son tour.
-*/
-//TODO : Editer retour de la fonction. On renverra directement le parent.
-bool testParent(Tree *child) {
-	//TODO
-	return false;
-}
 
 /**
 * Termine la communication en envoyant un message de fin à tous les workers
@@ -58,6 +80,22 @@ void Finalize(int taille) {
 	for (int i = 1; i < taille ; i++) {
 		MPI_Send((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
+}
+
+/**
+ * Vérifie si les dépendances de l'arbre passé en argument ont été exécutées.
+ */
+bool testChildren(Tree *parent){
+	//Pour chaque enfant de chaque parent.
+	bool dependenciesOk = true;
+	for(std::vector<Tree *>::iterator it = parent->getChildren().begin(); it != parent->getChildren().end(); ++it) {
+		if(!(*it)->isExecuted()){
+			dependenciesOk = false;
+			break;
+		}
+	}
+	
+	return dependenciesOk;
 }
 
 
