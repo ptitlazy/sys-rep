@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
 			tree->process();
 		} else {
 			//Fonction master
-			master(tree, &rules);
+			master(tree);
 		}
 	} else {
 		cout << "<<< Hi! Here is " << rang << " on " << hostname << ">>>" << endl;
