@@ -1,13 +1,12 @@
 #include "master.h"
-#include "worker.h"
-#include <ios>
+
 #include <fstream>
 
 bool testChildren(Tree *parent);
 void Finalize(int taille);
 
 void master(Tree *tree) {
-	std::cout << "Master started" << std::endl;
+	debug("Master started");
 
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
 	//Récupération des infos MPI
@@ -17,22 +16,26 @@ void master(Tree *tree) {
 	MPI_Get_processor_name(hostname, &hostlen);
 	MPI_Status status;
 
+	debug("Master: Init tasks vector");
 	//Init List Tâches (Feuilles de l'arbre)
 	std::set<Tree const *> tasks_set = tree->getLeafs();
 	std::vector<Tree const *> tasks(tasks_set.begin(), tasks_set.end());
 
+	debug("Master: Init workers list");
 	//Init List Workers
 	std::vector<int> idleWorkers(taille - 1);
 	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
-	
+
+	debug("Master: Init tracker");
 	//Tracker des tâches courantes
 	Tree* tracker[taille-1];
 	for(int i=0; i<(taille-1); i++){
 		tracker[i]=NULL;
 	}
 
+	debug("Master: begin endless loop");
 	while (1) {
 		//Envoi des tâches aux workers idle.
 		while(!tasks.empty() && !idleWorkers.empty()){
@@ -41,13 +44,16 @@ void master(Tree *tree) {
 			idleWorkers.pop_back();
 			tracker[worker-1] = (Tree*) tasks.back();
 			tasks.pop_back();
-			
-			//TODO: Envoi message. (on a toutes les données nécessaires) : noms + contenus fichiers
+
+			debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker ");// + std::to_string(worker));
+
 			std::string message = tracker[worker-1]->serialize();
 			MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 			for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
-				//TODO : Send each file independently
+				debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker ");// + std::to_string(worker));
+				MPI_Send(tracker[worker-1]->getDependencies()[i].c_str(), tracker[worker-1]->getDependencies()[i].length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
+
 				//Récupération du flux d'octets
 				std::ifstream fl(tracker[worker-1]->getDependencies()[i]);
 				fl.seekg( 0, std::ios::end );
@@ -70,7 +76,7 @@ void master(Tree *tree) {
 		finished->setExecuted(true);
 		tracker[status.MPI_SOURCE]=NULL;
 		idleWorkers.push_back(status.MPI_SOURCE);
-		
+
 		//testParents de Tree *finished.
 		//S'il s'agit de la racine, ou non.
 		if(finished==tree){
@@ -116,7 +122,7 @@ bool testChildren(Tree *parent){
 			break;
 		}
 	}
-	
+
 	return dependenciesOk;
 }
 

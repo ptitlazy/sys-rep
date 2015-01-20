@@ -48,11 +48,11 @@ int main(int argc, char **argv) {
 		Tree *tree = new Tree("Name", "", std::vector<std::string>());
 
 		try {
+			debug("Building rules list...");
 			parseFile(rules, string(argv[1]));
-			//cout << rules;
+
+			debug("Parsing rules tree...");
 			createTree(tree, rules, string(argv[2]));
-			//cout << tree;
-			//tree->process();
 		} catch (string &s) {
 			cerr << "\033[22;41m\033[91m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << s << "\033[0m" << endl;
 		}
@@ -60,14 +60,10 @@ int main(int argc, char **argv) {
 		if (taille == 1) {
 			tree->process();
 		} else {
-			//Fonction master
 			master(tree);
 		}
 	} else {
-		cout << "<<< Hi! Here is " << rang << " on " << hostname << ">>>" << endl;
-		cout << getCurrentDir() << endl;
-
-//		worker(rang);
+		worker(rang);
 	}
 
 	MPI_Finalize();

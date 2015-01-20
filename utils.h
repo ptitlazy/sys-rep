@@ -71,8 +71,12 @@ std::string ssystem(std::string cmds);
 
 std::string recv_string(MPI_Status *status);
 
+
 void recv_file(int &taille, char *buf, MPI_Status *status);
 
 std::string to_string(int i);
+
+void debug(std::string msg);
+
 
 #endif
