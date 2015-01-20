@@ -1,9 +1,8 @@
 #include "worker.h"
 #include "utils.h"
-#include <vector>
+
 #include <sstream>
 #include <fstream>
-#include <w32api/lmaudit.h>
 
 void worker(int rang) {
 	int res = 0;
