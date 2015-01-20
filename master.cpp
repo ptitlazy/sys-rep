@@ -45,13 +45,13 @@ void master(Tree *tree) {
 			tracker[worker-1] = (Tree*) tasks.back();
 			tasks.pop_back();
 
-			debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker ");// + std::to_string(worker));
+			debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
 			std::string message = tracker[worker-1]->serialize();
 			MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 			for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
-				debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker ");// + std::to_string(worker));
+				debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker " + to_string(worker));
 				MPI_Send(tracker[worker-1]->getDependencies()[i].c_str(), tracker[worker-1]->getDependencies()[i].length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 				//Récupération du flux d'octets
