@@ -64,9 +64,14 @@ void parseFile(RuleMap &rules, std::string fileName) {
 
 void createTree(Tree *tree, RuleMap &rules, std::string target) {
 	if (rules.find(target) == rules.end()) {
-		std::ostringstream buf;
-		buf << "No rule " << target;
-		throw buf.str();
+		if (file_exists(target)) {
+			Rule* rule = new Rule(target, "", std::vector<std::string>());
+			rules[target] = rule;
+		} else {
+			std::ostringstream buf;
+			buf << "No rule " << target;
+			throw buf.str();
+		}
 	}
 
 	Tree *subTree = rules[target];

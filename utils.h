@@ -71,7 +71,6 @@ std::string ssystem(std::string cmds);
 
 std::string recv_string(int src, MPI_Status *status);
 
-
 std::string recv_file(int src, MPI_Status *status);
 
 std::string to_string(int i);
@@ -83,5 +82,14 @@ void error(std::string msg);
 void send_file(int dest, std::string file_name);
 
 int m_stoi(std::string s);
+
+inline bool file_exists (const std::string& name) {
+	if (FILE *file = fopen(name.c_str(), "r")) {
+		fclose(file);
+		return true;
+	} else {
+		return false;
+	}
+}
 
 #endif
