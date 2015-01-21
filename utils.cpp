@@ -65,19 +65,25 @@ std::string ssystem(std::string cmds) {
 	return result;
 }
 
-std::string recv_string(MPI_Status *status) {
-	MPI_Probe(0, 1, MPI_COMM_WORLD, status);
+std::string recv_string(int src, MPI_Status *status) {
+	MPI_Probe(src, 1, MPI_COMM_WORLD, status);
 	int length;
 	MPI_Get_count(status, MPI_CHAR, &length);
 	char *buf = new char[length];
-	MPI_Recv(buf, length, MPI_CHAR, 0, 1, MPI_COMM_WORLD, status);
+	MPI_Recv(buf, length, MPI_CHAR, src, 1, MPI_COMM_WORLD, status);
 	std::string res(buf, length);
 	delete buf;
 	return res;
 }
 
 std::string recv_file(int src, MPI_Status *status) {
-	std::string name = recv_string(status);
+	std::string name = recv_string(MPI_ANY_SOURCE, status);
+
+	debug("Received file name: " + name);
+	if (name == "ERROR") {
+		return name;
+	}
+
 	std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
 
 	int taille;
@@ -103,16 +109,24 @@ std::string to_string(int i) {
 	return s;
 }
 
-
 void debug(std::string msg) {
-	std::cout << "\033[22;104m\033[97m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+}
+
+void error(std::string msg) {
+	std::cerr << "\033[22;41m\033[91m" << " ERR " << "\033[0m" << " " << "\033[31;1m" << msg << "\033[0m" << std::endl;
 }
 
 void send_file(int dest, std::string file_name) {
+	std::ifstream fl(file_name);
+
+	if(!fl.is_open()) {
+		throw "file '" + file_name + "' not available";
+	}
+
 	MPI_Send(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
 
 	//Récupération du flux d'octets
-	std::ifstream fl(file_name);
 	fl.seekg( 0, std::ios::end );
 	size_t len = fl.tellg();
 	char *ret = new char[len];
