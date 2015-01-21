@@ -73,6 +73,12 @@ void master(Tree *tree, int total) {
 							}
 						}
 					}
+
+					if (tasks.empty()) {
+						tracker[worker-1] = NULL;
+						break;
+					}
+
 					tracker[worker-1] = (Tree*) tasks.back();
 				}
 

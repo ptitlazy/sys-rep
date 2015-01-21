@@ -77,6 +77,11 @@ std::string ssystem(std::string cmds) {
 
 std::string recv_string(int src, MPI_Status *status) {
 	MPI_Probe(src, 1, MPI_COMM_WORLD, status);
+
+	if (src == MPI_ANY_SOURCE) {
+		src = status->MPI_SOURCE;
+	}
+
 	int length;
 	MPI_Get_count(status, MPI_CHAR, &length);
 	char *buf = new char[length];

@@ -22,3 +22,5 @@ echo 'Execute job...'
 mpirun --hostfile hosts.clean sys_rep Makefile "$1"
 
 cp "$1" "$ORIGINAL_DIR"/"$1"
+
+rm -Rf "$WORKING_DIR"
