@@ -5,7 +5,7 @@
 #include "parser.h"
 #include <mpi.h>
 
-void master(Tree *tree);
+void master(Tree *tree, int total);
 
 
 #endif

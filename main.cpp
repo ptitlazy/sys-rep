@@ -58,7 +58,7 @@ int main(int argc, char **argv) {
 		if (taille == 1) {
 			tree->process();
 		} else {
-			master(tree);
+			master(tree, rules.size());
 		}
 	} else {
 		worker(rang);

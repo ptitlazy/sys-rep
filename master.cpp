@@ -6,7 +6,7 @@
 bool testChildren(Tree *parent);
 void Finalize(int taille);
 
-void master(Tree *tree) {
+void master(Tree *tree, int total) {
 	debug("Master started");
 
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
@@ -36,7 +36,6 @@ void master(Tree *tree) {
 		tracker[i]=NULL;
 	}
 
-	int total = tree->size() - 1;
 	int current = 0;
 
 	debug("Master: begin endless loop");
