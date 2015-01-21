@@ -28,6 +28,7 @@ void master(Tree *tree) {
 	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
+	std::cout << idleWorkers << std::endl;
 
 	debug("Master: Init tracker");
 	//Tracker des tâches courantes
