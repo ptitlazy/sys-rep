@@ -58,7 +58,7 @@ void master(Tree *tree) {
 
 				current++;
 
-				std::string message = tracker[worker-1]->serialize((current * 100) / total);
+				std::string message = tracker[worker - 1]->serialize((current * 100) / total);
 				MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 				for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
@@ -81,12 +81,12 @@ void master(Tree *tree) {
 				break;
 			}
 
-			Tree *finished = tracker[status.MPI_SOURCE];
+			Tree *finished = tracker[status.MPI_SOURCE - 1];
 			finished->setExecuted(true);
 
 			debug("Master: Message received: " + finished->getName() + " executed");
 
-			tracker[status.MPI_SOURCE]=NULL;
+			tracker[status.MPI_SOURCE - 1] = NULL;
 
 			debug("Master: set " + to_string(status.MPI_SOURCE) + " as idle");
 
