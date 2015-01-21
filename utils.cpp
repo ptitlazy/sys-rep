@@ -87,7 +87,11 @@ std::string recv_string(int src, MPI_Status *status) {
 }
 
 std::string recv_file(int src, MPI_Status *status) {
-	std::string name = recv_string(MPI_ANY_SOURCE, status);
+	std::string name = recv_string(src, status);
+
+	if (src == MPI_ANY_SOURCE) {
+		src = status->MPI_SOURCE;
+	}
 
 	debug("Received file name: " + name);
 	if (name == "ERROR") {
@@ -100,7 +104,7 @@ std::string recv_file(int src, MPI_Status *status) {
 	int taille;
 	char *buf;
 
-	MPI_Probe(0, 1, MPI_COMM_WORLD, status);
+	MPI_Probe(src, 1, MPI_COMM_WORLD, status);
 	MPI_Get_count(status, MPI_CHAR, &taille);
 	buf = new char[taille];
 	MPI_Recv(buf, taille, MPI_BYTE, src, 1, MPI_COMM_WORLD, status);
