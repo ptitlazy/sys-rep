@@ -58,7 +58,7 @@ void master(Tree *tree) {
 				current++;
 
 				std::string message = tracker[worker - 1]->serialize((current * 100) / total);
-				MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
+				MPI_Ssend(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 				for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
 
@@ -131,7 +131,7 @@ void Finalize(int taille) {
 	std::string blank = "STOP";
 	for (int i = 1; i < taille ; i++) {
 		debug("Master: send STOP to worker " + to_string(i));
-		MPI_Send((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
+		MPI_Ssend((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
 	}
 }
 

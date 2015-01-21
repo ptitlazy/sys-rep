@@ -142,7 +142,7 @@ void send_file(int dest, std::string file_name) {
 	}
 
 	debug("Sending file name for: " + file_name + " to " + to_string(dest));
-	MPI_Send(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
+	MPI_Ssend(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
 
 	debug("Reading file size for: " + file_name  + " to " + to_string(dest));
 	//Récupération du flux d'octets
@@ -157,7 +157,7 @@ void send_file(int dest, std::string file_name) {
 
 	debug("Sending file content for: " + file_name + " to " + to_string(dest));
 
-	MPI_Send(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
+	MPI_Ssend(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
 	debug("Sent file content for: " + file_name + " to " + to_string(dest));
 
 	delete ret;

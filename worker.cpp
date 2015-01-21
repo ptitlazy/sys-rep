@@ -48,7 +48,7 @@ void worker(int rang) {
 			debug("Worker " + to_string(rang) + ": " + s);
 			error(s);
 			std::string error = "ERROR";
-			MPI_Send(error.c_str(), error.length(), MPI_CHAR, 0, 1, MPI_COMM_WORLD);
+			MPI_Ssend(error.c_str(), error.length(), MPI_CHAR, 0, 1, MPI_COMM_WORLD);
 		}
 
 		debug("Worker " + to_string(rang) + ": task done");
