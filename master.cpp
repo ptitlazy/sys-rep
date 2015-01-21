@@ -76,6 +76,7 @@ void master(Tree *tree, int total) {
 							}
 
 							if (ok) {
+								debug("Master: push task (1): " + (*it)->getName());
 								tasks.push_back((*it));
 							}
 						}
@@ -151,6 +152,7 @@ void master(Tree *tree, int total) {
 					}
 
 					if (ok) {
+						debug("Master: push task (2): " + (*it)->getName());
 						tasks.push_back((*it));
 					}
 				}
