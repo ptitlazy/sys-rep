@@ -113,8 +113,8 @@ std::ostream &operator<<(std::ostream &out, const Tree *t) {
 	return out;
 }
 
-std::set<const Tree *> Tree::getLeafs() const {
-	std::set<const Tree *> leafs;
+std::set<Tree *> Tree::getLeafs() {
+	std::set<Tree *> leafs;
 
 	std::vector<Tree *>::const_iterator first = this->children.cbegin();
 	std::vector<Tree *>::const_iterator last = this->children.cend();
@@ -123,7 +123,7 @@ std::set<const Tree *> Tree::getLeafs() const {
 		leafs.insert(this);
 	} else {
 		while (first != last) {
-			std::set<const Tree *> child_leafs = (*first)->getLeafs();
+			std::set<Tree *> child_leafs = (*first)->getLeafs();
 			leafs.insert(child_leafs.begin(), child_leafs.end());
 			++first;
 		}

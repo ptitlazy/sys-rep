@@ -30,7 +30,7 @@ public:
 
 	int size() const;
 
-	std::set<const Tree *> getLeafs() const;
+	std::set<Tree *> getLeafs();
 
 	bool isExecuted() {
 		return executed;

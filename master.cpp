@@ -19,8 +19,8 @@ void master(Tree *tree, int total) {
 
 	debug("Master: Init tasks vector");
 	//Init List Tâches (Feuilles de l'arbre)
-	std::set<Tree const *> tasks_set = tree->getLeafs();
-	std::vector<Tree const *> tasks(tasks_set.begin(), tasks_set.end());
+	std::set<Tree *> tasks_set = tree->getLeafs();
+	std::vector<Tree *> tasks(tasks_set.begin(), tasks_set.end());
 
 	debug("Master: Init workers list");
 	//Init List Workers
@@ -55,7 +55,7 @@ void master(Tree *tree, int total) {
 				tasks.pop_back();
 
 				while (tracker[worker-1]->isExecuted()) {
-					for(std::vector<Tree *>::iterator it = tracker[worker-1]->getParents().begin(); it != tracker[worker-1]->getParents().end(); ++it) {
+					for(std::vector<Tree*>::iterator it = tracker[worker-1]->getParents().begin(); it != tracker[worker-1]->getParents().end(); ++it) {
 						if(testChildren(*it)) {
 							debug("Master: " + (*it)->getName() + " available");
 							// On ne veut pas exécuter root
@@ -66,7 +66,18 @@ void master(Tree *tree, int total) {
 								}
 							}
 
-							tasks.push_back((*it));
+							bool ok = true;
+							for(std::vector<Tree*>::iterator temp = tasks.begin(); temp != tasks.end(); ++temp) {
+								if (*temp == *it) {
+									error("Duplicated task: " + (*it)->getName());
+									ok = false;
+									break;
+								}
+							}
+
+							if (ok) {
+								tasks.push_back((*it));
+							}
 						}
 					}
 					tracker[worker-1] = (Tree*) tasks.back();
@@ -130,7 +141,18 @@ void master(Tree *tree, int total) {
 						}
 					}
 
-					tasks.push_back((*it));
+					bool ok = true;
+					for(std::vector<Tree*>::iterator temp = tasks.begin(); temp != tasks.end(); ++temp) {
+						if (*temp == *it) {
+							error("Duplicated task (2): " + (*it)->getName());
+							ok = false;
+							break;
+						}
+					}
+
+					if (ok) {
+						tasks.push_back((*it));
+					}
 				}
 			}
 
