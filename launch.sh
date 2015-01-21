@@ -14,7 +14,7 @@ cat hosts_workers.clean >> hosts.clean
 
 # Deploying
 echo "Deploy job..."
-taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DIR" ]
+taktuk -s -f hosts_workers.clean  broadcast exec { rm -Rf /tmp/ } broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DIR" ]
 
 # Execution
 echo 'Execute job...'
