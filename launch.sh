@@ -17,4 +17,4 @@ taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DI
 
 # Execution
 echo 'Execute job...'
-mpirun --hostfile hosts.clean sys-rep Makefile $1
+mpirun --hostfile hosts.clean sys_rep Makefile $1
