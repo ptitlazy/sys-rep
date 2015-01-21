@@ -48,7 +48,7 @@ std::string ssystem(std::string cmds) {
 	tmpnam(tmpname);
 
 	std::istringstream iss_cmd(cmds);
-	std::string cmd;
+	std::string cmd;/*
 	while (getline(iss_cmd, cmd, ';')) {
 		debug("Executing " + cmd);
 
@@ -57,7 +57,12 @@ std::string ssystem(std::string cmds) {
 		}
 
 		system(cmd.c_str());
-	}
+	}*/
+
+	std::ofstream file_temp(tmpname, std::ios::out);
+	file_temp << cmd;
+	cmd = "sh " + std::string(tmpname) + " > " + std::string(tmpname) + " 2> " + std::string(tmpname);
+	system(cmd.c_str());
 
 	std::ifstream file(tmpname, std::ios::in);
 	std::string result;
