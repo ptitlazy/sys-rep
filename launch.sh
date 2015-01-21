@@ -1,5 +1,6 @@
 #!/bin/bash
 
+ORIGINAL_DIR=$(pwd)
 WORKING_DIR=$(mktemp -d)
 cp -R ./* "$WORKING_DIR"
 cd "$WORKING_DIR"
@@ -17,4 +18,6 @@ taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DI
 
 # Execution
 echo 'Execute job...'
-mpirun --hostfile hosts.clean sys_rep Makefile $1
+mpirun --hostfile hosts.clean sys_rep Makefile "$1"
+
+cp "$1" "$ORIGINAL_DIR"/"$1"

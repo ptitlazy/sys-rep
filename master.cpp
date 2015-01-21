@@ -28,7 +28,6 @@ void master(Tree *tree) {
 	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
-	std::cout << idleWorkers << std::endl;
 
 	debug("Master: Init tracker");
 	//Tracker des tâches courantes
@@ -42,7 +41,7 @@ void master(Tree *tree) {
 
 	debug("Master: begin endless loop");
 	try {
-		while (1) {
+		while (total > 0 && 1) {
 			//Envoi des tâches aux workers idle.
 			while (!tasks.empty() && !idleWorkers.empty()) {
 				//Récupération & mise à jour des données.
