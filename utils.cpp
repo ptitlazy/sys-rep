@@ -52,8 +52,8 @@ std::string ssystem(std::string cmds) {
 	while (getline(iss_cmd, cmd, ';')) {
 		debug("Executing " + cmd);
 
-		if (!cmd.find(">")) {
-			cmd = cmd + " >> " + tmpname + " 2>> " + tmpname;
+		if (cmd.find(">") == std::string::npos) {
+			cmd = cmd + " >>" + tmpname + " 2>&1";
 		}
 
 		system(cmd.c_str());
