@@ -47,7 +47,7 @@ void master(Tree *tree) {
 				//Récupération & mise à jour des données.
 				int worker = idleWorkers.back();
 
-				debug("Master: idle worker: " + worker);
+				debug("Master: idle worker: " + to_string(worker));
 
 				idleWorkers.pop_back();
 				tracker[worker-1] = (Tree*) tasks.back();
