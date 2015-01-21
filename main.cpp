@@ -6,8 +6,6 @@
 #include "worker.h"
 #include "master.h"
 
-using namespace std;
-
 int main(int argc, char **argv) {
 #if 0
     int taille, rang, hostlen;
@@ -49,11 +47,11 @@ int main(int argc, char **argv) {
 
 		try {
 			debug("Building rules list...");
-			parseFile(rules, string(argv[1]));
+			parseFile(rules, std::string(argv[1]));
 
 			debug("Parsing rules tree...");
-			createTree(tree, rules, string(argv[2]));
-		} catch (string &s) {
+			createTree(tree, rules, std::string(argv[2]));
+		} catch (std::string &s) {
 			error(s);
 		}
 
