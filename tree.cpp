@@ -136,7 +136,7 @@ std::set<const Tree *> Tree::getLeafs() const {
 std::string Tree::serialize(int avancement) const {
 	std::stringstream ss;
 
-	ss << this->name << "|";
+	ss << this->name << "\035";
 
 	std::vector<Tree *>::const_iterator first = this->children.cbegin();
 	std::vector<Tree *>::const_iterator last = this->children.cend();
@@ -150,9 +150,9 @@ std::string Tree::serialize(int avancement) const {
 		}
 	}
 
-	ss << "|";
+	ss << "\035";
 	ss << this->cmd;
-	ss << "|";
+	ss << "\035";
 	ss << avancement;
 
 	return ss.str();

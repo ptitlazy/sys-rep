@@ -80,20 +80,20 @@ workerRule deserialize(std::string s) {
 	std::string avancement;
 
 	// name
-	std::getline(iss, name, '|');
+	std::getline(iss, name, '\035');
 
 	// dependencies
-	std::getline(iss, temp, '|');
+	std::getline(iss, temp, '\035');
 	std::istringstream iss_temp(temp);
 	while (std::getline(iss_temp, temp1, ';')) {
 		dependencies.push_back(temp1);
 	}
 
 	// cmds
-	std::getline(iss, cmds, '|');
+	std::getline(iss, cmds, '\035');
 
 	// avancement
-	std::getline(iss, avancement, '|');
+	std::getline(iss, avancement, '\035');
 
 	workerRule res;
 	res.cmd = cmds;
