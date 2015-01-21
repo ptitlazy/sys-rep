@@ -24,7 +24,7 @@ void master(Tree *tree) {
 
 	debug("Master: Init workers list");
 	//Init List Workers
-	std::vector<int> idleWorkers(taille - 1);
+	std::vector<int> idleWorkers;
 	for (int i = 1; i < taille ; i++) {
 		idleWorkers.push_back(i);
 	}
