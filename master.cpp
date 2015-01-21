@@ -87,6 +87,9 @@ void master(Tree *tree) {
 			debug("Master: Message received: " + finished->getName() + " executed");
 
 			tracker[status.MPI_SOURCE]=NULL;
+
+			debug("Master: set " + to_string(status.MPI_SOURCE) + " as idle");
+
 			idleWorkers.push_back(status.MPI_SOURCE);
 
 			bool end = false;
