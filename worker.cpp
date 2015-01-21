@@ -5,16 +5,16 @@
 #include <fstream>
 
 void worker(int rang) {
-	int res = 0;
 	MPI_Status status;
-	std::string fileNameSCP = "DMAKE_SCP_OK";
 
+	debug("Worker " + to_string(rang) + ": started");
 	while (1) {
 		/*
 		Reception du message sous forme de string serialisée
 		 */
-		std::string message = recv_string(&status);
+		std::string message = recv_string(0, &status);
 
+		debug("Worker " + to_string(rang) + ": received " + message);
 		//Si la cible est "STOP", on arrête tout
 		if (message == "STOP") {
 			break;
@@ -25,21 +25,32 @@ void worker(int rang) {
 		/*
 		Do the job
 		 */
+		debug("Worker " + to_string(rang) + ": receiving dependencies...");
 		//Récupération des fichiers de dépendances
 		for (int i=0 ; i<rule.liste_dep.size(); ++i) {
-
 			recv_file(0, &status);
-
 		}
 
+		debug("Worker " + to_string(rang) + ": executing...");
 		//Exécution de la tâche
 		executer(rule.cmd);
 
 		/*
 		Envoi de la réponse
 		 */
-		send_file(0, rule.target);
+		debug("Worker " + to_string(rang) + ": sending results...");
+		try {
+			send_file(0, rule.target);
+		} catch (std::string &s) {
+			error("Worker " + to_string(rang) + ": " + s);
+			std::string error = "ERROR";
+			MPI_Send(error.c_str(), error.length(), MPI_CHAR, 0, 1, MPI_COMM_WORLD);
+		}
+
+		debug("Worker " + to_string(rang) + ": task done");
 	}
+
+	debug("Worker " + to_string(rang) + ": ended");
 }
 
 void executer(std::string cmd) {
@@ -58,6 +69,7 @@ void executer(std::string cmd) {
 workerRule deserialize(std::string s) {
 	std::istringstream iss(s);
 	std::string temp;
+	std::string temp1;
 	std::string name;
 	std::vector<std::string> dependencies;
 	std::string cmds;
@@ -67,17 +79,13 @@ workerRule deserialize(std::string s) {
 
 	// dependencies
 	std::getline(iss, temp, '|');
-	std::istringstream iss_temp(s);
-	while (std::getline(iss_temp, temp, ';')) {
-		dependencies.push_back(temp);
+	std::istringstream iss_temp(temp);
+	while (std::getline(iss_temp, temp1, ';')) {
+		dependencies.push_back(temp1);
 	}
 
 	// cmds
 	std::getline(iss, cmds, '|');
-
-	std::cout << name << std::endl;
-	std::cout << dependencies << std::endl;
-	std::cout << cmds << std::endl;
 
 	workerRule res;
 	res.cmd = cmds;

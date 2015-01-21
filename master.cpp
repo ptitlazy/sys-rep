@@ -37,61 +37,69 @@ void master(Tree *tree) {
 	}
 
 	debug("Master: begin endless loop");
-	while (1) {
-		//Envoi des tâches aux workers idle.
-		while(!tasks.empty() && !idleWorkers.empty()){
-			//Récupération & mise à jour des données.
-			int worker = idleWorkers.back();
-			idleWorkers.pop_back();
-			tracker[worker-1] = (Tree*) tasks.back();
-			tasks.pop_back();
+	try {
+		while (1) {
+			//Envoi des tâches aux workers idle.
+			while(!tasks.empty() && !idleWorkers.empty()){
+				//Récupération & mise à jour des données.
+				int worker = idleWorkers.back();
+				idleWorkers.pop_back();
+				tracker[worker-1] = (Tree*) tasks.back();
+				tasks.pop_back();
 
-			debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
+				debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
-			std::string message = tracker[worker-1]->serialize();
-			MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
+				std::string message = tracker[worker-1]->serialize();
+				MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
-			for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
+				for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
 
-				debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker " + to_string(worker));
+					debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker " + to_string(worker));
 
-				send_file(worker, tracker[worker-1]->getDependencies()[i]);
-			}
-		}
-
-		//Attente puis traitement d'un message d'un worker.
-		int reponse;
-		//MPI_Recv(&reponse, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status); //TODO : modif pour recevoir le fichier
-		recv_file(MPI_ANY_SOURCE, &status);
-		Tree *finished = tracker[status.MPI_SOURCE];
-		finished->setExecuted(true);
-
-		debug("Master: Message received: " + finished->getName() + " executed");
-
-		tracker[status.MPI_SOURCE]=NULL;
-		idleWorkers.push_back(status.MPI_SOURCE);
-
-		bool end = false;
-		//Pour chaque parent
-		for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
-			if(testChildren(*it)) {
-				debug("Master: " + (*it)->getName() + " available");
-				// On ne veut pas exécuter root
-				if(*it == tree){
-					if(testChildren(finished)){
-						end = true;
-						break;
-					}
+					send_file(worker, tracker[worker-1]->getDependencies()[i]);
 				}
-
-				tasks.push_back((*it));
 			}
-		}
 
-		if (end) {
-			break;
+			debug("Master: waiting for a worker...");
+			//Attente puis traitement d'un message d'un worker.
+			std::string name = recv_file(MPI_ANY_SOURCE, &status);
+
+			if (name == "ERROR") {
+				break;
+			}
+
+			Tree *finished = tracker[status.MPI_SOURCE];
+			finished->setExecuted(true);
+
+			debug("Master: Message received: " + finished->getName() + " executed");
+
+			tracker[status.MPI_SOURCE]=NULL;
+			idleWorkers.push_back(status.MPI_SOURCE);
+
+			bool end = false;
+			//Pour chaque parent
+			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
+				if(testChildren(*it)) {
+					debug("Master: " + (*it)->getName() + " available");
+					// On ne veut pas exécuter root
+					if(*it == tree){
+						if(testChildren(finished)){
+							end = true;
+							break;
+						}
+					}
+
+					tasks.push_back((*it));
+				}
+			}
+
+			if (end) {
+				break;
+			}
+			//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
 		}
-		//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
+	} catch (std::string &s) {
+		error("Master: " + s);
 	}
 
 	debug("Master: Endless loop ended");

@@ -69,7 +69,7 @@ std::ostream &operator<<(std::ostream &out, const std::pair<T, U> &v) {
 
 std::string ssystem(std::string cmds);
 
-std::string recv_string(MPI_Status *status);
+std::string recv_string(int src, MPI_Status *status);
 
 
 std::string recv_file(int src, MPI_Status *status);
@@ -77,6 +77,8 @@ std::string recv_file(int src, MPI_Status *status);
 std::string to_string(int i);
 
 void debug(std::string msg);
+
+void error(std::string msg);
 
 void send_file(int dest, std::string file_name);
 
