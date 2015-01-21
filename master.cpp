@@ -75,6 +75,7 @@ void master(Tree *tree, int total) {
 					}
 
 					if (tasks.empty()) {
+						idleWorkers.push_back(worker);
 						tracker[worker-1] = NULL;
 						break;
 					}
@@ -82,7 +83,7 @@ void master(Tree *tree, int total) {
 					tracker[worker-1] = (Tree*) tasks.back();
 				}
 
-				if (end) {
+				if (end || tasks.empty()) {
 					break;
 				}
 
