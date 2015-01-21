@@ -66,18 +66,10 @@ void master(Tree *tree, int total) {
 								}
 							}
 
-							bool ok = true;
-							for(std::vector<Tree*>::iterator temp = tasks.begin(); temp != tasks.end(); ++temp) {
-								if (*temp == *it) {
-									error("Duplicated task: " + (*it)->getName());
-									ok = false;
-									break;
-								}
-							}
-
-							if (ok) {
+							if (!(*it)->isQueued()) {
 								debug("Master: push task (1): " + (*it)->getName());
 								tasks.push_back((*it));
+								(*it)->setQueued(true);
 							}
 						}
 					}
@@ -142,18 +134,10 @@ void master(Tree *tree, int total) {
 						}
 					}
 
-					bool ok = true;
-					for(std::vector<Tree*>::iterator temp = tasks.begin(); temp != tasks.end(); ++temp) {
-						if (*temp == *it) {
-							error("Duplicated task (2): " + (*it)->getName());
-							ok = false;
-							break;
-						}
-					}
-
-					if (ok) {
+					if (!(*it)->isQueued()) {
 						debug("Master: push task (2): " + (*it)->getName());
 						tasks.push_back((*it));
+						(*it)->setQueued(true);
 					}
 				}
 			}

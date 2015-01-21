@@ -40,6 +40,14 @@ public:
 		executed = e;
 	}
 
+	bool isQueued() {
+		return queued;
+	}
+
+	void setQueued(bool e) {
+		queued = e;
+	}
+
 	std::string &getName() {
 		return name;
 	}
@@ -73,6 +81,7 @@ public:
 	}
 
 private:
+	bool queued;
 	bool executed;
 	std::string name;
 	std::string cmd;
