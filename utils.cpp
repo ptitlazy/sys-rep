@@ -50,7 +50,12 @@ std::string ssystem(std::string cmds) {
 	std::istringstream iss_cmd(cmds);
 	std::string cmd;
 	while (getline(iss_cmd, cmd, ';')) {
-		cmd = cmd + " >> " + tmpname + " 2>> " + tmpname;
+		debug("Executing " + cmd);
+
+		if (!cmd.find(">")) {
+			cmd = cmd + " >> " + tmpname + " 2>> " + tmpname;
+		}
+
 		system(cmd.c_str());
 	}
 
@@ -110,7 +115,7 @@ std::string to_string(int i) {
 }
 
 void debug(std::string msg) {
-	//std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
