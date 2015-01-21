@@ -94,6 +94,7 @@ std::string recv_file(int src, MPI_Status *status) {
 		return name;
 	}
 
+	debug("Receiving file content for: " + name);
 	std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
 
 	int taille;
@@ -107,6 +108,8 @@ std::string recv_file(int src, MPI_Status *status) {
 	fl.write(buf, taille);
 	fl.close();
 	delete buf;
+
+	debug("Received file: " + name);
 
 	return name;
 }
@@ -134,8 +137,10 @@ void send_file(int dest, std::string file_name) {
 		throw "file '" + file_name + "' not available";
 	}
 
+	debug("Sending file name for: " + file_name);
 	MPI_Send(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
 
+	debug("Sending file content for: " + file_name);
 	//Récupération du flux d'octets
 	fl.seekg( 0, std::ios::end );
 	size_t len = fl.tellg();
@@ -145,6 +150,7 @@ void send_file(int dest, std::string file_name) {
 	fl.close();
 
 	MPI_Send(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
+	debug("Sent file content for: " + file_name);
 
 	delete ret;
 }
