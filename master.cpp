@@ -36,6 +36,9 @@ void master(Tree *tree) {
 		tracker[i]=NULL;
 	}
 
+	int total = tree->size();
+	int current = 0;
+
 	debug("Master: begin endless loop");
 	try {
 		while (1) {
@@ -49,7 +52,9 @@ void master(Tree *tree) {
 
 				debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
-				std::string message = tracker[worker-1]->serialize();
+				current++;
+
+				std::string message = tracker[worker-1]->serialize((current * 100) / total);
 				MPI_Send(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
 
 				for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
@@ -99,7 +104,8 @@ void master(Tree *tree) {
 			//On laisse la première boucle en haut réasigner les tâches en réajoutant le worker dans les idle.
 		}
 	} catch (std::string &s) {
-		error("Master: " + s);
+		debug("Master: " + s);
+		error(s);
 	}
 
 	debug("Master: Endless loop ended");

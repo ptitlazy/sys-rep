@@ -3,6 +3,7 @@
 
 #include <sstream>
 #include <fstream>
+#include <iomanip>
 
 void worker(int rang) {
 	MPI_Status status;
@@ -21,6 +22,8 @@ void worker(int rang) {
 		}
 
 		workerRule rule = deserialize(message);
+
+		std::cout << "[" << std::setw(3) << rule.avancement << std::left << "%]" << "\033[32;2m" << " Building " << rule.target << "\033[0m" << std::endl;
 
 		/*
 		Do the job
@@ -42,7 +45,8 @@ void worker(int rang) {
 		try {
 			send_file(0, rule.target);
 		} catch (std::string &s) {
-			error("Worker " + to_string(rang) + ": " + s);
+			debug("Worker " + to_string(rang) + ": " + s);
+			error(s);
 			std::string error = "ERROR";
 			MPI_Send(error.c_str(), error.length(), MPI_CHAR, 0, 1, MPI_COMM_WORLD);
 		}
@@ -73,6 +77,7 @@ workerRule deserialize(std::string s) {
 	std::string name;
 	std::vector<std::string> dependencies;
 	std::string cmds;
+	std::string avancement;
 
 	// name
 	std::getline(iss, name, '|');
@@ -87,10 +92,14 @@ workerRule deserialize(std::string s) {
 	// cmds
 	std::getline(iss, cmds, '|');
 
+	// avancement
+	std::getline(iss, avancement, '|');
+
 	workerRule res;
 	res.cmd = cmds;
 	res.target = name;
 	res.liste_dep = dependencies;
+	res.avancement = stoi(avancement);
 
 	return res;
 }

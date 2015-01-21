@@ -110,7 +110,7 @@ std::string to_string(int i) {
 }
 
 void debug(std::string msg) {
-	std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	//std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
@@ -137,4 +137,10 @@ void send_file(int dest, std::string file_name) {
 	MPI_Send(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
 
 	delete ret;
+}
+
+int stoi(std::string s) {
+	int numb;
+	std::istringstream ( s ) >> numb;
+	return numb;
 }

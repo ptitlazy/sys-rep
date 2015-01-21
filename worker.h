@@ -13,6 +13,7 @@ typedef struct {
     std::string target;
     std::string cmd;
     std::vector<std::string> liste_dep;
+	int avancement;
 } workerRule;
 
 workerRule deserialize(std::string s);
