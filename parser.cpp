@@ -66,6 +66,7 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
 	if (rules.find(target) == rules.end()) {
 		if (file_exists(target)) {
 			Rule* rule = new Rule(target, "", std::vector<std::string>());
+			rule->setExecuted(true);
 			rules[target] = rule;
 		} else {
 			std::ostringstream buf;

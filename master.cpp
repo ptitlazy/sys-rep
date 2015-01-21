@@ -40,6 +40,8 @@ void master(Tree *tree, int total) {
 
 	debug("Master: begin endless loop");
 	try {
+		bool end = false;
+
 		while (total > 0 && 1) {
 			//Envoi des tâches aux workers idle.
 			while (!tasks.empty() && !idleWorkers.empty()) {
@@ -51,6 +53,28 @@ void master(Tree *tree, int total) {
 				idleWorkers.pop_back();
 				tracker[worker-1] = (Tree*) tasks.back();
 				tasks.pop_back();
+
+				while (tracker[worker-1]->isExecuted()) {
+					for(std::vector<Tree *>::iterator it = tracker[worker-1]->getParents().begin(); it != tracker[worker-1]->getParents().end(); ++it) {
+						if(testChildren(*it)) {
+							debug("Master: " + (*it)->getName() + " available");
+							// On ne veut pas exécuter root
+							if(*it == tree){
+								if(testChildren(tracker[worker-1])){
+									end = true;
+									break;
+								}
+							}
+
+							tasks.push_back((*it));
+						}
+					}
+					tracker[worker-1] = (Tree*) tasks.back();
+				}
+
+				if (end) {
+					break;
+				}
 
 				debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
@@ -69,6 +93,10 @@ void master(Tree *tree, int total) {
 				}
 
 				debug("Master: task sent to worker " + to_string(worker));
+			}
+
+			if (end) {
+				break;
 			}
 
 			debug("Master: waiting for a worker...");
@@ -90,7 +118,6 @@ void master(Tree *tree, int total) {
 
 			idleWorkers.push_back(status.MPI_SOURCE);
 
-			bool end = false;
 			//Pour chaque parent
 			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
 				if(testChildren(*it)) {
