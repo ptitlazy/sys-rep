@@ -69,7 +69,6 @@ int main(int argc, char **argv) {
 	MPI_Finalize();
 }
 
-
 #if 0
 void table(const char *title, const char *mode)
 {
@@ -85,6 +84,7 @@ void table(const char *title, const char *mode)
 		puts("\033[m");
 	}
 }
+
 
 int main(void)
 {
