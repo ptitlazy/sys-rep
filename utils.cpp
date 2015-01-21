@@ -140,14 +140,18 @@ void send_file(int dest, std::string file_name) {
 	debug("Sending file name for: " + file_name);
 	MPI_Send(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
 
-	debug("Sending file content for: " + file_name);
+	debug("Reiding file size for: " + file_name);
 	//Récupération du flux d'octets
 	fl.seekg( 0, std::ios::end );
 	size_t len = fl.tellg();
+
+	debug("Reading file content for: " + file_name);
 	char *ret = new char[len];
 	fl.seekg(0, std::ios::beg);
 	fl.read(ret, len);
 	fl.close();
+
+	debug("Sending file content for: " + file_name);
 
 	MPI_Send(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
 	debug("Sent file content for: " + file_name);
