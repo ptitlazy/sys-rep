@@ -139,7 +139,7 @@ void send_file(int dest, std::string file_name) {
 	delete ret;
 }
 
-int stoi(std::string s) {
+int m_stoi(std::string s) {
 	int numb;
 	std::istringstream ( s ) >> numb;
 	return numb;

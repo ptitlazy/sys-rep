@@ -82,6 +82,6 @@ void error(std::string msg);
 
 void send_file(int dest, std::string file_name);
 
-int stoi(std::string s);
+int m_stoi(std::string s);
 
 #endif

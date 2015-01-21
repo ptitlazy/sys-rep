@@ -99,7 +99,7 @@ workerRule deserialize(std::string s) {
 	res.cmd = cmds;
 	res.target = name;
 	res.liste_dep = dependencies;
-	res.avancement = stoi(avancement);
+	res.avancement = m_stoi(avancement);
 
 	return res;
 }
