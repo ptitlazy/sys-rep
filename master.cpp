@@ -43,9 +43,12 @@ void master(Tree *tree) {
 	try {
 		while (1) {
 			//Envoi des tâches aux workers idle.
-			while(!tasks.empty() && !idleWorkers.empty()){
+			while (!tasks.empty() && !idleWorkers.empty()) {
 				//Récupération & mise à jour des données.
 				int worker = idleWorkers.back();
+
+				debug("Master: idle worker: " + worker);
+
 				idleWorkers.pop_back();
 				tracker[worker-1] = (Tree*) tasks.back();
 				tasks.pop_back();
@@ -62,7 +65,11 @@ void master(Tree *tree) {
 					debug("Master: Send file " + tracker[worker-1]->getDependencies()[i] + " to worker " + to_string(worker));
 
 					send_file(worker, tracker[worker-1]->getDependencies()[i]);
+
+					debug("Master: file sent to worker " + to_string(worker));
 				}
+
+				debug("Master: task sent to worker " + to_string(worker));
 			}
 
 			debug("Master: waiting for a worker...");
