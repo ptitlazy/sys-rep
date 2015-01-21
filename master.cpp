@@ -37,7 +37,7 @@ void master(Tree *tree) {
 		tracker[i]=NULL;
 	}
 
-	int total = tree->size();
+	int total = tree->size() - 1;
 	int current = 0;
 
 	debug("Master: begin endless loop");
