@@ -97,7 +97,7 @@ do
 				DEPL_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $DELP_START DEPL START"
 					echo "Deploy job..."
-				#	taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DIR" ]
+					taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DIR" ]
 				DEPL_END=$(date +%s%N)
 				DEPL_DURATION=$(($DEPL_END - $DEPL_START))
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $DEPL_END DEPL END"
