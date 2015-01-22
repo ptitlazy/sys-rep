@@ -43,7 +43,7 @@ void Tree::process() const {
 	//std::cout << "\033[32;0m" << "[" << "%] Building " << this->name << "\033[0m" << std::endl;
 	//std::cout << "\033[36;0m" << "Dependencies" << "\033[0m" << std::endl;
 
-	while (first != last) {
+	while (first < last) {
 		(*first)->process();
 		++first;
 	}
@@ -98,7 +98,7 @@ int Tree::size() const {
 	std::vector<Tree *>::const_iterator first = this->children.cbegin();
 	std::vector<Tree *>::const_iterator last = this->children.cend();
 
-	while (first != last) {
+	while (first < last) {
 		size += (*first)->size();
 		++first;
 	}
@@ -122,7 +122,7 @@ std::set<Tree *> Tree::getLeafs() {
 	if (first == last) {
 		leafs.insert(this);
 	} else {
-		while (first != last) {
+		while (first < last) {
 			std::set<Tree *> child_leafs = (*first)->getLeafs();
 			leafs.insert(child_leafs.begin(), child_leafs.end());
 			++first;
@@ -141,7 +141,7 @@ std::string Tree::serialize(int avancement) const {
 	std::vector<Tree *>::const_iterator first = this->children.cbegin();
 	std::vector<Tree *>::const_iterator last = this->children.cend();
 
-	while (first != last) {
+	while (first < last) {
 		ss << (*first)->name;
 		++first;
 

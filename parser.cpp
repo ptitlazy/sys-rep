@@ -115,6 +115,7 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
 	}
 
 	Tree *subTree = rules[target];
+	tree->addChild(subTree);
 
 	if (subTree->isParsed()) {
 		return;
@@ -132,7 +133,5 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
 		createTree(subTree, rules, *first);
 		++first;
 	}
-
-	tree->addChild(subTree);
 }
 #endif
