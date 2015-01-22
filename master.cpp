@@ -52,7 +52,7 @@ void master(Tree *tree, int total) {
 
 				idleWorkers.pop_back();
 				tracker[worker-1] = (Tree*) tasks.back();
-				tasks.pop_back();/*
+				tasks.pop_back();
 
 				while (tracker[worker-1]->isExecuted()) {
 					for(std::vector<Tree*>::iterator it = tracker[worker-1]->getParents().begin(); it != tracker[worker-1]->getParents().end(); ++it) {
@@ -81,11 +81,12 @@ void master(Tree *tree, int total) {
 					}
 
 					tracker[worker-1] = (Tree*) tasks.back();
+					tasks.pop_back();
 				}
 
 				if (end || tasks.empty()) {
 					break;
-				}*/
+				}
 
 				debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
