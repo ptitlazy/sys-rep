@@ -62,7 +62,7 @@ do
 			do
 				mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
 
-				echo "Iteration $ITERATION for $MAKEFILE with $NB_PROCESS on $NB_WORKERS"
+				echo "Iteration $ITERATION for $MAKEFILE with $NB_PROCESS process on $NB_WORKERS worker"
 
 				WORKING_DIR=$(mktemp -d)
 				cp -R ./* "$WORKING_DIR"
@@ -73,7 +73,7 @@ do
 				cat hosts_workers.clean >> hosts.clean
 
 				# Deploying
-				DELP_START=$(date +%s%N)
+				DEPL_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $DELP_START DEPL START"
 					echo "Deploy job..."
 				#	taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DIR" ]
