@@ -141,7 +141,6 @@ std::string Tree::serialize(int avancement) const {
 	std::vector<Tree *>::const_iterator first = this->children.cbegin();
 	std::vector<Tree *>::const_iterator last = this->children.cend();
 
-    std::cout << this->children;
 	while (first < last) {
         debug("Serialization : " + (*first)->name);
 		ss << (*first)->name;
