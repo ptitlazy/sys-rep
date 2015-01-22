@@ -8,8 +8,6 @@ void Finalize(int taille);
 
 void master(Tree *tree, int total) {
 	debug("Master started");
-	std::chrono::time_point<std::chrono::high_resolution_clock> start = std::chrono::high_resolution_clock::now();
-	time("MAKE BEGIN");
 
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
 	//Récupération des infos MPI
@@ -163,11 +161,6 @@ void master(Tree *tree, int total) {
 
 	debug("Master: Endless loop ended");
 	Finalize(taille);
-	std::chrono::time_point<std::chrono::high_resolution_clock> end = std::chrono::high_resolution_clock::now();
-	std::chrono::high_resolution_clock::duration dtn = (end - start);
-
-	time("MAKE END");
-	timet("MAKE DURATION", dtn);
 }
 
 

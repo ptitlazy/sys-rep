@@ -41,6 +41,9 @@ int main(int argc, char **argv) {
 	MPI_Get_processor_name(hostname, &hostlen);
 
 	if (rang == 0) {
+		std::chrono::time_point<std::chrono::high_resolution_clock> start = std::chrono::high_resolution_clock::now();
+		time("MAKE BEGIN");
+
 		//Création de l'arbre
 		RuleMap rules;
 		Tree *tree = new Tree("ROOT", "", std::vector<std::string>());
@@ -64,6 +67,12 @@ int main(int argc, char **argv) {
 		} else {
 			master(tree, rules.size());
 		}
+
+		std::chrono::time_point<std::chrono::high_resolution_clock> end = std::chrono::high_resolution_clock::now();
+		std::chrono::high_resolution_clock::duration dtn = (end - start);
+
+		time("MAKE END");
+		timet("MAKE DURATION", dtn);
 	} else {
 		worker(rang);
 	}
