@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
 
 			createTree(tree, rules, std::string(argv[2]));
 
-            std::cout << tree;
+//            std::cout << tree;
 
 		} catch (std::string &s) {
 			error(s);
@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
 		if (taille == 1) {
 			tree->process();
 		} else {
-			master(tree, rules.size());
+			master(tree, rules.size()-1);
 		}
 	} else {
 		worker(rang);
