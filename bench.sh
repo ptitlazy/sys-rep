@@ -89,6 +89,7 @@ do
 				echo 'ensipcserveur.imag.fr slots=1 max-slots=1' > hosts.clean
 				cat "$BENCH_DIR/hosts_workers.clean" | head -n$NB_WORKERS >> hosts_workers.clean
 				cat hosts_workers.clean >> hosts.clean
+				cat hosts.clean
 
 				# Deploying
 				DEPL_START=$(date +%s%N)
@@ -106,7 +107,7 @@ do
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
 					# kill après (BASE_TIME / NB_PROCESS) * 2
 					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
-					( cmdpid=$BASHPID; (sleep 1; kill $cmdpid 2>/dev/null && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION".ok) & (exec mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION") )
+					( cmdpid=$BASHPID; (sleep 10; kill $cmdpid >/dev/null 2>&1 && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok) & (exec mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION") )
 				MPI_END=$(date +%s%N)
 				MPI_DURATION=$(($MPI_END - $MPI_START))
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_END MPIRUN END"
