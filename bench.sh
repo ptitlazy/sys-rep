@@ -3,7 +3,7 @@
 # Variables
 HOST_FILE="/user/2/darricat/hosts"
 BENCH_DIR="/user/2/darricat/sys-rep-benchs"
-MAKEFILES="1 2 3"
+MAKEFILES="2 3 1"
 NB_ITERATIONS=10
 BASE_DIR="/user/2/darricat/Documents/3A/sys-rep/makefiles"
 NB_MAX_WORKERS=30
@@ -76,7 +76,7 @@ do
 		for NB_PROCESS in $NB_PROCESS_1 $NB_PROCESS_2
 		do
 			mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"
-			NB_PROCESS_REAL=$(($NB_PROCESS_REAL + 1))
+			NB_PROCESS_REAL=$(($NB_PROCESS + 1))
 
 			for ITERATION in $(seq 1 $NB_ITERATIONS)
 			do
