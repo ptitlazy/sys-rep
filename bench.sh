@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Variables
+HOST_FILE="/user/2/darricat/hosts"
 BENCH_DIR="/user/2/darricat/sys-rep-benchs"
 MAKEFILES="1 2 3"
 NB_ITERATIONS=10
@@ -30,7 +31,7 @@ LIST_START=$(date +%s%N)
 	# Get hostnames list
 	echo 'Construct available workers list...'
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
-	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f hosts broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
+	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f "$HOST_FILE" broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
 
 	NB_MAX_WORKERS_REAL=$(cat "$BENCH_DIR/hosts_workers.clean" | wc -l)
 
