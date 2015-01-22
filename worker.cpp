@@ -69,7 +69,7 @@ void executer(std::string cmd) {
 	while (std::getline(iss, line)) {
 		line = trim(line);
 		if (line.length() > 0) {
-			std::cout << "\033[22;104m\033[97m" << " OUT " << "\033[0m" << " " << line << std::endl;
+			//std::cout << "\033[22;104m\033[97m" << " OUT " << "\033[0m" << " " << line << std::endl;
 		}
 	}
 }
