@@ -6,7 +6,7 @@ BENCH_DIR="/user/2/darricat/sys-rep-benchs"
 MAKEFILES="1 2 3"
 NB_ITERATIONS=10
 BASE_DIR="/user/2/darricat/Documents/3A/sys-rep/makefiles"
-NB_MAX_WORKERS=40
+NB_MAX_WORKERS=30
 
 # premier
 CMD[1]="premier"
@@ -16,12 +16,12 @@ BASE_TIME[1]=$((22*60)) # 22 minutes
 # blender_2.49
 CIBLE[2]="cube.mpg"
 CMD[2]="blender_2.49"
-BASE_TIME[2]=$((2))
+BASE_TIME[2]=$((5*60)) # 5 minutes
 
 # blender_2.59
 CMD[3]="blender_2.59"
 CIBLE[3]="out.avi"
-BASE_TIME[3]=$((2))
+BASE_TIME[3]=$((5*60)) # 5 minutes
 
 # Initialisation
 rm -rf "$BENCH_DIR" 2>/dev/null
@@ -108,7 +108,7 @@ do
 				MPI_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
 					# kill après (BASE_TIME / NB_PROCESS) * 2
-					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
+					END_TIME=$(((BASE_TIME / NB_PROCESS)))
 					( cmdpid=$BASHPID; (sleep $END_TIME; kill $cmdpid >/dev/null 2>&1 && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok) & (exec mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION") )
 				MPI_END=$(date +%s%N)
 				MPI_DURATION=$(($MPI_END - $MPI_START))
