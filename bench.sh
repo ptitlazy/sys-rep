@@ -12,11 +12,14 @@ rm -rf "$BENCH_DIR" 2>/dev/null
 mkdir $BENCH_DIR
 
 LIST_START=$(date +%s%N)
-	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
-
 	# Get hostnames list
 	echo 'Construct available workers list...'
+	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
 	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f hosts broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
+
+	NB_MAX_WORKERS_REAL=$(wc -l "$BENCH_DIR/hosts_workers.clean")
+
+	echo "$NB_MAX_WORKERS_REAL workers available"
 LIST_END=$(date +%s%N)
 LIST_DURATION=$(($LIST_END - $LIST_START))
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_END LIST END"
@@ -24,10 +27,8 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 
 # Cleaning /tmp everywhere
 echo 'Cleaning /tmp...'
-taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null}
+taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
 rm /tmp/ 2>/dev/null
-
-NB_MAX_WORKERS_REAL=$(wc -l "$BENCH_DIR/hosts_workers.clean")
 
 if [[ $NB_MAX_WORKERS_REAL > $NB_MAX_WORKERS ]]
 then
@@ -43,7 +44,7 @@ do
 	mkdir "$BENCH_DIR"/res/"$MAKEFILE"
 	cd "$BASE_DIR/$MAKEFILE"
 
-	for NB_WORKERS in {1 .. $NB_MAX_WORKERS}
+	for NB_WORKERS in {1..$NB_MAX_WORKERS}
 	do
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
