@@ -40,9 +40,9 @@ void master(Tree *tree, int total) {
 
 	debug("Master: begin endless loop");
 	try {
-		bool end = false;
-
 		while (total > 0 && 1) {
+			bool end = false;
+
 			//Envoi des tâches aux workers idle.
 			while (!tasks.empty() && !idleWorkers.empty()) {
 				//Récupération & mise à jour des données.
