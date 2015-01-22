@@ -132,7 +132,7 @@ std::string to_string(int i) {
 }
 
 void debug(std::string msg) {
-	//std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
@@ -143,7 +143,7 @@ void send_file(int dest, std::string file_name) {
 	std::ifstream fl(file_name);
 
 	if(!fl.is_open()) {
-		throw "file '" + file_name + "' not available";
+		throw "file '" + file_name + "' not available (sending to " + to_string(dest) + ")";
 	}
 
 	debug("Sending file name for: " + file_name + " to " + to_string(dest));
