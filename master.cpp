@@ -40,9 +40,9 @@ void master(Tree *tree, int total) {
 
 	debug("Master: begin endless loop");
 	try {
-		bool end = false;
-
 		while (total > 0 && 1) {
+			bool end = false;
+
 			//Envoi des tâches aux workers idle.
 			while (!tasks.empty() && !idleWorkers.empty()) {
 				//Récupération & mise à jour des données.
@@ -54,7 +54,7 @@ void master(Tree *tree, int total) {
 				tracker[worker-1] = (Tree*) tasks.back();
 				tasks.pop_back();
 
-				while (tracker[worker-1]->isExecuted()) {
+				/*while (tracker[worker-1]->isExecuted()) {
 					for(std::vector<Tree*>::iterator it = tracker[worker-1]->getParents().begin(); it != tracker[worker-1]->getParents().end(); ++it) {
 						if(testChildren(*it)) {
 							debug("Master: " + (*it)->getName() + " available");
@@ -81,11 +81,12 @@ void master(Tree *tree, int total) {
 					}
 
 					tracker[worker-1] = (Tree*) tasks.back();
+					tasks.pop_back();
 				}
 
 				if (end || tasks.empty()) {
 					break;
-				}
+				}*/
 
 				debug("Master: Send task " + tracker[worker - 1]->getName() + " to worker " + to_string(worker));
 
@@ -131,7 +132,7 @@ void master(Tree *tree, int total) {
 
 			//Pour chaque parent
 			for(std::vector<Tree *>::iterator it = finished->getParents().begin(); it != finished->getParents().end(); ++it) {
-				if(testChildren(*it)) {
+				if(!(*it)->isQueued() && testChildren(*it)) {
 					debug("Master: " + (*it)->getName() + " available");
 					// On ne veut pas exécuter root
 					if(*it == tree){
@@ -141,11 +142,9 @@ void master(Tree *tree, int total) {
 						}
 					}
 
-					if (!(*it)->isQueued()) {
-						debug("Master: push task (2): " + (*it)->getName());
-						tasks.push_back((*it));
-						(*it)->setQueued(true);
-					}
+					debug("Master: push task (2): " + (*it)->getName());
+					tasks.push_back((*it));
+					(*it)->setQueued(true);
 				}
 			}
 
