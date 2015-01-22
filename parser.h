@@ -21,6 +21,8 @@ void parseFile(RuleMap &rules, std::string fileName);
 
 void createTree(Tree *tree, RuleMap &rules, std::string target);
 
+void createTreeRecurse(Tree *tree, RuleMap &rules);
+
 template<typename T, typename U>
 std::ostream &operator<<(std::ostream &out, const std::unordered_map<T, U> &m) {
 	RuleMap::const_iterator first = m.begin();
