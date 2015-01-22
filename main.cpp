@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
 			debug("Parsing rules tree...");
 			createTree(tree, rules, std::string(argv[2]));
 
-            std::out << tree;
+            std::cout << tree;
 
 		} catch (std::string &s) {
 			error(s);
