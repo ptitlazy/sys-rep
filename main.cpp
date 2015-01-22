@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
 
 			createTree(tree, rules, std::string(argv[2]));
 
-            std::cout << tree;
+//            std::cout << tree;
 
 		} catch (std::string &s) {
 			error(s);

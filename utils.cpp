@@ -136,7 +136,22 @@ void debug(std::string msg) {
 	std::chrono::time_point<std::chrono::high_resolution_clock> time = std::chrono::high_resolution_clock::now();
 	std::chrono::high_resolution_clock::duration dtn = time.time_since_epoch();
 
-	std::cout << dtn.count() << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	//std::cout << dtn.count() << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+}
+
+void time(std::string msg) {
+	std::chrono::time_point<std::chrono::high_resolution_clock> time = std::chrono::high_resolution_clock::now();
+	std::chrono::high_resolution_clock::duration dtn = time.time_since_epoch();
+
+	timet(msg, dtn);
+}
+
+void timet(std::string msg, std::chrono::high_resolution_clock::duration dtn) {
+	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << dtn.count() << " " << msg << std::endl;
+}
+
+void bench(std::string msg, long value) {
+	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << value << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
@@ -152,6 +167,7 @@ void send_file(int dest, std::string file_name) {
 
 	debug("Sending file name for: " + file_name + " to " + to_string(dest));
 	MPI_Ssend(file_name.c_str(), file_name.length(), MPI_CHAR, dest, 1, MPI_COMM_WORLD);
+	bench("SEND", file_name.length());
 
 	debug("Reading file size for: " + file_name  + " to " + to_string(dest));
 	//Récupération du flux d'octets
@@ -167,6 +183,7 @@ void send_file(int dest, std::string file_name) {
 	debug("Sending file content for: " + file_name + " to " + to_string(dest));
 
 	MPI_Ssend(ret, len, MPI_BYTE, dest, 1, MPI_COMM_WORLD);
+	bench("SEND", len);
 	debug("Sent file content for: " + file_name + " to " + to_string(dest));
 
 	delete ret;
