@@ -26,11 +26,11 @@ std::ostream &operator<<(std::ostream &out, const std::vector<T> &v) {
 	typename std::vector<T>::const_iterator first = v.cbegin();
 	typename std::vector<T>::const_iterator last = v.cend();
 
-	while (first != last) {
+	while (first < last) {
 		out << *first;
 		++first;
 
-		if (first != last) {
+		if (first < last) {
 			out << ", ";
 		}
 	}
@@ -47,11 +47,11 @@ std::ostream &operator<<(std::ostream &out, const std::set<T> &v) {
 	typename std::set<T>::const_iterator first = v.cbegin();
 	typename std::set<T>::const_iterator last = v.cend();
 
-	while (first != last) {
+	while (first < last) {
 		out << *first;
 		++first;
 
-		if (first != last) {
+		if (first < last) {
 			out << ", ";
 		}
 	}
