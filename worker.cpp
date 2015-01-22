@@ -10,7 +10,7 @@ void worker(int rang) {
 
 	debug("Worker " + to_string(rang) + ": started");
 	while (1) {
-        debug("Worker " + to_string(rang) + ": waiting for a task")
+        debug("Worker " + to_string(rang) + ": waiting for a task");
 
 		/*
 		Reception du message sous forme de string serialisée
