@@ -52,6 +52,7 @@ void worker(int rang) {
 			error(s);
 			std::string error = "ERROR";
 			MPI_Ssend(error.c_str(), error.length(), MPI_CHAR, 0, 1, MPI_COMM_WORLD);
+			bench("SEND", error.length());
 		}
 
 		debug("Worker " + to_string(rang) + ": task done");

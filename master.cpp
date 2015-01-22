@@ -8,6 +8,8 @@ void Finalize(int taille);
 
 void master(Tree *tree, int total) {
 	debug("Master started");
+	std::chrono::time_point<std::chrono::high_resolution_clock> start = std::chrono::high_resolution_clock::now();
+	time("MAKE BEGIN");
 
 	char hostname[MPI_MAX_PROCESSOR_NAME] = {};
 	//Récupération des infos MPI
@@ -94,6 +96,7 @@ void master(Tree *tree, int total) {
 
 				std::string message = tracker[worker - 1]->serialize((current * 100) / total);
 				MPI_Ssend(message.c_str(), message.length(), MPI_CHAR, worker, 1, MPI_COMM_WORLD);
+				bench("SEND", message.length());
 
 				for (int i=0 ; i<tracker[worker-1]->getDependencies().size() ; i++) {
 
@@ -160,6 +163,11 @@ void master(Tree *tree, int total) {
 
 	debug("Master: Endless loop ended");
 	Finalize(taille);
+	std::chrono::time_point<std::chrono::high_resolution_clock> end = std::chrono::high_resolution_clock::now();
+	std::chrono::high_resolution_clock::duration dtn = (end - start);
+
+	time("MAKE END");
+	timet("MAKE DURATION", dtn);
 }
 
 
@@ -172,6 +180,7 @@ void Finalize(int taille) {
 	for (int i = 1; i < taille ; i++) {
 		debug("Master: send STOP to worker " + to_string(i));
 		MPI_Ssend((void *) blank.c_str(), (int) blank.length(), MPI_CHAR, i, 1, MPI_COMM_WORLD);
+		bench("SEND", blank.length());
 	}
 }
 

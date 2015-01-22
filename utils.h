@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <chrono>
 #include <mpi.h>
 
 // trim from start
@@ -82,6 +83,12 @@ void error(std::string msg);
 void send_file(int dest, std::string file_name);
 
 int m_stoi(std::string s);
+
+void timet(std::string msg, std::chrono::high_resolution_clock::duration dtn);
+
+void time(std::string msg);
+
+void bench(std::string msg, long value);
 
 inline bool file_exists (const std::string& name) {
 	if (FILE *file = fopen(name.c_str(), "r")) {
