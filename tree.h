@@ -40,6 +40,14 @@ public:
 		executed = e;
 	}
 
+	bool isParsed() {
+		return parsed;
+	}
+
+	void setParsed(bool e) {
+		parsed = e;
+	}
+
 	bool isQueued() {
 		return queued;
 	}
@@ -81,6 +89,7 @@ public:
 	}
 
 private:
+	bool parsed;
 	bool queued;
 	bool executed;
 	std::string name;

@@ -1,5 +1,5 @@
 #include <mpi.h>
-
+#include <fstream>
 
 #include "tree.h"
 #include "parser.h"
@@ -52,16 +52,19 @@ int main(int argc, char **argv) {
 			debug("Parsing rules tree...");
 			createTree(tree, rules, std::string(argv[2]));
 
-            std::cout << tree;
+            std::ofstream fs("out.tree", std::ios::trunc);
+            fs << tree;
+            fs.close();
+
 		} catch (std::string &s) {
 			error(s);
 		}
 
-		/*if (taille == 1) {
+		if (taille == 1) {
 			tree->process();
 		} else {
 			master(tree, rules.size());
-		}*/
+		}
 	} else {
 		worker(rang);
 	}

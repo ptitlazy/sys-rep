@@ -14,8 +14,11 @@ then
 	NB_WORKERS=$2
 fi
 
+NB_WORKERS=$(($NB_WORKERS + 1))
+
 ORIGINAL_DIR=$(pwd)
 WORKING_DIR=$(mktemp -d)
+
 cp -R ./* "$WORKING_DIR"
 cd "$WORKING_DIR"
 cp ~/hosts hosts
