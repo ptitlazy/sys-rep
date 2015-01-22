@@ -44,7 +44,7 @@ do
 	mkdir "$BENCH_DIR"/res/"$MAKEFILE"
 	cd "$BASE_DIR/$MAKEFILE"
 
-	for NB_WORKERS in {1.."$NB_MAX_WORKERS"}
+	for NB_WORKERS in $(seq 1 $NB_MAX_WORKERS)
 	do
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
@@ -58,7 +58,7 @@ do
 		do
 			mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"
 
-			for ITERATION in {1 .. $NB_ITERATIONS}
+			for ITERATION in $(seq 1 $NB_ITERATIONS)
 			do
 				mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
 
@@ -86,7 +86,8 @@ do
 				echo 'Execute job...'
 				MPI_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
-				#	mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$1"
+					# kill après 10 minutes
+				#	( cmdpid=$BASHPID; (sleep 600; kill $cmdpid) & exec mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$1" )
 				MPI_END=$(date +%s%N)
 				MPI_DURATION=$(($MPI_END - $MPI_START))
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_END MPIRUN END"
