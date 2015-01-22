@@ -2,10 +2,25 @@
 
 # Variables
 BENCH_DIR="/user/2/darricat/sys-rep-benchs"
-MAKEFILES="premier blender_2.49 blender_2.59"
+MAKEFILES="1 2 3"
 NB_ITERATIONS=10
-BASE_DIR=/user/2/darricat/Documents/3A/sys-rep/makefiles
-NB_MAX_WORKERS=30
+BASE_DIR="/user/2/darricat/Documents/3A/sys-rep/makefiles"
+NB_MAX_WORKERS=40
+
+# premier
+CMD_1="premier"
+CIBLE_1="list.txt"
+BASE_TIME_1=$((22*60)) # 22 minutes
+
+# blender_2.49
+CIBLE_2="cube.mpg"
+CMD_2="blender_2.49"
+BASE_TIME_2=$((2))
+
+# blender_2.59
+CMD_3="blender_2.59"
+CIBLE_3="out.avi"
+BASE_TIME_3=$((2))
 
 # Initialisation
 rm -rf "$BENCH_DIR" 2>/dev/null
@@ -30,7 +45,7 @@ echo 'Cleaning /tmp...'
 taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
 rm /tmp/ 2>/dev/null
 
-if [[ $NB_MAX_WORKERS_REAL > $NB_MAX_WORKERS ]]
+if [[ $NB_MAX_WORKERS_REAL < $NB_MAX_WORKERS ]]
 then
 	NB_MAX_WORKERS=$NB_MAX_WORKERS_REAL
 fi
@@ -39,10 +54,13 @@ fi
 echo 'Starting Benchs...'
 mkdir "$BENCH_DIR"/res
 
-for MAKEFILE in $MAKEFILES
+for JOB in $MAKEFILES
 do
+	MAKEFILE=$"CMD_$JOB"
+	CIBLE=$"CIBLE_$JOB"
+	BASE_TIME=$"BASE_TIME_$JOB"
+
 	mkdir "$BENCH_DIR"/res/"$MAKEFILE"
-	cd "$BASE_DIR/$MAKEFILE"
 
 	for NB_WORKERS in $(seq 1 $NB_MAX_WORKERS)
 	do
@@ -60,12 +78,12 @@ do
 
 			for ITERATION in $(seq 1 $NB_ITERATIONS)
 			do
-				mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
+				# mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
 
-				echo "Iteration $ITERATION for $MAKEFILE with $NB_PROCESS process on $NB_WORKERS worker"
+				echo "Iteration $ITERATION for $MAKEFILE avec $NB_PROCESS process sur $NB_WORKERS worker(s)"
 
 				WORKING_DIR=$(mktemp -d)
-				cp -R ./* "$WORKING_DIR"
+				cp -R "$BASE_DIR/$MAKEFILE"/* "$WORKING_DIR"
 				cd "$WORKING_DIR"
 
 				echo 'ensipcserveur.imag.fr slots=1 max-slots=1' > hosts.clean
@@ -86,13 +104,15 @@ do
 				echo 'Execute job...'
 				MPI_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
-					# kill après 10 minutes
-				#	( cmdpid=$BASHPID; (sleep 600; kill $cmdpid) & exec mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$1" )
+					# kill après (BASE_TIME / NB_PROCESS) * 2
+					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
+					( cmdpid=$BASHPID; (sleep 1; kill $cmdpid 2>/dev/null && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION".ok) & (exec mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"."$ITERATION") )
 				MPI_END=$(date +%s%N)
 				MPI_DURATION=$(($MPI_END - $MPI_START))
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_END MPIRUN END"
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_DURATION MPIRUN DURATION"
 
+				cd "$BENCH_DIR"
 				rm -Rf "$WORKING_DIR"
 			done
 		done
