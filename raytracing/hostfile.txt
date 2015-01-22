@@ -1,3 +1,1 @@
-ensipc133
-ensipc135
-ensipc129
+localhost

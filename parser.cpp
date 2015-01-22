@@ -62,6 +62,48 @@ void parseFile(RuleMap &rules, std::string fileName) {
 	}
 }
 
+void createTree(Tree *treeRoot, RuleMap &rules, std::string target) {
+    debug("Master : creating root node");
+    Tree *targetRule = rules[target];
+    treeRoot->addChild(targetRule);
+    targetRule->addParent(treeRoot);
+
+    debug("Master : launching recursion");
+    createTreeRecurse(targetRule, rules);
+}
+
+void createTreeRecurse(Tree *tree, RuleMap &rules) {
+    debug("Master : begining recursion for rule " + tree->getName());
+
+
+    if (!tree->isParsed()) {
+        debug("Master : Beginning treating children");
+        tree->setParsed(true);
+
+        for(std::vector<std::string>::iterator it = tree->getDependencies().begin(); it != tree->getDependencies().end(); ++it) {
+            debug("Master : Treating rule " + (*it));
+            if (rules.find((*it)) == rules.end()) {
+                if (file_exists((*it))) {
+                    Rule* rule = new Rule((*it), "", std::vector<std::string>());
+//                    rule->setExecuted(true);
+                    rules[(*it)] = rule;
+                } else {
+                    std::ostringstream buf;
+                    buf << "No rule " << tree->getName();
+                    throw buf.str();
+                }
+            }
+
+            Tree *child = rules[(*it)];
+            tree->addChild(child);
+            child->addParent(tree);
+            createTreeRecurse(child, rules);
+        }
+    }
+
+}
+
+#if 0
 void createTree(Tree *tree, RuleMap &rules, std::string target) {
 	if (rules.find(target) == rules.end()) {
 		if (file_exists(target)) {
@@ -95,3 +137,4 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
 		++first;
 	}
 }
+#endif
