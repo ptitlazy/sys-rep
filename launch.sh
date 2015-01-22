@@ -33,7 +33,7 @@ taktuk -s -f hosts_workers.clean broadcast put [ "$WORKING_DIR" ] [ "$WORKING_DI
 
 # Execution
 echo 'Execute job...'
-mpirun -n $NB_WORKERS --bynode --hostfile hosts.clean sys_rep Makefile "$1"
+mpirun -n $NB_WORKERS --map-by node --hostfile hosts.clean sys_rep Makefile "$1"
 
 cp "$1" "$ORIGINAL_DIR"/"$1"
 
