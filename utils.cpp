@@ -147,11 +147,11 @@ void time(std::string msg) {
 }
 
 void timet(std::string msg, std::chrono::high_resolution_clock::duration dtn) {
-	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << dtn.count() << msg << std::endl;
+	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << dtn.count() << " " << msg << std::endl;
 }
 
 void bench(std::string msg, long value) {
-	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << value << msg << std::endl;
+	std::cout << "\033[22;44m\033[37m" << " BCH " << "\033[0m" << " " << value << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
