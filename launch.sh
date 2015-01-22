@@ -5,14 +5,14 @@ NB_MACHINES=15
 if [[ $2 ]]
 then
 	NB_MACHINES=$2
-endif
+fi
 
 NB_WORKERS=$(($NB_MACHINES * 4))
 
 if [[ $3 ]]
 then
 	NB_WORKERS=$2
-endif
+fi
 
 ORIGINAL_DIR=$(pwd)
 WORKING_DIR=$(mktemp -d)
