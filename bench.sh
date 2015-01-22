@@ -17,7 +17,7 @@ LIST_START=$(date +%s%N)
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
 	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f hosts broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
 
-	NB_MAX_WORKERS_REAL=$(wc -l "$BENCH_DIR/hosts_workers.clean")
+	NB_MAX_WORKERS_REAL=$(cat "$BENCH_DIR/hosts_workers.clean" | wc -l)
 
 	echo "$NB_MAX_WORKERS_REAL workers available"
 LIST_END=$(date +%s%N)
@@ -44,7 +44,7 @@ do
 	mkdir "$BENCH_DIR"/res/"$MAKEFILE"
 	cd "$BASE_DIR/$MAKEFILE"
 
-	for NB_WORKERS in {1..$NB_MAX_WORKERS}
+	for NB_WORKERS in {1.."$NB_MAX_WORKERS"}
 	do
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
