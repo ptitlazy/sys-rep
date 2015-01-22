@@ -8,19 +8,19 @@ BASE_DIR="/user/2/darricat/Documents/3A/sys-rep/makefiles"
 NB_MAX_WORKERS=40
 
 # premier
-CMD_1="premier"
-CIBLE_1="list.txt"
-BASE_TIME_1=$((22*60)) # 22 minutes
+CMD[1]="premier"
+CIBLE[1]="list.txt"
+BASE_TIME[1]=$((22*60)) # 22 minutes
 
 # blender_2.49
-CIBLE_2="cube.mpg"
-CMD_2="blender_2.49"
-BASE_TIME_2=$((2))
+CIBLE[2]="cube.mpg"
+CMD[2]="blender_2.49"
+BASE_TIME[2]=$((2))
 
 # blender_2.59
-CMD_3="blender_2.59"
-CIBLE_3="out.avi"
-BASE_TIME_3=$((2))
+CMD[3]="blender_2.59"
+CIBLE[3]="out.avi"
+BASE_TIME[3]=$((2))
 
 # Initialisation
 rm -rf "$BENCH_DIR" 2>/dev/null
@@ -56,9 +56,9 @@ mkdir "$BENCH_DIR"/res
 
 for JOB in $MAKEFILES
 do
-	MAKEFILE=$"CMD_$JOB"
-	CIBLE=$"CIBLE_$JOB"
-	BASE_TIME=$"BASE_TIME_$JOB"
+	MAKEFILE=${CMD[$JOB]}
+	CIBLE=${CIBLE[$JOB]}
+	BASE_TIME=${BASE_TIME[$JOB]}
 
 	mkdir "$BENCH_DIR"/res/"$MAKEFILE"
 
