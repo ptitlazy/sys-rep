@@ -2,7 +2,7 @@
 
 # Variables
 BENCH_DIR="/user/2/darricat/sys-rep-benchs"
-MAKEFILES=premier blender_2.49 blender_2.59
+MAKEFILES="premier blender_2.49 blender_2.59"
 NB_ITERATIONS=10
 BASE_DIR=/user/2/darricat/Documents/3A/sys-rep/makefiles
 NB_MAX_WORKERS=30
