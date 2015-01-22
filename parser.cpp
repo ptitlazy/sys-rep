@@ -76,6 +76,12 @@ void createTree(Tree *tree, RuleMap &rules, std::string target) {
 	}
 
 	Tree *subTree = rules[target];
+
+	if (subTree->isParsed()) {
+		return;
+	}
+	subTree->setParsed(true);
+
 	subTree->addParent(tree);
 
 	Rule *rule = rules[target];
