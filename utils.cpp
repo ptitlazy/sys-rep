@@ -14,6 +14,7 @@
 #include <sstream>
 #include <fstream>
 #include <mpi.h>
+#include <chrono>
 
 // trim from start
 std::string &ltrim(std::string &s) {
@@ -132,7 +133,10 @@ std::string to_string(int i) {
 }
 
 void debug(std::string msg) {
-	std::cout << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
+	std::chrono::time_point<std::chrono::high_resolution_clock> time = std::chrono::high_resolution_clock::now();
+	std::chrono::high_resolution_clock::duration dtn = time.time_since_epoch();
+
+	std::cout << dtn.count() << "\033[22;43m\033[93m" << " DBG " << "\033[0m" << " " << msg << std::endl;
 }
 
 void error(std::string msg) {
