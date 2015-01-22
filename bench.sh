@@ -1,16 +1,15 @@
 #!/bin/bash
 
 # Variables
-BENCH_DIR="~/sys-rep-benchs"
+BENCH_DIR="/user/2/darricat/sys-rep-benchs"
 MAKEFILES=premier blender_2.49 blender_2.59
 NB_ITERATIONS=10
 BASE_DIR=/user/2/darricat/Documents/3A/sys-rep/makefiles
 NB_MAX_WORKERS=30
 
 # Initialisation
-rm -rf ~/sys-rep-benchs 2>/dev/null
+rm -rf "$BENCH_DIR" 2>/dev/null
 mkdir $BENCH_DIR
-
 
 LIST_START=$(date +%s%N)
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
