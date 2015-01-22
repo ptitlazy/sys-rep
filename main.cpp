@@ -51,15 +51,17 @@ int main(int argc, char **argv) {
 
 			debug("Parsing rules tree...");
 			createTree(tree, rules, std::string(argv[2]));
+
+            std::cout << tree;
 		} catch (std::string &s) {
 			error(s);
 		}
 
-		if (taille == 1) {
+		/*if (taille == 1) {
 			tree->process();
 		} else {
 			master(tree, rules.size());
-		}
+		}*/
 	} else {
 		worker(rang);
 	}

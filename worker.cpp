@@ -10,6 +10,8 @@ void worker(int rang) {
 
 	debug("Worker " + to_string(rang) + ": started");
 	while (1) {
+        debug("Worker " + to_string(rang) + ": waiting for a task");
+
 		/*
 		Reception du message sous forme de string serialisée
 		 */
@@ -31,6 +33,7 @@ void worker(int rang) {
 		debug("Worker " + to_string(rang) + ": receiving dependencies...");
 		//Récupération des fichiers de dépendances
 		for (int i=0 ; i<rule.liste_dep.size(); ++i) {
+            debug("Worker " + to_string(rang) + ": receiving dependency "+ to_string(i) + " on "+ to_string(rule.liste_dep.size()));
 			recv_file(0, &status);
 		}
 
