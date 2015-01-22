@@ -63,38 +63,41 @@ void parseFile(RuleMap &rules, std::string fileName) {
 }
 
 void createTree(Tree *treeRoot, RuleMap &rules, std::string target) {
+    debug("Master : creating root node");
     Tree *targetRule = rules[target];
     treeRoot->addChild(targetRule);
     targetRule->addParent(treeRoot);
 
+    debug("Master : launching recursion");
     createTreeRecurse(targetRule, rules);
 }
 
 void createTreeRecurse(Tree *tree, RuleMap &rules) {
-    if (rules.find(tree->getName()) == rules.end()) {
-        if (file_exists(tree->getName())) {
-            Rule* rule = new Rule(tree->getName(), "", std::vector<std::string>());
-            rule->setExecuted(true);
-            rules[tree->getName()] = rule;
-        } else {
-            std::ostringstream buf;
-            buf << "No rule " << tree->getName();
-            throw buf.str();
-        }
-    }
+    debug("Master : begining recursion for rule " + tree->getName());
+
 
     if (!tree->isParsed()) {
+        debug("Master : Beginning treating children");
         tree->setParsed(true);
 
-        std::vector<std::string>::iterator first = tree->getDependencies().begin();
-        std::vector<std::string>::iterator last = tree->getDependencies().end();
-
         for(std::vector<std::string>::iterator it = tree->getDependencies().begin(); it != tree->getDependencies().end(); ++it) {
+            debug("Master : Treating rule " + (*it));
+            if (rules.find((*it)) == rules.end()) {
+                if (file_exists((*it))) {
+                    Rule* rule = new Rule((*it), "", std::vector<std::string>());
+//                    rule->setExecuted(true);
+                    rules[(*it)] = rule;
+                } else {
+                    std::ostringstream buf;
+                    buf << "No rule " << tree->getName();
+                    throw buf.str();
+                }
+            }
+
             Tree *child = rules[(*it)];
             tree->addChild(child);
             child->addParent(tree);
             createTreeRecurse(child, rules);
-            ++first;
         }
     }
 
