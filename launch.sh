@@ -4,7 +4,7 @@ ORIGINAL_DIR=$(pwd)
 WORKING_DIR=$(mktemp -d)
 cp -R ./* "$WORKING_DIR"
 cd "$WORKING_DIR"
-cp /user/2/darricat/hosts hosts
+cp ~/hosts hosts
 
 # Get hostnames list
 echo 'Construct workers list...'
