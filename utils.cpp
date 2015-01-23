@@ -105,7 +105,9 @@ std::string recv_file(int src, MPI_Status *status) {
 	}
 
 	debug("Receiving file content for: " + name + " from " + to_string(src));
-	std::ofstream fl(name, std::ios::out | std::ios::binary | std::ios::trunc);
+
+	std::string temp_name = "__temp." + name + ".tmp";
+	std::ofstream fl(temp_name, std::ios::out | std::ios::binary | std::ios::trunc );
 
 	int taille;
 	char *buf;
@@ -118,6 +120,8 @@ std::string recv_file(int src, MPI_Status *status) {
 	fl.write(buf, taille);
 	fl.close();
 	delete buf;
+
+	rename(temp_name.c_str(), name.c_str());
 
 	debug("Received file: " + name + " from " + to_string(src));
 
