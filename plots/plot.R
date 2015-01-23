@@ -8,12 +8,13 @@
 # plotgraph(x,y,NOM DU FICHIER (sans le .png))
 # Les données sont séparées par des virgules et doivent être des valeurs numériques. (float se fait avec un '.')
 
-
-#Trace le graph avec deux vecteurs en entrée et le nom du fichier png à générer
-plotgraph <- function(x, y, name)
+#Les deux derniers paramètres de la fonctions sont optionnels. Il s'agit du label des axes des abscisses et des ordonnées.
+#Trace le graph avec deux vecteurs en entrée et le nom du fichier png à générer (qui est également le titre du graph)
+plotgraph <- function(x, y, name, xlabel = "x", ylabel = "y")
 {
-	png(paste(name,".png",sep=""), width= 800, height = 400)
-	plot(x,y)
+	png(paste(name,".png",sep=""), width= 800, height = 600)
+	plot(x,y,type="b", ann=FALSE, pch=4, xlim=c(0,max(x)), ylim=c(0,max(y)))
+	title(main=name,xlab=xlabel,ylab=ylabel)
 	dev.off()	
 }
 #TODO : Customiser le plot & en faire d'autres d'autres types (hist, etc...)
