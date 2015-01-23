@@ -9,8 +9,7 @@
 # Les données sont séparées par des virgules et doivent être des valeurs numériques. (float se fait avec un '.')
 
 #Les deux derniers paramètres de la fonctions sont optionnels. Il s'agit du label des axes des abscisses et des ordonnées.
-
-#Trace le graph avec deux vecteurs en entrée et le nom du fichier png à générer
+#Trace le graph avec deux vecteurs en entrée et le nom du fichier png à générer (qui est également le titre du graph)
 plotgraph <- function(x, y, name, xlabel = "x", ylabel = "y")
 {
 	png(paste(name,".png",sep=""), width= 800, height = 600)
