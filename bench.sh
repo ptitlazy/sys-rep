@@ -77,10 +77,17 @@ do
 			do
 				# mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
 
-				# Cleaning /tmp everywhere
-				echo 'Cleaning /tmp...'
-				taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
-				rm /tmp/ 2>/dev/null
+LIST_START=$(date +%s%N)
+	# Get hostnames list
+	echo 'Construct available workers list...'
+	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
+	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f "$HOST_FILE" broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
+
+	echo "$NB_MAX_WORKERS_REAL workers available"
+LIST_END=$(date +%s%N)
+LIST_DURATION=$(($LIST_END - $LIST_START))
+	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_END LIST END"
+	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_DURATION LIST DURATION"
 
 				echo "Iteration $ITERATION for $MAKEFILE avec $NB_PROCESS process sur $NB_WORKERS worker(s)"
 
@@ -92,6 +99,11 @@ do
 				cat "$BENCH_DIR/hosts_workers.clean" | head -n$NB_WORKERS >> hosts_workers.clean
 				cat hosts_workers.clean >> hosts.clean
 				cat hosts.clean
+
+				# Cleaning /tmp everywhere
+				echo 'Cleaning /tmp...'
+				taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
+				rm /tmp/ 2>/dev/null
 
 				# Deploying
 				DEPL_START=$(date +%s%N)
