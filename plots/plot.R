@@ -14,7 +14,7 @@
 plotgraph <- function(x, y, name, xlabel = "x", ylabel = "y")
 {
 	png(paste(name,".png",sep=""), width= 800, height = 600)
-	plot(x,y,type="b", ann=FALSE, pch=4)
+	plot(x,y,type="b", ann=FALSE, pch=4, xlim=c(0,max(x)), ylim=c(0,max(y)))
 	title(main=name,xlab=xlabel,ylab=ylabel)
 	dev.off()	
 }
