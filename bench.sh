@@ -24,16 +24,16 @@ CIBLE[3]="out.avi"
 BASE_TIME[3]=$((5*60)) # 5 minutes
 
 # Initialisation
-rm -rf "$BENCH_DIR" 2>/dev/null
-mkdir $BENCH_DIR
+rm -Rf "$BENCH_DIR" 2>/dev/null
+mkdir "$BENCH_DIR"
 
 LIST_START=$(date +%s%N)
 	# Get hostnames list
 	echo 'Construct available workers list...'
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_START LIST START"
-	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f "$HOST_FILE" broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
+#	taktuk -o output='"$line\n"' -o status -o error -o connector -o taktuk -o info -s -f "$HOST_FILE" broadcast exec { hostname } | grep -v "Connection failed" > "$BENCH_DIR/hosts_workers.clean"
 
-	NB_MAX_WORKERS_REAL=$(cat "$BENCH_DIR/hosts_workers.clean" | wc -l)
+#	NB_MAX_WORKERS_REAL=$(cat "$BENCH_DIR/hosts_workers.clean" | wc -l)
 
 	echo "$NB_MAX_WORKERS_REAL workers available"
 LIST_END=$(date +%s%N)
@@ -41,10 +41,10 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_END LIST END"
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_DURATION LIST DURATION"
 
-if [[ $NB_MAX_WORKERS_REAL < $NB_MAX_WORKERS ]]
-then
-	NB_MAX_WORKERS=$NB_MAX_WORKERS_REAL
-fi
+#if [[ $NB_MAX_WORKERS_REAL < $NB_MAX_WORKERS ]]
+#then
+#	NB_MAX_WORKERS=$NB_MAX_WORKERS_REAL
+#fi
 
 # Benchs
 echo 'Starting Benchs...'
@@ -68,7 +68,7 @@ do
 		# 4 worker par process
 		NB_PROCESS_2=$(($NB_WORKERS * 4))
 
-		for NB_PROCESS in $NB_PROCESS_1 $NB_PROCESS_2
+		for NB_PROCESS in $NB_PROCESS_2 $NB_PROCESS_1
 		do
 			mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"
 			NB_PROCESS_REAL=$(($NB_PROCESS + 1))
@@ -95,7 +95,7 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 				cp -R "$BASE_DIR/$MAKEFILE"/* "$WORKING_DIR"
 				cd "$WORKING_DIR"
 
-				echo 'ensipcserveur.imag.fr slots=1 max-slots=1' > hosts.clean
+				echo 'ensipcserveur.imag.fr slots=1 max_slots=1' > hosts.clean
 				cat "$BENCH_DIR/hosts_workers.clean" | head -n$NB_WORKERS >> hosts_workers.clean
 				cat hosts_workers.clean >> hosts.clean
 				cat hosts.clean
@@ -122,7 +122,7 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 					# kill après (BASE_TIME / NB_PROCESS) * 2
 					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
 
-					(timeout $END_TIME mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 2>&1) && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok
+					(timeout $END_TIME mpirun -n $NB_PROCESS_REAL --nooversubscribe --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 3>&1) && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur
 
 					#pidFile="$BENCH_DIR"/pid
 					#( mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 2>&1 ; rm $pidFile ; ) &
