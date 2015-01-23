@@ -108,8 +108,19 @@ do
 				MPI_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
 					# kill après (BASE_TIME / NB_PROCESS) * 2
-					END_TIME=$(((BASE_TIME / NB_PROCESS)))
-					( cmdpid=$BASHPID; (sleep $END_TIME; kill $cmdpid >/dev/null 2>&1 && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok) & (exec mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 2>&1) )
+					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
+
+					pidFile="$BENCH_DIR"/pid
+					( mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 2>&1 ; rm $pidFile ; ) &
+					pid=$!
+					echo $pid > pidFile
+					( sleep $END_TIME ; if [[ -e $pidFile ]]; then kill $pid ; touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur; fi ; ) &
+					killerPid=$!
+
+					wait $pid
+					kill $killerPid
+
+					# ( cmdpid=$BASHPID; (sleep $END_TIME; kill $cmdpid >/dev/null 2>&1 && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok) & (exec mpirun -n $NB_PROCESS_REAL --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 2>&1) )
 				MPI_END=$(date +%s%N)
 				MPI_DURATION=$(($MPI_END - $MPI_START))
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_END MPIRUN END"
