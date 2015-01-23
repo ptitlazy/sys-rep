@@ -41,11 +41,6 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_END LIST END"
 	echo -e  "\033[22;44m\033[37m BCH \033[0m $LIST_DURATION LIST DURATION"
 
-# Cleaning /tmp everywhere
-echo 'Cleaning /tmp...'
-taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
-rm /tmp/ 2>/dev/null
-
 if [[ $NB_MAX_WORKERS_REAL < $NB_MAX_WORKERS ]]
 then
 	NB_MAX_WORKERS=$NB_MAX_WORKERS_REAL
@@ -81,6 +76,11 @@ do
 			for ITERATION in $(seq 1 $NB_ITERATIONS)
 			do
 				# mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION"
+
+				# Cleaning /tmp everywhere
+				echo 'Cleaning /tmp...'
+				taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "$BENCH_DIR/hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
+				rm /tmp/ 2>/dev/null
 
 				echo "Iteration $ITERATION for $MAKEFILE avec $NB_PROCESS process sur $NB_WORKERS worker(s)"
 
