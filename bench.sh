@@ -91,7 +91,7 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 
 				echo "Iteration $ITERATION for $MAKEFILE avec $NB_PROCESS process sur $NB_WORKERS worker(s)"
 
-				WORKING_DIR=$(mktemp -d)
+				WORKING_DIR=$(mktemp -d --tmpdir=/var/tmp)
 				cp -R "$BASE_DIR/$MAKEFILE"/* "$WORKING_DIR"
 				cd "$WORKING_DIR"
 
@@ -102,8 +102,8 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 
 				# Cleaning /tmp everywhere
 				echo 'Cleaning /tmp...'
-				taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "hosts_workers.clean" broadcast exec { rm -rf /tmp/ 2>/dev/null }
-				rm /tmp/ 2>/dev/null
+				taktuk -o output -o status -o error -o connector -o taktuk -o info -s -f "hosts_workers.clean" broadcast exec { rm -rf /var/tmp/ 2>/dev/null }
+				rm /var/tmp/ 2>/dev/null
 
 				# Deploying
 				DEPL_START=$(date +%s%N)
