@@ -60,6 +60,8 @@ do
 
 	for NB_WORKERS in $(seq 1 $NB_MAX_WORKERS)
 	do
+if [[ NB_WORKERS > 6 ]]
+then
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
 		# 1 worker par process
@@ -144,5 +146,6 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 				rm -Rf "$WORKING_DIR"
 			done
 		done
+fi
 	done
 done
