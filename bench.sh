@@ -122,7 +122,7 @@ LIST_DURATION=$(($LIST_END - $LIST_START))
 				MPI_START=$(date +%s%N)
 					echo -e  "\033[22;44m\033[37m BCH \033[0m $MPI_START MPIRUN START"
 					# kill après (BASE_TIME / NB_PROCESS) * 2
-					END_TIME=$(((BASE_TIME / NB_PROCESS) * 2))
+					END_TIME=$((($BASE_TIME / $NB_PROCESS) * 2 + 60*$NB_WORKERS))
 
 					(timeout $END_TIME mpirun -n $NB_PROCESS_REAL --nooversubscribe --map-by node --hostfile hosts.clean sys_rep Makefile "$CIBLE" > "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION" 3>&1) && touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".ok || touch "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"/"$NB_PROCESS"/"$ITERATION".erreur
 
