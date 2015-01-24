@@ -60,7 +60,7 @@ do
 
 	for NB_WORKERS in $(seq 1 $NB_MAX_WORKERS)
 	do
-if [[ $NB_WORKERS > 6 ]]
+if [[ $NB_WORKERS > 9 ]]
 then
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
