@@ -2,7 +2,7 @@
 
 # Variables
 HOST_FILE="/user/2/darricat/hosts"
-BENCH_DIR="/user/2/darricat/sys-rep-benchs"
+BENCH_DIR="/user/2/darricat/sys-rep-benchs-premier"
 MAKEFILES="1"
 NB_ITERATIONS=10
 BASE_DIR="/user/2/darricat/Documents/3A/sys-rep/makefiles"
