@@ -1,0 +1,6 @@
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 5 with PID 21741 on node ensipc337.imag.fr exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+4 total processes killed (some possibly by mpirun during cleanup)

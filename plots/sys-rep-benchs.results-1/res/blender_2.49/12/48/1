@@ -1,0 +1,96 @@
+[22;44m[37m BCH [0m 1422129247828158 MAKE BEGIN
+[22;44m[37m BCH [0m 59 SEND
+[  0%][32;2m Building cube_anim.blend[0m
+[22;104m[97m OUT [0m Archive:  cube_anim.zip
+[22;104m[97m OUT [0m inflating: cube_anim.blend
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[1  %][32;2m Building frame_113.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  2%][32;2m Building frame_112.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.7GFtwZPr8O/cube_anim.blend
+[22;104m[97m OUT [0m Fra:113 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.15M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.82M (0.00M, Peak 43.25M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.25M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.25M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.25M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.25M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.71M (0.00M, Peak 43.25M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:113 Mem:43.25M (0.00M, Peak 43.81M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:113 Mem:43.04M (0.00M, Peak 43.81M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:113 Mem:43.25M (0.00M, Peak 43.81M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:113 Mem:43.15M (0.00M, Peak 43.81M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:113 Mem:43.04M (0.00M, Peak 43.81M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.94M (0.00M, Peak 43.81M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.84M (0.00M, Peak 43.81M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.36M (0.00M, Peak 43.81M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:113 Mem:10.20M (0.00M, Peak 43.81M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.7GFtwZPr8O/frame_113.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.7GFtwZPr8O/cube_anim.blend
+[22;104m[97m OUT [0m Fra:112 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:44.22M (0.00M, Peak 44.22M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:112 Mem:44.12M (0.00M, Peak 44.22M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:112 Mem:44.01M (0.00M, Peak 44.22M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.91M (0.00M, Peak 44.22M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.81M (0.00M, Peak 44.22M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.70M (0.00M, Peak 44.22M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.60M (0.00M, Peak 44.22M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.73M (0.00M, Peak 44.22M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.04M (0.00M, Peak 44.22M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.98M (0.00M, Peak 44.22M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.88M (0.00M, Peak 44.22M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.77M (0.00M, Peak 44.22M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.67M (0.00M, Peak 44.22M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.57M (0.00M, Peak 44.22M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 44.22M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.36M (0.00M, Peak 44.22M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:112 Mem:10.20M (0.00M, Peak 44.22M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.7GFtwZPr8O/frame_112.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)

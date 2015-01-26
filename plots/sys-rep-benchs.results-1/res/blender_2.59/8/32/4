@@ -1,0 +1,8 @@
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+MPI Error in MPI_Pack_size() (0)
+Error in NBC_Copy() (0)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 30877 on node ensipc301.imag.fr exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+4 total processes killed (some possibly by mpirun during cleanup)
