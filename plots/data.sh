@@ -6,8 +6,8 @@ for num in $(seq 1 1 13)
 do
 	find ./$num/*/ -name "*.ok" | while read; do
 		x=${REPLY%.*}
-		echo $x
-		grep "MAKE DURATION" $x | sed "s/ MAKE DURATION//" | sed "s/.* //"
+		echo $x >> ../../../data.txt
+		grep "MAKE DURATION" $x | sed "s/ MAKE DURATION//" | sed "s/.* //" >> ../../../data.txt
 	done
 done
 
