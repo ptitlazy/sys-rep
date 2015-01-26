@@ -1,0 +1,4 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 26 with PID 12614 on node ensipc337.imag.fr exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+6 total processes killed (some possibly by mpirun during cleanup)
