@@ -60,7 +60,7 @@ do
 
 	for NB_WORKERS in $(seq 1 $NB_MAX_WORKERS)
 	do
-if [[ $NB_WORKERS -lt 7 -o $NB_WORKERS -gt 9 ]]
+if [[ $NB_WORKERS -lt 7 ]] || [[ $NB_WORKERS -gt 9 ]]
 then
 		mkdir "$BENCH_DIR"/res/"$MAKEFILE"/"$NB_WORKERS"
 
