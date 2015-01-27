@@ -1,4 +1,8 @@
-Connection to ensipc334 closed by remote host.
-mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 14 slots 
+that were requested by the application:
+  sys_rep
 
-mpirun: Forwarding signal 18 to job
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------

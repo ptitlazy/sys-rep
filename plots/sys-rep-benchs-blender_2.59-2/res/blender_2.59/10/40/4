@@ -1,4 +1,8 @@
-ssh: connect to host ensipc227 port 22: Connection refused
-mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 41 slots 
+that were requested by the application:
+  sys_rep
 
-mpirun: Forwarding signal 18 to job
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
