@@ -1,0 +1,17 @@
+[22;44m[37m BCH [0m 1422297128224450 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[  9%][32;2m Building list19.txt[0m
+[22;44m[37m BCH [0m 91 SEND
+[  4%][32;2m Building list20.txt[0m
+[ 14%][32;2m Building list18.txt[0m
+[22;41m[91m ERR [0m [31;1mfile 'list19.txt' not available (sending to 0)[0m
+[22;44m[37m BCH [0m 5 SEND
+[22;41m[91m ERR [0m [31;1mfile 'list20.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list18.txt' not available (sending to 0)[0m
+Killed by signal 15.
+Killed by signal 15.
+[pcserveur.ensimag.fr:32169] [[37193,0],0]->[[37193,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[pcserveur.ensimag.fr:32169] [[37193,0],0]-[[37193,0],2] mca_oob_tcp_peer_send_handler: unable to send header
+[pcserveur.ensimag.fr:32169] [[37193,0],0]->[[37193,0],1] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 14]
+[pcserveur.ensimag.fr:32169] [[37193,0],0]-[[37193,0],1] mca_oob_tcp_peer_send_handler: unable to send header

@@ -1,0 +1,48 @@
+[22;44m[37m BCH [0m 1422299653413365 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 91 SEND
+[  9%][32;2m Building list19.txt[0m
+[22;44m[37m BCH [0m 91 SEND
+[22;44m[37m BCH [0m 91 SEND
+[22;44m[37m BCH [0m 91 SEND
+[ 23%][32;2m Building list16.txt[0m
+[22;44m[37m BCH [0m 91 SEND
+[22;44m[37m BCH [0m 91 SEND
+[22;44m[37m BCH [0m 91 SEND
+[ 38%][32;2m Building list13.txt[0m
+[22;44m[37m BCH [0m 91 SEND
+[22;44m[37m BCH [0m 90 SEND
+[ 52%][32;2m Building list10.txt[0m
+[22;44m[37m BCH [0m 87 SEND
+[  4%][32;2m Building list20.txt[0m
+[ 14%][32;2m Building list18.txt[0m
+[ 19%][32;2m Building list17.txt[0m
+[ 28%][32;2m Building list15.txt[0m
+[ 33%][32;2m Building list14.txt[0m
+[ 42%][32;2m Building list12.txt[0m
+[ 47%][32;2m Building list11.txt[0m
+[ 57%][32;2m Building list9.txt[0m
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 4928715 SEND
+[61 %][32;2m Building list8.txt[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5383860 SEND
+[22;44m[37m BCH [0m 87 SEND
+[66 %][32;2m Building list7.txt[0m
+[22;44m[37m BCH [0m 5 SEND
+[22;41m[91m ERR [0m [31;1mfile 'list10.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list11.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list13.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list14.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list16.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list17.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list20.txt' not available (sending to 0)[0m
+[22;41m[91m ERR [0m [31;1mfile 'list19.txt' not available (sending to 0)[0m
+Killed by signal 15.
+Killed by signal 15.
+[pcserveur.ensimag.fr:19683] [[40963,0],0]->[[40963,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 14]
+[pcserveur.ensimag.fr:19683] [[40963,0],0]-[[40963,0],2] mca_oob_tcp_peer_send_handler: unable to send header
+[pcserveur.ensimag.fr:19683] [[40963,0],0]->[[40963,0],1] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[pcserveur.ensimag.fr:19683] [[40963,0],0]-[[40963,0],1] mca_oob_tcp_peer_send_handler: unable to send header

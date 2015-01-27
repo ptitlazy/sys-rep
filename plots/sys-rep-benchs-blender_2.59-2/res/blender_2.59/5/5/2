@@ -1,0 +1,10 @@
+Warning: Permanently added 'ensipc23' (RSA) to the list of known hosts.
+[22;44m[37m BCH [0m 1422283209827249 MAKE BEGIN
+[pcserveur][[45617,1],0][btl_tcp_endpoint.c:657:mca_btl_tcp_endpoint_complete_connect] connect() to 129.88.240.172 failed: No route to host (113)
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+[pcserveur.ensimag.fr:24273] [[45617,0],0]->[[45617,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 15]
+[pcserveur.ensimag.fr:24273] [[45617,0],0]-[[45617,0],2] mca_oob_tcp_peer_send_handler: unable to send header
+[pcserveur.ensimag.fr:24273] [[45617,0],0]->[[45617,0],1] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 14]
+[pcserveur.ensimag.fr:24273] [[45617,0],0]-[[45617,0],1] mca_oob_tcp_peer_send_handler: unable to send header

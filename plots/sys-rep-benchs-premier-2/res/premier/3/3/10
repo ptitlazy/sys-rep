@@ -1,0 +1,11 @@
+[22;44m[37m BCH [0m 1422298261620314 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[  9%][32;2m Building list19.txt[0m
+[22;44m[37m BCH [0m 91 SEND
+[  4%][32;2m Building list20.txt[0m
+[ 14%][32;2m Building list18.txt[0m
+Connection to ensipc166 closed by remote host.
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+mpirun: Forwarding signal 18 to job
