@@ -1,0 +1,19 @@
+[22;44m[37m BCH [0m 1422273421123834 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[  4%][32;2m Building list20.txt[0m
+[  9%][32;2m Building list19.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5251280 SEND
+[22;44m[37m BCH [0m 91 SEND
+[14 %][32;2m Building list18.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5234970 SEND
+[22;44m[37m BCH [0m 91 SEND
+[19 %][32;2m Building list17.txt[0m
+[22;41m[91m ERR [0m [31;1mfile 'list17.txt' not available (sending to 0)[0m
+[22;44m[37m BCH [0m 5 SEND
+[22;41m[91m ERR [0m [31;1mfile 'list18.txt' not available (sending to 0)[0m
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 27002 on node ensipcserveur exited on signal 9 (Killed).
+--------------------------------------------------------------------------

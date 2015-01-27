@@ -1,0 +1,12 @@
+[22;44m[37m BCH [0m 1422261836117652 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[  4%][32;2m Building list20.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5234970 SEND
+[22;44m[37m BCH [0m 90 SEND
+[9  %][32;2m Building list19.txt[0m
+[22;41m[91m ERR [0m [31;1mfile 'list19.txt' not available (sending to 0)[0m
+[22;44m[37m BCH [0m 4 SEND
+[22;44m[37m BCH [0m 1422261967536010 MAKE END
+[22;44m[37m BCH [0m 131418373 MAKE DURATION
+[22;44m[37m BCH [0m 5 SEND

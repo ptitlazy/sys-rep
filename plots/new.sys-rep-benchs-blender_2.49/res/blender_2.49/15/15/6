@@ -1,0 +1,201 @@
+Warning: Permanently added 'ensipc263' (RSA) to the list of known hosts.
+[22;44m[37m BCH [0m 1422268991522867 MAKE BEGIN
+[22;44m[37m BCH [0m 59 SEND
+[  0%][32;2m Building cube_anim.blend[0m
+[22;104m[97m OUT [0m Archive:  cube_anim.zip
+[22;104m[97m OUT [0m inflating: cube_anim.blend
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[1  %][32;2m Building frame_113.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  2%][32;2m Building frame_112.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  3%][32;2m Building frame_111.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  5%][32;2m Building frame_109.png[0m
+[22;44m[37m BCH [0m 582388 SEND
+[ensipcserveur][[4225,1],0][btl_tcp_endpoint.c:657:mca_btl_tcp_endpoint_complete_connect] connect() to 129.88.240.184 failed: No route to host (113)
+[  4%][32;2m Building frame_110.png[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.AlslQWfDIP/cube_anim.blend
+[22;104m[97m OUT [0m Fra:111 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:111 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:111 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.57M (0.00M, Peak 43.00M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.35M (0.00M, Peak 43.54M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.25M (0.00M, Peak 43.54M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.15M (0.00M, Peak 43.54M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.04M (0.00M, Peak 43.54M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.94M (0.00M, Peak 43.54M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.84M (0.00M, Peak 43.54M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.84M (0.00M, Peak 43.54M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:111 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.84M (0.00M, Peak 43.75M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:111 Mem:42.36M (0.00M, Peak 43.75M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:111 Mem:10.20M (0.00M, Peak 43.75M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.AlslQWfDIP/frame_111.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.AlslQWfDIP/cube_anim.blend
+[22;104m[97m OUT [0m Fra:112 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:112 Mem:42.84M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.67M (0.00M, Peak 43.23M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.46M (0.00M, Peak 43.89M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.35M (0.00M, Peak 43.89M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.25M (0.00M, Peak 43.89M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.15M (0.00M, Peak 43.89M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:112 Mem:43.04M (0.00M, Peak 43.89M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.94M (0.00M, Peak 43.89M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.84M (0.00M, Peak 43.89M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:112 Mem:42.36M (0.00M, Peak 43.89M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:112 Mem:10.20M (0.00M, Peak 43.89M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.AlslQWfDIP/frame_112.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.AlslQWfDIP/cube_anim.blend
+[22;104m[97m OUT [0m Fra:110 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:110 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:110 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.57M (0.00M, Peak 43.00M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.35M (0.00M, Peak 43.54M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.25M (0.00M, Peak 43.54M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.15M (0.00M, Peak 43.54M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.04M (0.00M, Peak 43.54M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.94M (0.00M, Peak 43.54M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.84M (0.00M, Peak 43.54M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.84M (0.00M, Peak 43.54M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:110 Mem:43.31M (0.00M, Peak 43.75M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.84M (0.00M, Peak 43.75M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:110 Mem:42.36M (0.00M, Peak 43.75M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:110 Mem:10.20M (0.00M, Peak 43.75M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.AlslQWfDIP/frame_110.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.AlslQWfDIP/cube_anim.blend
+[22;104m[97m OUT [0m Fra:109 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:109 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:109 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.92M (0.00M, Peak 43.35M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.55M (0.00M, Peak 44.55M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.45M (0.00M, Peak 44.55M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.35M (0.00M, Peak 44.55M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.24M (0.00M, Peak 44.55M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.14M (0.00M, Peak 44.55M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.04M (0.00M, Peak 44.55M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.04M (0.00M, Peak 44.55M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:109 Mem:44.04M (0.00M, Peak 44.55M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.67M (0.00M, Peak 44.55M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.77M (0.00M, Peak 44.55M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.67M (0.00M, Peak 44.55M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.57M (0.00M, Peak 44.55M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.47M (0.00M, Peak 44.55M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:109 Mem:42.36M (0.00M, Peak 44.55M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:109 Mem:10.20M (0.00M, Peak 44.55M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.AlslQWfDIP/frame_109.png Time: 00:00.10 (Saving: 00:00.01)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.AlslQWfDIP/cube_anim.blend
+[22;104m[97m OUT [0m Fra:113 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:113 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.36M (0.00M, Peak 42.90M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.88M (0.00M, Peak 43.31M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.77M (0.00M, Peak 43.31M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.67M (0.00M, Peak 43.31M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.57M (0.00M, Peak 43.31M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.47M (0.00M, Peak 43.31M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:113 Mem:42.36M (0.00M, Peak 43.31M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:113 Mem:10.20M (0.00M, Peak 43.31M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.AlslQWfDIP/frame_113.png Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+Killed by signal 15.
+[ensipcserveur.imag.fr:18844] [[4225,0],0]->[[4225,0],8] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 16]
+[ensipcserveur.imag.fr:18844] [[4225,0],0]-[[4225,0],8] mca_oob_tcp_peer_send_handler: unable to send message ON SOCKET 16
+[ensipcserveur.imag.fr:18844] [[4225,0],0]->[[4225,0],4] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 14]
+[ensipcserveur.imag.fr:18844] [[4225,0],0]-[[4225,0],4] mca_oob_tcp_peer_send_handler: unable to send header
+Killed by signal 15.
+[ensipcserveur.imag.fr:18844] [[4225,0],0]->[[4225,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 15]
+[ensipcserveur.imag.fr:18844] [[4225,0],0]-[[4225,0],2] mca_oob_tcp_peer_send_handler: unable to send header
+[ensipcserveur.imag.fr:18844] [[4225,0],0]->[[4225,0],1] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[ensipcserveur.imag.fr:18844] [[4225,0],0]-[[4225,0],1] mca_oob_tcp_peer_send_handler: unable to send header
+Killed by signal 15.

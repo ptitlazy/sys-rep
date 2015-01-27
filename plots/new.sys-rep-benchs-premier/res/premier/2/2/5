@@ -1,0 +1,23 @@
+[22;44m[37m BCH [0m 1422270386100943 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[  9%][32;2m Building list19.txt[0m
+[  4%][32;2m Building list20.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5251280 SEND
+[22;44m[37m BCH [0m 91 SEND
+[14 %][32;2m Building list18.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5234970 SEND
+[22;44m[37m BCH [0m 91 SEND
+[19 %][32;2m Building list17.txt[0m
+[22;44m[37m BCH [0m 10 SEND
+[22;44m[37m BCH [0m 5273390 SEND
+[22;44m[37m BCH [0m 91 SEND
+[22;41m[91m ERR [0m [31;1mfile 'list17.txt' not available (sending to 0)[0m
+[23 %][32;2m Building list16.txt[0m
+[22;44m[37m BCH [0m 5 SEND
+Killed by signal 15.
+Killed by signal 15.
+[ensipcserveur.imag.fr:24266] [[2007,0],0]->[[2007,0],1] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[ensipcserveur.imag.fr:24266] [[2007,0],0]-[[2007,0],1] mca_oob_tcp_peer_send_handler: unable to send header

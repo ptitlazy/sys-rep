@@ -1,0 +1,11 @@
+[22;44m[37m BCH [0m 1422266457575752 MAKE BEGIN
+[22;44m[37m BCH [0m 90 SEND
+[22;44m[37m BCH [0m 90 SEND
+[  4%][32;2m Building list20.txt[0m
+[  9%][32;2m Building list19.txt[0m
+[22;41m[91m ERR [0m [31;1mfile 'list19.txt' not available (sending to 0)[0m
+[22;44m[37m BCH [0m 4 SEND
+[22;44m[37m BCH [0m 5 SEND
+mpirun: Forwarding signal 18 to job
+Killed by signal 15.
+Killed by signal 15.
