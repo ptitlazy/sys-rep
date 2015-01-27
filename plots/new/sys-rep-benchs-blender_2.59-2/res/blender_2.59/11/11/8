@@ -1,0 +1,164 @@
+Warning: Permanently added 'ensipc254' (RSA) to the list of known hosts.
+Warning: Permanently added 'ensipc30' (RSA) to the list of known hosts.
+[22;44m[37m BCH [0m 1422297375739417 MAKE BEGIN
+[22;44m[37m BCH [0m 19 SEND
+[22;44m[37m BCH [0m 20 SEND
+[22;44m[37m BCH [0m 17 SEND
+[  0%][32;2m Building cubesphere.blend[0m
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[1  %][32;2m Building cubesphere_52.tga[0m
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[  1%][32;2m Building cubesphere_53.tga[0m
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[  2%][32;2m Building cubesphere_55.tga[0m
+[22;44m[37m BCH [0m 50118 SEND
+[pcserveur][[52831,1],0][btl_tcp_endpoint.c:657:mca_btl_tcp_endpoint_complete_connect] connect() to 129.88.240.179 failed: No route to host (113)
+[  0%][32;2m Building cube_anim.blend[0m
+[  0%][32;2m Building dolphin.blend[0m
+[  1%][32;2m Building cubesphere_54.tga[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.JUbRDDIs9t/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:53 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.29M (0.00M, Peak 8.72M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.27M (0.00M, Peak 9.67M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.17M (0.00M, Peak 9.67M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.08M (0.00M, Peak 9.67M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.98M (0.00M, Peak 9.67M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.88M (0.00M, Peak 9.67M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.78M (0.00M, Peak 9.67M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.68M (0.00M, Peak 9.67M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.59M (0.00M, Peak 9.67M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.49M (0.00M, Peak 9.67M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.39M (0.00M, Peak 9.67M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.29M (0.00M, Peak 9.67M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.19M (0.00M, Peak 9.67M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.10M (0.00M, Peak 9.67M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.00M (0.00M, Peak 9.67M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:53 Mem:7.73M (0.00M, Peak 9.67M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.JUbRDDIs9t/cubesphere_53.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.JUbRDDIs9t/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:55 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.29M (0.00M, Peak 9.04M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.27M (0.00M, Peak 9.67M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.17M (0.00M, Peak 9.67M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.08M (0.00M, Peak 9.67M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.98M (0.00M, Peak 9.67M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.88M (0.00M, Peak 9.67M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.78M (0.00M, Peak 9.67M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.68M (0.00M, Peak 9.67M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.59M (0.00M, Peak 9.67M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.49M (0.00M, Peak 9.67M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.39M (0.00M, Peak 9.67M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.29M (0.00M, Peak 9.67M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.19M (0.00M, Peak 9.67M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.10M (0.00M, Peak 9.67M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.00M (0.00M, Peak 9.67M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:55 Mem:7.73M (0.00M, Peak 9.67M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.JUbRDDIs9t/cubesphere_55.tga Time: 00:00.02 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.JUbRDDIs9t/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:52 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.29M (0.00M, Peak 8.72M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.50M (0.00M, Peak 9.90M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.40M (0.00M, Peak 9.90M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.30M (0.00M, Peak 9.90M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.20M (0.00M, Peak 9.90M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.10M (0.00M, Peak 9.90M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.00M (0.00M, Peak 9.90M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.90M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.81M (0.00M, Peak 9.90M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.71M (0.00M, Peak 9.90M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.61M (0.00M, Peak 9.90M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.51M (0.00M, Peak 9.90M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.42M (0.00M, Peak 9.90M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.32M (0.00M, Peak 9.90M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.00M (0.00M, Peak 9.90M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:52 Mem:7.73M (0.00M, Peak 9.90M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.JUbRDDIs9t/cubesphere_52.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.JUbRDDIs9t/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:54 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.29M (0.00M, Peak 8.72M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.27M (0.00M, Peak 9.67M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.17M (0.00M, Peak 9.67M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.08M (0.00M, Peak 9.67M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.98M (0.00M, Peak 9.67M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.88M (0.00M, Peak 9.67M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.78M (0.00M, Peak 9.67M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.68M (0.00M, Peak 9.67M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.59M (0.00M, Peak 9.67M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.49M (0.00M, Peak 9.67M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.39M (0.00M, Peak 9.67M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.29M (0.00M, Peak 9.67M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.19M (0.00M, Peak 9.67M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.10M (0.00M, Peak 9.67M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.00M (0.00M, Peak 9.67M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:54 Mem:7.73M (0.00M, Peak 9.67M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.JUbRDDIs9t/cubesphere_54.tga Time: 00:00.02 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+Connection to ensipc145 closed by remote host.
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+mpirun: Forwarding signal 18 to job

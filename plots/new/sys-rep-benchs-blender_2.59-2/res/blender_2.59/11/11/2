@@ -1,0 +1,13 @@
+[22;44m[37m BCH [0m 1422296057455529 MAKE BEGIN
+[22;44m[37m BCH [0m 19 SEND
+[pcserveur][[34702,1],0][btl_tcp_endpoint.c:657:mca_btl_tcp_endpoint_complete_connect] connect() to 129.88.240.178 failed: No route to host (113)
+[  0%][32;2m Building cube_anim.blend[0m
+Killed by signal 15.
+[pcserveur.ensimag.fr:27502] [[34702,0],0]->[[34702,0],4] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[pcserveur.ensimag.fr:27502] [[34702,0],0]-[[34702,0],4] mca_oob_tcp_peer_send_handler: unable to send header
+[pcserveur.ensimag.fr:27502] [[34702,0],0]->[[34702,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 14]
+[pcserveur.ensimag.fr:27502] [[34702,0],0]-[[34702,0],2] mca_oob_tcp_peer_send_handler: unable to send header
+[pcserveur.ensimag.fr:27502] [[34702,0],0]->[[34702,0],8] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 15]
+[pcserveur.ensimag.fr:27502] [[34702,0],0]-[[34702,0],8] mca_oob_tcp_peer_send_handler: unable to send header
+Killed by signal 15.
+Killed by signal 15.

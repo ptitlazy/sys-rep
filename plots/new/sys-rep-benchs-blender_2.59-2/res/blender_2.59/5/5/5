@@ -1,0 +1,179 @@
+[22;44m[37m BCH [0m 1422284389593421 MAKE BEGIN
+[22;44m[37m BCH [0m 19 SEND
+[  0%][32;2m Building cubesphere.blend[0m
+[22;44m[37m BCH [0m 20 SEND
+[22;44m[37m BCH [0m 17 SEND
+[  0%][32;2m Building cube_anim.blend[0m
+[  0%][32;2m Building dolphin.blend[0m
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[1  %][32;2m Building cube_anim_60.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  1%][32;2m Building cube_anim_59.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[  1%][32;2m Building cube_anim_58.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[2  %][32;2m Building dolphin_52.tga[0m
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[2  %][32;2m Building cubesphere_52.tga[0m
+[22;41m[91m ERR [0m [31;1mfile 'cubesphere_52.tga' not available (sending to 0)[0m
+[22;104m[97m OUT [0m /usr/local/bin/blender: line 3: /opt/blender/blender: Aucun fichier ou dossier de ce type
+[22;104m[97m OUT [0m /usr/local/bin/blender: line 3: exec: /opt/blender/blender : impossible d'exÃ©cuter : Aucun fichier ou dossier de ce type
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 5 SEND
+[22;104m[97m OUT [0m AL lib: (EE) connect_context: Context did not connect: Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.ZmcepCevZW/cube_anim.blend
+[22;104m[97m OUT [0m Fra:60 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:42.94M (0.00M, Peak 43.00M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.84M (0.00M, Peak 43.00M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.58M (0.00M, Peak 43.58M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.48M (0.00M, Peak 43.58M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 43.58M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.94M (0.00M, Peak 43.58M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.60M (0.00M, Peak 43.60M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.50M (0.00M, Peak 43.60M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.50M (0.00M, Peak 44.06M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.23M (0.00M, Peak 44.06M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.88M (0.00M, Peak 44.06M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.77M (0.00M, Peak 44.06M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.67M (0.00M, Peak 44.06M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.57M (0.00M, Peak 44.06M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.47M (0.00M, Peak 44.06M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.36M (0.00M, Peak 44.06M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:60 Mem:10.20M (0.00M, Peak 44.06M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.ZmcepCevZW/cube_anim_60.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.ZmcepCevZW/cube_anim.blend
+[22;104m[97m OUT [0m Fra:58 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.35M (0.00M, Peak 43.35M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.25M (0.00M, Peak 43.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:58 Mem:44.10M (0.00M, Peak 44.10M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.99M (0.00M, Peak 44.10M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.89M (0.00M, Peak 44.10M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.79M (0.00M, Peak 44.10M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.79M (0.00M, Peak 44.35M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.57M (0.00M, Peak 44.35M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.47M (0.00M, Peak 44.35M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.36M (0.00M, Peak 44.35M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:58 Mem:10.20M (0.00M, Peak 44.35M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.ZmcepCevZW/cube_anim_58.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.ZmcepCevZW/cube_anim.blend
+[22;104m[97m OUT [0m Fra:59 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.78M (0.00M, Peak 44.97M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.68M (0.00M, Peak 44.97M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.57M (0.00M, Peak 44.97M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.47M (0.00M, Peak 44.97M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.37M (0.00M, Peak 44.97M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.26M (0.00M, Peak 44.97M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.16M (0.00M, Peak 44.97M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.06M (0.00M, Peak 44.97M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.96M (0.00M, Peak 44.97M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.85M (0.00M, Peak 44.97M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.19M (0.00M, Peak 44.97M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.84M (0.00M, Peak 44.97M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.36M (0.00M, Peak 44.97M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:59 Mem:10.20M (0.00M, Peak 44.97M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.ZmcepCevZW/cube_anim_59.tga Time: 00:00.06 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.ZmcepCevZW/dolphin.blend
+[22;104m[97m OUT [0m Fra:52 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:20.00M (0.00M, Peak 22.61M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:52 Mem:20.00M (0.00M, Peak 22.61M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:52 Mem:20.00M (0.00M, Peak 22.61M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:52 Mem:17.72M (0.00M, Peak 22.61M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.36M (0.00M, Peak 22.61M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.36M (0.00M, Peak 22.61M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.86M (0.00M, Peak 22.61M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:52 Mem:17.22M (0.00M, Peak 22.61M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.86M (0.00M, Peak 22.61M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.24M (0.00M, Peak 22.61M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:52 Mem:15.87M (0.00M, Peak 22.61M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:52 Mem:15.51M (0.00M, Peak 22.61M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:52 Mem:15.14M (0.00M, Peak 22.61M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:52 Mem:13.36M (0.00M, Peak 22.61M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.ZmcepCevZW/dolphin_52.tga Time: 00:00.15 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+Killed by signal 15.
+Killed by signal 15.
+[pcserveur.ensimag.fr:11749] [[49413,0],0] tcp_peer_complete_connect: getsockopt() to [[49413,0],4] failed: Bad file descriptor (9)
+[pcserveur.ensimag.fr:11749] [[49413,0],0]->[[49413,0],2] mca_oob_tcp_msg_send_bytes: write failed: Broken pipe (32) [sd = 13]
+[pcserveur.ensimag.fr:11749] [[49413,0],0]-[[49413,0],2] mca_oob_tcp_peer_send_handler: unable to send message ON SOCKET 13
+Killed by signal 15.

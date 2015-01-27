@@ -1,0 +1,1099 @@
+[22;44m[37m BCH [0m 1422262547191153 MAKE BEGIN
+[22;44m[37m BCH [0m 19 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[  0%][32;2m Building cube_anim.blend[0m
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[0  %][32;2m Building cube_anim_60.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:60 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:43.11M (0.00M, Peak 43.11M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.00M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.90M (0.00M, Peak 43.11M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.85M (0.00M, Peak 43.85M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.75M (0.00M, Peak 43.85M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.64M (0.00M, Peak 43.85M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.54M (0.00M, Peak 43.85M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.44M (0.00M, Peak 43.85M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.54M (0.00M, Peak 44.35M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.47M (0.00M, Peak 44.35M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.36M (0.00M, Peak 44.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:60 Mem:10.20M (0.00M, Peak 44.35M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_60.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[0  %][32;2m Building f_162.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[1  %][32;2m Building cube_anim_59.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:59 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:59 Mem:43.00M (0.00M, Peak 43.00M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.90M (0.00M, Peak 43.00M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.58M (0.00M, Peak 43.64M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.48M (0.00M, Peak 43.64M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.38M (0.00M, Peak 43.64M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.11M (0.00M, Peak 43.64M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.48M (0.00M, Peak 43.67M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:59 Mem:44.02M (0.00M, Peak 44.04M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.91M (0.00M, Peak 44.04M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.48M (0.00M, Peak 44.35M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:59 Mem:43.00M (0.00M, Peak 44.35M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.47M (0.00M, Peak 44.35M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:59 Mem:42.36M (0.00M, Peak 44.35M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:59 Mem:10.20M (0.00M, Peak 44.35M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_59.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[1  %][32;2m Building f_161.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[1  %][32;2m Building cube_anim_58.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:58 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:58 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:58 Mem:44.28M (0.00M, Peak 44.31M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:58 Mem:44.18M (0.00M, Peak 44.31M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:58 Mem:44.08M (0.00M, Peak 44.31M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.97M (0.00M, Peak 44.31M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.87M (0.00M, Peak 44.31M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.77M (0.00M, Peak 44.31M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.67M (0.00M, Peak 44.31M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:58 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.47M (0.00M, Peak 44.31M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:58 Mem:42.36M (0.00M, Peak 44.31M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:58 Mem:10.20M (0.00M, Peak 44.31M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_58.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[2  %][32;2m Building f_160.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[2  %][32;2m Building cube_anim_57.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:57 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:57 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:57 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:57 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:57 Mem:44.22M (0.00M, Peak 44.31M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:57 Mem:44.12M (0.00M, Peak 44.31M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:57 Mem:44.02M (0.00M, Peak 44.31M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.91M (0.00M, Peak 44.31M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.81M (0.00M, Peak 44.31M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.71M (0.00M, Peak 44.31M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.60M (0.00M, Peak 44.31M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:57 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:57 Mem:42.84M (0.00M, Peak 44.31M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:57 Mem:42.36M (0.00M, Peak 44.31M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:57 Mem:10.20M (0.00M, Peak 44.31M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_57.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[2  %][32;2m Building f_159.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[2  %][32;2m Building cube_anim_56.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:56 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:56 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:56 Mem:42.82M (0.00M, Peak 43.00M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.71M (0.00M, Peak 43.00M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.71M (0.00M, Peak 43.15M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.71M (0.00M, Peak 43.15M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.71M (0.00M, Peak 43.15M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.82M (0.00M, Peak 43.25M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:56 Mem:43.35M (0.00M, Peak 43.35M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:56 Mem:43.25M (0.00M, Peak 43.35M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.82M (0.00M, Peak 43.38M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.82M (0.00M, Peak 43.38M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.82M (0.00M, Peak 43.38M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.57M (0.00M, Peak 43.38M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.67M (0.00M, Peak 43.38M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.57M (0.00M, Peak 43.38M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.47M (0.00M, Peak 43.38M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:56 Mem:42.36M (0.00M, Peak 43.38M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:56 Mem:10.20M (0.00M, Peak 43.38M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_56.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[3  %][32;2m Building f_158.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[3  %][32;2m Building cube_anim_55.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:55 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:55 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:55 Mem:43.00M (0.00M, Peak 43.00M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:55 Mem:42.90M (0.00M, Peak 43.00M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.56M (0.00M, Peak 43.75M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.46M (0.00M, Peak 43.75M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.35M (0.00M, Peak 43.75M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.25M (0.00M, Peak 43.75M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.73M (0.00M, Peak 43.91M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.73M (0.00M, Peak 44.29M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.73M (0.00M, Peak 44.29M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.04M (0.00M, Peak 44.29M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.25M (0.00M, Peak 44.29M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.15M (0.00M, Peak 44.29M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:55 Mem:43.04M (0.00M, Peak 44.29M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:55 Mem:42.94M (0.00M, Peak 44.29M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:55 Mem:42.84M (0.00M, Peak 44.29M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:55 Mem:42.36M (0.00M, Peak 44.29M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:55 Mem:10.20M (0.00M, Peak 44.29M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_55.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[3  %][32;2m Building f_157.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[4  %][32;2m Building cube_anim_54.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:54 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:54 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:54 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.19M (0.00M, Peak 43.38M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.19M (0.00M, Peak 43.75M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:54 Mem:43.38M (0.00M, Peak 44.16M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.90M (0.00M, Peak 44.16M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:54 Mem:42.36M (0.00M, Peak 44.16M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:54 Mem:10.20M (0.00M, Peak 44.16M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_54.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[4  %][32;2m Building f_156.jpg[0m
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[4  %][32;2m Building cube_anim_53.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:53 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:53 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:53 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.19M (0.00M, Peak 43.38M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.19M (0.00M, Peak 43.75M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.73M (0.00M, Peak 44.16M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:53 Mem:43.38M (0.00M, Peak 44.16M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.90M (0.00M, Peak 44.16M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:53 Mem:42.36M (0.00M, Peak 44.16M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:53 Mem:10.20M (0.00M, Peak 44.16M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_53.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[4  %][32;2m Building f_155.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[5  %][32;2m Building cube_anim_52.tga[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:52 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:52 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:52 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.35M (0.00M, Peak 43.35M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.25M (0.00M, Peak 43.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:52 Mem:44.10M (0.00M, Peak 44.10M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.99M (0.00M, Peak 44.10M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.89M (0.00M, Peak 44.10M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.79M (0.00M, Peak 44.10M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.79M (0.00M, Peak 44.35M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.54M (0.00M, Peak 44.35M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:52 Mem:43.44M (0.00M, Peak 44.35M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:52 Mem:42.47M (0.00M, Peak 44.35M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:52 Mem:42.36M (0.00M, Peak 44.35M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:52 Mem:10.20M (0.00M, Peak 44.35M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_52.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[5  %][32;2m Building f_154.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[5  %][32;2m Building cube_anim_51.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:51 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:51 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:51 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.35M (0.00M, Peak 43.35M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.25M (0.00M, Peak 43.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:51 Mem:44.22M (0.00M, Peak 44.22M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:51 Mem:44.12M (0.00M, Peak 44.22M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:51 Mem:44.02M (0.00M, Peak 44.22M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.91M (0.00M, Peak 44.22M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.91M (0.00M, Peak 44.47M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.67M (0.00M, Peak 44.47M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.13M (0.00M, Peak 44.47M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:51 Mem:43.02M (0.00M, Peak 44.47M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:51 Mem:42.36M (0.00M, Peak 44.47M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:51 Mem:10.20M (0.00M, Peak 44.47M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_51.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[6  %][32;2m Building f_153.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[6  %][32;2m Building cube_anim_50.tga[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:50 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:50 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:50 Mem:43.11M (0.00M, Peak 43.11M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.00M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:50 Mem:42.90M (0.00M, Peak 43.11M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.56M (0.00M, Peak 43.75M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.46M (0.00M, Peak 43.75M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.35M (0.00M, Peak 43.75M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.25M (0.00M, Peak 43.75M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.73M (0.00M, Peak 43.91M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.11M (0.00M, Peak 44.16M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.41M (0.00M, Peak 44.16M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.31M (0.00M, Peak 44.16M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.21M (0.00M, Peak 44.16M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.11M (0.00M, Peak 44.16M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:50 Mem:43.00M (0.00M, Peak 44.16M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:50 Mem:42.90M (0.00M, Peak 44.16M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:50 Mem:42.36M (0.00M, Peak 44.16M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:50 Mem:10.20M (0.00M, Peak 44.16M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_50.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[6  %][32;2m Building f_152.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[6  %][32;2m Building cube_anim_49.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:49 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:49 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:49 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.67M (0.00M, Peak 43.60M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:49 Mem:43.33M (0.00M, Peak 43.77M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:49 Mem:43.23M (0.00M, Peak 43.77M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:49 Mem:43.13M (0.00M, Peak 43.77M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:49 Mem:43.02M (0.00M, Peak 43.77M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.92M (0.00M, Peak 43.77M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.82M (0.00M, Peak 43.77M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.71M (0.00M, Peak 43.77M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:49 Mem:42.36M (0.00M, Peak 43.77M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:49 Mem:10.20M (0.00M, Peak 43.77M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_49.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[7  %][32;2m Building f_151.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[7  %][32;2m Building cube_anim_48.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:48 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:48 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:48 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 42.98M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.65M (0.00M, Peak 43.08M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 43.08M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 43.08M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 43.08M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 43.08M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.55M (0.00M, Peak 43.08M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.21M (0.00M, Peak 43.77M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.38M (0.00M, Peak 43.77M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.38M (0.00M, Peak 43.81M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.38M (0.00M, Peak 43.81M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.38M (0.00M, Peak 43.81M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:48 Mem:43.38M (0.00M, Peak 43.81M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.47M (0.00M, Peak 43.81M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:48 Mem:42.36M (0.00M, Peak 43.81M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:48 Mem:10.20M (0.00M, Peak 43.81M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_48.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[7  %][32;2m Building f_150.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[8  %][32;2m Building cube_anim_47.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:47 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:47 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:47 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.67M (0.00M, Peak 43.23M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:47 Mem:43.19M (0.00M, Peak 44.06M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:47 Mem:43.08M (0.00M, Peak 44.06M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.98M (0.00M, Peak 44.06M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.88M (0.00M, Peak 44.06M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.77M (0.00M, Peak 44.06M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.67M (0.00M, Peak 44.06M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.57M (0.00M, Peak 44.06M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.47M (0.00M, Peak 44.06M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:47 Mem:42.36M (0.00M, Peak 44.06M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:47 Mem:10.20M (0.00M, Peak 44.06M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_47.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[8  %][32;2m Building f_149.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[8  %][32;2m Building cube_anim_46.tga[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:46 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:46 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:46 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.46M (0.00M, Peak 43.46M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.35M (0.00M, Peak 43.46M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.25M (0.00M, Peak 43.46M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:46 Mem:44.12M (0.00M, Peak 44.12M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:46 Mem:44.02M (0.00M, Peak 44.12M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.91M (0.00M, Peak 44.12M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.91M (0.00M, Peak 44.47M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.67M (0.00M, Peak 44.47M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:46 Mem:43.56M (0.00M, Peak 44.47M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:46 Mem:42.57M (0.00M, Peak 44.47M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:46 Mem:42.47M (0.00M, Peak 44.47M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:46 Mem:42.36M (0.00M, Peak 44.47M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:46 Mem:10.20M (0.00M, Peak 44.47M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_46.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[8  %][32;2m Building f_148.jpg[0m
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[9  %][32;2m Building cube_anim_45.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:45 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:45 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:45 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.94M (0.00M, Peak 43.13M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.84M (0.00M, Peak 43.13M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.84M (0.00M, Peak 43.40M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:45 Mem:43.04M (0.00M, Peak 43.48M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.77M (0.00M, Peak 43.58M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.67M (0.00M, Peak 43.58M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.57M (0.00M, Peak 43.58M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.47M (0.00M, Peak 43.58M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:45 Mem:42.36M (0.00M, Peak 43.58M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:45 Mem:10.20M (0.00M, Peak 43.58M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_45.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[9  %][32;2m Building f_147.jpg[0m
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[9  %][32;2m Building cube_anim_44.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:44 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:44 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:44 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.94M (0.00M, Peak 43.56M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.84M (0.00M, Peak 43.56M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.84M (0.00M, Peak 43.56M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:44 Mem:43.04M (0.00M, Peak 43.56M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.77M (0.00M, Peak 43.58M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.67M (0.00M, Peak 43.58M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.57M (0.00M, Peak 43.58M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.47M (0.00M, Peak 43.58M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:44 Mem:42.36M (0.00M, Peak 43.58M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:44 Mem:10.20M (0.00M, Peak 43.58M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_44.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[10 %][32;2m Building f_146.jpg[0m
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[22;44m[37m BCH [0m 15 SEND
+[10 %][32;2m Building cube_anim_43.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:43 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:43 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:43 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:43 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:43 Mem:44.28M (0.00M, Peak 44.31M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:43 Mem:44.18M (0.00M, Peak 44.31M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:43 Mem:44.08M (0.00M, Peak 44.31M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.97M (0.00M, Peak 44.31M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.87M (0.00M, Peak 44.31M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.77M (0.00M, Peak 44.31M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.67M (0.00M, Peak 44.31M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:43 Mem:43.56M (0.00M, Peak 44.31M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:43 Mem:42.47M (0.00M, Peak 44.31M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:43 Mem:42.36M (0.00M, Peak 44.31M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:43 Mem:10.20M (0.00M, Peak 44.31M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_43.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[10 %][32;2m Building f_145.jpg[0m
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[10 %][32;2m Building cube_anim_42.tga[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:42 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:42 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:42 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.25M (0.00M, Peak 43.25M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:42 Mem:42.92M (0.00M, Peak 43.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.66M (0.00M, Peak 43.66M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.56M (0.00M, Peak 43.66M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.46M (0.00M, Peak 43.66M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.35M (0.00M, Peak 43.66M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.89M (0.00M, Peak 43.91M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.79M (0.00M, Peak 43.91M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.44M (0.00M, Peak 43.91M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.44M (0.00M, Peak 43.91M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.44M (0.00M, Peak 43.91M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.44M (0.00M, Peak 43.91M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:42 Mem:43.44M (0.00M, Peak 43.91M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:42 Mem:42.47M (0.00M, Peak 43.91M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:42 Mem:42.36M (0.00M, Peak 43.91M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:42 Mem:10.20M (0.00M, Peak 43.91M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_42.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[11 %][32;2m Building f_144.jpg[0m
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[11 %][32;2m Building cube_anim_41.tga[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:41 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:41 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:41 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:41 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:41 Mem:44.22M (0.00M, Peak 44.24M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:41 Mem:44.12M (0.00M, Peak 44.24M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:41 Mem:44.02M (0.00M, Peak 44.24M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.91M (0.00M, Peak 44.24M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.81M (0.00M, Peak 44.24M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.71M (0.00M, Peak 44.24M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.60M (0.00M, Peak 44.24M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.50M (0.00M, Peak 44.24M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.50M (0.00M, Peak 44.24M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.50M (0.00M, Peak 44.24M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.50M (0.00M, Peak 44.24M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:41 Mem:43.50M (0.00M, Peak 44.24M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:41 Mem:42.47M (0.00M, Peak 44.24M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:41 Mem:42.36M (0.00M, Peak 44.24M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:41 Mem:10.20M (0.00M, Peak 44.24M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_41.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[11 %][32;2m Building f_143.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[12 %][32;2m Building cube_anim_40.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:40 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:40 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:40 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.47M (0.00M, Peak 42.90M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.38M (0.00M, Peak 43.56M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.38M (0.00M, Peak 43.94M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.91M (0.00M, Peak 44.35M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:40 Mem:43.38M (0.00M, Peak 44.35M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.90M (0.00M, Peak 44.35M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:40 Mem:42.36M (0.00M, Peak 44.35M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:40 Mem:10.20M (0.00M, Peak 44.35M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_40.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[12 %][32;2m Building f_142.jpg[0m
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[12 %][32;2m Building cube_anim_39.tga[0m
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:39 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:39 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:39 Mem:42.71M (0.00M, Peak 42.90M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.71M (0.00M, Peak 43.15M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.92M (0.00M, Peak 43.35M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.66M (0.00M, Peak 43.66M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.56M (0.00M, Peak 43.66M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.46M (0.00M, Peak 43.66M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.35M (0.00M, Peak 43.66M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.91M (0.00M, Peak 43.91M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:39 Mem:43.25M (0.00M, Peak 43.91M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.67M (0.00M, Peak 43.91M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.88M (0.00M, Peak 43.91M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.77M (0.00M, Peak 43.91M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.67M (0.00M, Peak 43.91M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.57M (0.00M, Peak 43.91M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.47M (0.00M, Peak 43.91M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:39 Mem:42.36M (0.00M, Peak 43.91M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:39 Mem:10.20M (0.00M, Peak 43.91M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_39.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[13 %][32;2m Building f_141.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[13 %][32;2m Building cube_anim_38.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:38 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:38 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:38 Mem:43.00M (0.00M, Peak 43.00M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.90M (0.00M, Peak 43.00M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.90M (0.00M, Peak 43.33M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.90M (0.00M, Peak 43.33M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.00M (0.00M, Peak 43.44M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.77M (0.00M, Peak 43.77M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.67M (0.00M, Peak 43.77M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:38 Mem:44.22M (0.00M, Peak 44.22M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.56M (0.00M, Peak 44.22M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.04M (0.00M, Peak 44.22M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.25M (0.00M, Peak 44.22M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.15M (0.00M, Peak 44.22M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:38 Mem:43.04M (0.00M, Peak 44.22M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.94M (0.00M, Peak 44.22M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.84M (0.00M, Peak 44.22M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:38 Mem:42.36M (0.00M, Peak 44.22M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:38 Mem:10.20M (0.00M, Peak 44.22M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_38.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[13 %][32;2m Building f_140.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[22;44m[37m BCH [0m 15 SEND
+[13 %][32;2m Building cube_anim_37.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Fra:37 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:37 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:37 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:37 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:37 Mem:44.22M (0.00M, Peak 44.31M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:37 Mem:44.12M (0.00M, Peak 44.31M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:37 Mem:44.02M (0.00M, Peak 44.31M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.91M (0.00M, Peak 44.31M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.81M (0.00M, Peak 44.31M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.71M (0.00M, Peak 44.31M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.60M (0.00M, Peak 44.31M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:37 Mem:43.50M (0.00M, Peak 44.31M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:37 Mem:42.47M (0.00M, Peak 44.31M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:37 Mem:42.36M (0.00M, Peak 44.31M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:37 Mem:10.20M (0.00M, Peak 44.31M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.l0OvpdhHBu/cube_anim_37.tga Time: 00:00.03 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 80 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[14 %][32;2m Building f_139.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 96 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[14 %][32;2m Building cube_anim_36.tga[0m
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;41m[91m ERR [0m [31;1mfile 'cube_anim_36.tga' not available (sending to 0)[0m
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.l0OvpdhHBu/cube_anim.blend
+[22;104m[97m OUT [0m Warning: Unable to open '/var/tmp/tmp.l0OvpdhHBu/cube_anim.blend': No such file or directory
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 4 SEND
+[22;44m[37m BCH [0m 1422262566278456 MAKE END
+[22;44m[37m BCH [0m 19087335 MAKE DURATION
+[22;44m[37m BCH [0m 5 SEND

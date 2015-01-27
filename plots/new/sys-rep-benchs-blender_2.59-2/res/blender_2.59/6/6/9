@@ -1,0 +1,710 @@
+[22;44m[37m BCH [0m 1422289410031347 MAKE BEGIN
+[22;44m[37m BCH [0m 19 SEND
+[22;44m[37m BCH [0m 20 SEND
+[  0%][32;2m Building cube_anim.blend[0m
+[22;44m[37m BCH [0m 17 SEND
+[  0%][32;2m Building dolphin.blend[0m
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[  1%][32;2m Building cubesphere_54.tga[0m
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 99 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[22;44m[37m BCH [0m 15 SEND
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 95 SEND
+[22;44m[37m BCH [0m 15 SEND
+[2  %][32;2m Building cube_anim_60.tga[0m
+[  0%][32;2m Building cubesphere.blend[0m
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 50118 SEND
+[1  %][32;2m Building cubesphere_52.tga[0m
+[  1%][32;2m Building cubesphere_53.tga[0m
+[  2%][32;2m Building cubesphere_55.tga[0m
+[22;44m[37m BCH [0m 582388 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[2  %][32;2m Building dolphin_52.tga[0m
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m Failed to stat runtime directory /user/2/darricat/.pulse/d4aafb5dda64933ab1b52f8f00000037-runtime: Input/output error
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:55 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:55 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.29M (0.00M, Peak 8.72M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.27M (0.00M, Peak 9.67M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.17M (0.00M, Peak 9.67M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:55 Mem:9.08M (0.00M, Peak 9.67M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.98M (0.00M, Peak 9.67M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.88M (0.00M, Peak 9.67M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.78M (0.00M, Peak 9.67M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.68M (0.00M, Peak 9.67M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.59M (0.00M, Peak 9.67M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.49M (0.00M, Peak 9.67M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.39M (0.00M, Peak 9.67M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.29M (0.00M, Peak 9.67M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.19M (0.00M, Peak 9.67M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.10M (0.00M, Peak 9.67M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:55 Mem:8.00M (0.00M, Peak 9.67M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:55 Mem:7.73M (0.00M, Peak 9.67M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/cubesphere_55.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 17 SEND
+[22;44m[37m BCH [0m 38377 SEND
+[2  %][32;2m Building dolphin_53.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:54 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:54 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.29M (0.00M, Peak 8.72M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.27M (0.00M, Peak 9.67M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.17M (0.00M, Peak 9.67M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:54 Mem:9.08M (0.00M, Peak 9.67M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.98M (0.00M, Peak 9.67M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.88M (0.00M, Peak 9.67M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.78M (0.00M, Peak 9.67M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.68M (0.00M, Peak 9.67M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.59M (0.00M, Peak 9.67M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.49M (0.00M, Peak 9.67M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.39M (0.00M, Peak 9.67M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.29M (0.00M, Peak 9.67M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.19M (0.00M, Peak 9.67M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.10M (0.00M, Peak 9.67M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:54 Mem:8.00M (0.00M, Peak 9.67M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:54 Mem:7.73M (0.00M, Peak 9.67M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/cubesphere_54.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 17 SEND
+[22;44m[37m BCH [0m 38377 SEND
+[3  %][32;2m Building dolphin_54.tga[0m
+[22;44m[37m BCH [0m 79 SEND
+[22;44m[37m BCH [0m 16 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/cube_anim.blend
+[22;104m[97m OUT [0m Fra:60 Mem:8.88M (0.00M, Peak 8.88M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:40.79M (0.00M, Peak 40.85M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Fra:60 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 1-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.36M (0.00M, Peak 42.80M) | Scene, Part 2-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.67M (0.00M, Peak 43.11M) | Scene, Part 3-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.99M (0.00M, Peak 44.02M) | Scene, Part 4-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.89M (0.00M, Peak 44.02M) | Scene, Part 7-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.79M (0.00M, Peak 44.02M) | Scene, Part 8-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.68M (0.00M, Peak 44.02M) | Scene, Part 9-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.58M (0.00M, Peak 44.02M) | Scene, Part 5-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.48M (0.00M, Peak 44.02M) | Scene, Part 11-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 44.02M) | Scene, Part 6-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 44.02M) | Scene, Part 13-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 44.02M) | Scene, Part 14-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 44.02M) | Scene, Part 15-16
+[22;104m[97m OUT [0m Fra:60 Mem:43.38M (0.00M, Peak 44.02M) | Scene, Part 16-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.47M (0.00M, Peak 44.02M) | Scene, Part 12-16
+[22;104m[97m OUT [0m Fra:60 Mem:42.36M (0.00M, Peak 44.02M) | Scene, Part 10-16
+[22;104m[97m OUT [0m Fra:60 Mem:10.20M (0.00M, Peak 44.02M) Sce: Scene Ve:1744 Fa:1308 La:1
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/cube_anim_60.tga Time: 00:00.04 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 16 SEND
+[22;44m[37m BCH [0m 44081 SEND
+[3  %][32;2m Building f_162.jpg[0m
+[22;44m[37m BCH [0m 44081 SEND
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 9 SEND
+[22;44m[37m BCH [0m 22386 SEND
+[3  %][32;2m Building dolphin_55.tga[0m
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:53 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:53 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.44M (0.00M, Peak 8.97M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.64M (0.00M, Peak 9.04M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.52M (0.00M, Peak 9.92M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.42M (0.00M, Peak 9.92M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.33M (0.00M, Peak 9.92M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.23M (0.00M, Peak 9.92M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.13M (0.00M, Peak 9.92M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:53 Mem:9.03M (0.00M, Peak 9.92M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.93M (0.00M, Peak 9.92M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.84M (0.00M, Peak 9.92M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.74M (0.00M, Peak 9.92M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.64M (0.00M, Peak 9.92M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.54M (0.00M, Peak 9.92M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.44M (0.00M, Peak 9.92M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:53 Mem:8.00M (0.00M, Peak 9.92M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:53 Mem:7.73M (0.00M, Peak 9.92M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/cubesphere_53.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 17 SEND
+[22;44m[37m BCH [0m 38377 SEND
+[4  %][32;2m Building dolphin_56.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/cubesphere.blend
+[22;104m[97m OUT [0m 2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+[22;104m[97m OUT [0m Fra:52 Mem:6.32M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:6.33M (0.00M, Peak 7.77M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Fra:52 Mem:8.00M (0.00M, Peak 8.52M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.44M (0.00M, Peak 8.97M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.64M (0.00M, Peak 9.04M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.52M (0.00M, Peak 9.92M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.42M (0.00M, Peak 9.92M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.33M (0.00M, Peak 9.92M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.23M (0.00M, Peak 9.92M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.13M (0.00M, Peak 9.92M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:52 Mem:9.03M (0.00M, Peak 9.92M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.93M (0.00M, Peak 9.92M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.84M (0.00M, Peak 9.92M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.74M (0.00M, Peak 9.92M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.64M (0.00M, Peak 9.92M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.54M (0.00M, Peak 9.92M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.44M (0.00M, Peak 9.92M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:52 Mem:8.00M (0.00M, Peak 9.92M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:52 Mem:7.73M (0.00M, Peak 9.92M) Sce: 1 Ve:386 Fa:216 La:2
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/cubesphere_52.tga Time: 00:00.01 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 17 SEND
+[22;44m[37m BCH [0m 38377 SEND
+[4  %][32;2m Building dolphin_57.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:54 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:54 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:54 Mem:21.20M (0.00M, Peak 22.48M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:54 Mem:20.66M (0.00M, Peak 22.48M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:54 Mem:19.34M (0.00M, Peak 22.48M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.96M (0.00M, Peak 22.48M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.96M (0.00M, Peak 22.48M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.47M (0.00M, Peak 22.48M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.11M (0.00M, Peak 22.48M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.11M (0.00M, Peak 22.48M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:54 Mem:18.47M (0.00M, Peak 22.48M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:54 Mem:17.11M (0.00M, Peak 22.48M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.87M (0.00M, Peak 22.48M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.51M (0.00M, Peak 22.48M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.87M (0.00M, Peak 22.48M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.51M (0.00M, Peak 22.48M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.51M (0.00M, Peak 22.48M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:54 Mem:15.14M (0.00M, Peak 22.48M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:54 Mem:13.36M (0.00M, Peak 22.48M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_54.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 46713 SEND
+[4  %][32;2m Building dolphin_58.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:53 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:53 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Fra:53 Mem:21.20M (0.00M, Peak 22.48M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:53 Mem:20.54M (0.00M, Peak 22.48M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:53 Mem:20.10M (0.00M, Peak 22.48M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.69M (0.00M, Peak 22.48M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.69M (0.00M, Peak 22.48M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.96M (0.00M, Peak 22.48M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:53 Mem:16.24M (0.00M, Peak 22.48M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.98M (0.00M, Peak 22.48M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.62M (0.00M, Peak 22.48M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:53 Mem:18.25M (0.00M, Peak 22.48M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:53 Mem:17.88M (0.00M, Peak 22.48M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:53 Mem:17.52M (0.00M, Peak 22.48M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:53 Mem:17.52M (0.00M, Peak 22.48M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:53 Mem:15.87M (0.00M, Peak 22.48M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:53 Mem:15.51M (0.00M, Peak 22.48M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:53 Mem:15.14M (0.00M, Peak 22.48M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:53 Mem:13.36M (0.00M, Peak 22.48M) Sce: 1 Ve:6464 Fa:11561 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_53.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 46111 SEND
+[4  %][32;2m Building dolphin_59.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:56 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11555 La:0
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11555 La:0
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11555 La:0
+[22;104m[97m OUT [0m Fra:56 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11555 La:0
+[22;104m[97m OUT [0m Fra:56 Mem:21.08M (0.00M, Peak 22.23M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:56 Mem:20.29M (0.00M, Peak 22.23M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:56 Mem:20.95M (0.00M, Peak 22.23M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:56 Mem:20.29M (0.00M, Peak 22.23M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:56 Mem:18.47M (0.00M, Peak 22.23M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:56 Mem:17.48M (0.00M, Peak 22.23M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:56 Mem:19.00M (0.00M, Peak 22.23M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:56 Mem:18.64M (0.00M, Peak 22.23M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:56 Mem:17.11M (0.00M, Peak 22.23M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:56 Mem:17.97M (0.00M, Peak 22.23M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:56 Mem:17.61M (0.00M, Peak 22.23M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:56 Mem:17.61M (0.00M, Peak 22.23M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:56 Mem:15.87M (0.00M, Peak 22.23M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:56 Mem:15.87M (0.00M, Peak 22.23M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:56 Mem:15.51M (0.00M, Peak 22.23M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:56 Mem:15.14M (0.00M, Peak 22.23M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:56 Mem:13.36M (0.00M, Peak 22.23M) Sce: 1 Ve:6464 Fa:11555 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_56.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 46429 SEND
+[5  %][32;2m Building dolphin_51.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:55 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11567 La:0
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11567 La:0
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11567 La:0
+[22;104m[97m OUT [0m Fra:55 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11567 La:0
+[22;104m[97m OUT [0m Fra:55 Mem:20.54M (0.00M, Peak 21.86M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:55 Mem:20.66M (0.00M, Peak 21.86M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:55 Mem:20.95M (0.00M, Peak 21.86M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:55 Mem:20.29M (0.00M, Peak 22.11M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.63M (0.00M, Peak 22.11M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.63M (0.00M, Peak 22.11M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.63M (0.00M, Peak 22.11M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:55 Mem:17.48M (0.00M, Peak 22.11M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:55 Mem:20.23M (0.00M, Peak 22.11M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.86M (0.00M, Peak 22.11M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.49M (0.00M, Peak 22.11M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.13M (0.00M, Peak 22.11M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:55 Mem:19.13M (0.00M, Peak 22.11M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:55 Mem:17.52M (0.00M, Peak 22.11M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:55 Mem:15.51M (0.00M, Peak 22.11M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:55 Mem:15.14M (0.00M, Peak 22.11M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:55 Mem:13.36M (0.00M, Peak 22.11M) Sce: 1 Ve:6464 Fa:11567 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_55.tga Time: 00:00.15 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 46378 SEND
+[5  %][32;2m Building dolphin_50.tga[0m
+[22;44m[37m BCH [0m 294557 SEND
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:57 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:57 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:57 Mem:20.48M (0.00M, Peak 21.63M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:57 Mem:19.80M (0.00M, Peak 21.89M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:57 Mem:21.08M (0.00M, Peak 21.89M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:57 Mem:19.09M (0.00M, Peak 22.23M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:57 Mem:19.09M (0.00M, Peak 22.23M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:57 Mem:18.96M (0.00M, Peak 22.23M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:57 Mem:18.96M (0.00M, Peak 22.23M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:57 Mem:18.46M (0.00M, Peak 22.23M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:57 Mem:17.97M (0.00M, Peak 22.23M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:57 Mem:17.61M (0.00M, Peak 22.23M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:57 Mem:17.11M (0.00M, Peak 22.23M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:57 Mem:15.51M (0.00M, Peak 22.23M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:57 Mem:16.66M (0.00M, Peak 22.23M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:57 Mem:16.66M (0.00M, Peak 22.23M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:57 Mem:16.66M (0.00M, Peak 22.23M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:57 Mem:15.14M (0.00M, Peak 22.23M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:57 Mem:13.36M (0.00M, Peak 22.23M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_57.tga Time: 00:00.15 (Saving: 00:00.01)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 45950 SEND
+[5  %][32;2m Building dolphin_49.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:52 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Fra:52 Mem:20.66M (0.00M, Peak 22.61M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:52 Mem:20.66M (0.00M, Peak 22.61M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:52 Mem:19.50M (0.00M, Peak 22.61M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:52 Mem:19.50M (0.00M, Peak 22.61M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.84M (0.00M, Peak 22.61M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:52 Mem:16.24M (0.00M, Peak 22.61M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:52 Mem:19.65M (0.00M, Peak 22.61M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:52 Mem:19.28M (0.00M, Peak 22.61M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.91M (0.00M, Peak 22.61M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.55M (0.00M, Peak 22.61M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.18M (0.00M, Peak 22.61M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:52 Mem:18.18M (0.00M, Peak 22.61M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:52 Mem:15.51M (0.00M, Peak 22.61M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:52 Mem:15.14M (0.00M, Peak 22.61M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:52 Mem:13.36M (0.00M, Peak 22.61M) Sce: 1 Ve:6464 Fa:11575 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_52.tga Time: 00:00.15 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 45635 SEND
+[6  %][32;2m Building dolphin_48.tga[0m
+[22;44m[37m BCH [0m 87 SEND
+[22;44m[37m BCH [0m 13 SEND
+[22;44m[37m BCH [0m 294557 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:58 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11579 La:0
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11579 La:0
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11579 La:0
+[22;104m[97m OUT [0m Fra:58 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11579 La:0
+[22;104m[97m OUT [0m Fra:58 Mem:20.29M (0.00M, Peak 21.26M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:58 Mem:19.88M (0.00M, Peak 21.57M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:58 Mem:20.42M (0.00M, Peak 21.57M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:58 Mem:19.75M (0.00M, Peak 21.57M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:58 Mem:19.09M (0.00M, Peak 21.57M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:58 Mem:17.48M (0.00M, Peak 21.57M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:58 Mem:20.00M (0.00M, Peak 21.57M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:58 Mem:19.64M (0.00M, Peak 21.57M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:58 Mem:19.27M (0.00M, Peak 21.57M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:58 Mem:18.90M (0.00M, Peak 21.57M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:58 Mem:18.90M (0.00M, Peak 21.57M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:58 Mem:17.17M (0.00M, Peak 21.57M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:58 Mem:17.39M (0.00M, Peak 21.57M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:58 Mem:17.03M (0.00M, Peak 21.57M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:58 Mem:16.66M (0.00M, Peak 21.57M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:58 Mem:15.14M (0.00M, Peak 21.57M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:58 Mem:13.36M (0.00M, Peak 21.57M) Sce: 1 Ve:6464 Fa:11579 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_58.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;44m[37m BCH [0m 14 SEND
+[22;44m[37m BCH [0m 44697 SEND
+[6  %][32;2m Building dolphin_47.tga[0m
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Warning: Unable to open '/var/tmp/tmp.kuVS7eMLh3/dolphin.blend': No such file or directory
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;41m[91m ERR [0m [31;1mfile 'dolphin_50.tga' not available (sending to 0)[0m
+[22;44m[37m BCH [0m 5 SEND
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:51 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:51 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Fra:51 Mem:20.54M (0.00M, Peak 22.48M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:51 Mem:20.00M (0.00M, Peak 22.48M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:51 Mem:20.00M (0.00M, Peak 22.48M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:51 Mem:18.84M (0.00M, Peak 22.48M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:51 Mem:18.84M (0.00M, Peak 22.48M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:51 Mem:18.84M (0.00M, Peak 22.48M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:51 Mem:18.84M (0.00M, Peak 22.48M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.72M (0.00M, Peak 22.48M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.36M (0.00M, Peak 22.48M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.36M (0.00M, Peak 22.48M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:51 Mem:16.24M (0.00M, Peak 22.48M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.76M (0.00M, Peak 22.48M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.39M (0.00M, Peak 22.48M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:51 Mem:17.03M (0.00M, Peak 22.48M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:51 Mem:16.66M (0.00M, Peak 22.48M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:51 Mem:15.14M (0.00M, Peak 22.48M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:51 Mem:13.36M (0.00M, Peak 22.48M) Sce: 1 Ve:6464 Fa:11566 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_51.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:49 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11562 La:0
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11562 La:0
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11562 La:0
+[22;104m[97m OUT [0m Fra:49 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11562 La:0
+[22;104m[97m OUT [0m Fra:49 Mem:20.54M (0.00M, Peak 22.48M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:49 Mem:19.88M (0.00M, Peak 22.48M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:49 Mem:19.88M (0.00M, Peak 22.48M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.22M (0.00M, Peak 22.48M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.22M (0.00M, Peak 22.48M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:49 Mem:17.72M (0.00M, Peak 22.48M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:49 Mem:17.72M (0.00M, Peak 22.48M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.88M (0.00M, Peak 22.48M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.88M (0.00M, Peak 22.48M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:49 Mem:17.39M (0.00M, Peak 22.48M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.62M (0.00M, Peak 22.48M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:49 Mem:18.25M (0.00M, Peak 22.48M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:49 Mem:17.88M (0.00M, Peak 22.48M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:49 Mem:17.52M (0.00M, Peak 22.48M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:49 Mem:16.44M (0.00M, Peak 22.48M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:49 Mem:15.14M (0.00M, Peak 22.48M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:49 Mem:13.36M (0.00M, Peak 22.48M) Sce: 1 Ve:6464 Fa:11562 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_49.tga Time: 00:00.14 (Saving: 00:00.01)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:48 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11560 La:0
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11560 La:0
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11560 La:0
+[22;104m[97m OUT [0m Fra:48 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11560 La:0
+[22;104m[97m OUT [0m Fra:48 Mem:19.75M (0.00M, Peak 22.36M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:48 Mem:19.75M (0.00M, Peak 22.36M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:48 Mem:18.10M (0.00M, Peak 22.36M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:48 Mem:17.23M (0.00M, Peak 22.36M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:48 Mem:17.72M (0.00M, Peak 22.36M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:48 Mem:17.36M (0.00M, Peak 22.36M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:48 Mem:16.24M (0.00M, Peak 22.36M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:48 Mem:19.65M (0.00M, Peak 22.36M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:48 Mem:19.28M (0.00M, Peak 22.36M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:48 Mem:18.91M (0.00M, Peak 22.36M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:48 Mem:18.55M (0.00M, Peak 22.36M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:48 Mem:18.18M (0.00M, Peak 22.36M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:48 Mem:18.18M (0.00M, Peak 22.36M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:48 Mem:17.03M (0.00M, Peak 22.36M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:48 Mem:16.66M (0.00M, Peak 22.36M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:48 Mem:15.14M (0.00M, Peak 22.36M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:48 Mem:13.36M (0.00M, Peak 22.36M) Sce: 1 Ve:6464 Fa:11560 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_48.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:47 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11581 La:0
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11581 La:0
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11581 La:0
+[22;104m[97m OUT [0m Fra:47 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11581 La:0
+[22;104m[97m OUT [0m Fra:47 Mem:19.88M (0.00M, Peak 22.26M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:47 Mem:17.23M (0.00M, Peak 22.26M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:47 Mem:16.86M (0.00M, Peak 22.26M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:47 Mem:16.50M (0.00M, Peak 22.26M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:47 Mem:16.50M (0.00M, Peak 22.26M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:47 Mem:17.36M (0.00M, Peak 22.26M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:47 Mem:18.88M (0.00M, Peak 22.26M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:47 Mem:18.88M (0.00M, Peak 22.26M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:47 Mem:16.24M (0.00M, Peak 22.26M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:47 Mem:17.76M (0.00M, Peak 22.26M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:47 Mem:17.39M (0.00M, Peak 22.26M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:47 Mem:18.55M (0.00M, Peak 22.26M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:47 Mem:17.03M (0.00M, Peak 22.26M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:47 Mem:15.87M (0.00M, Peak 22.26M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:47 Mem:15.51M (0.00M, Peak 22.26M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:47 Mem:15.14M (0.00M, Peak 22.26M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:47 Mem:13.36M (0.00M, Peak 22.26M) Sce: 1 Ve:6464 Fa:11581 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_47.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+[22;104m[97m OUT [0m ALSA lib pulse.c:229:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+[22;104m[97m OUT [0m AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Connection refused
+[22;104m[97m OUT [0m found bundled python: /opt/blender-2.72b-linux-glibc211-x86_64/2.72/python
+[22;104m[97m OUT [0m read blend: /var/tmp/tmp.kuVS7eMLh3/dolphin.blend
+[22;104m[97m OUT [0m Fra:59 Mem:7.50M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) | Preparing Scene data
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) | Creating Shadowbuffers
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) | Creating Environment maps
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) | Caching Point Densities
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11584 La:0
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) | Loading voxel datasets
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11584 La:0
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11584 La:0
+[22;104m[97m OUT [0m Fra:59 Mem:8.91M (0.00M, Peak 9.65M) Sce: 1 Ve:6464 Fa:11584 La:0
+[22;104m[97m OUT [0m Fra:59 Mem:20.95M (0.00M, Peak 20.95M) | 1, Part 4-16
+[22;104m[97m OUT [0m Fra:59 Mem:20.29M (0.00M, Peak 22.23M) | 1, Part 3-16
+[22;104m[97m OUT [0m Fra:59 Mem:20.41M (0.00M, Peak 22.23M) | 1, Part 5-16
+[22;104m[97m OUT [0m Fra:59 Mem:18.47M (0.00M, Peak 22.23M) | 1, Part 7-16
+[22;104m[97m OUT [0m Fra:59 Mem:18.47M (0.00M, Peak 22.23M) | 1, Part 8-16
+[22;104m[97m OUT [0m Fra:59 Mem:16.24M (0.00M, Peak 22.23M) | 1, Part 9-16
+[22;104m[97m OUT [0m Fra:59 Mem:18.93M (0.00M, Peak 22.23M) | 1, Part 2-16
+[22;104m[97m OUT [0m Fra:59 Mem:18.56M (0.00M, Peak 22.23M) | 1, Part 6-16
+[22;104m[97m OUT [0m Fra:59 Mem:18.20M (0.00M, Peak 22.23M) | 1, Part 10-16
+[22;104m[97m OUT [0m Fra:59 Mem:17.83M (0.00M, Peak 22.23M) | 1, Part 12-16
+[22;104m[97m OUT [0m Fra:59 Mem:17.46M (0.00M, Peak 22.23M) | 1, Part 14-16
+[22;104m[97m OUT [0m Fra:59 Mem:17.10M (0.00M, Peak 22.23M) | 1, Part 11-16
+[22;104m[97m OUT [0m Fra:59 Mem:16.73M (0.00M, Peak 22.23M) | 1, Part 13-16
+[22;104m[97m OUT [0m Fra:59 Mem:16.36M (0.00M, Peak 22.23M) | 1, Part 16-16
+[22;104m[97m OUT [0m Fra:59 Mem:16.00M (0.00M, Peak 22.23M) | 1, Part 1-16
+[22;104m[97m OUT [0m Fra:59 Mem:15.14M (0.00M, Peak 22.23M) | 1, Part 15-16
+[22;104m[97m OUT [0m Fra:59 Mem:13.36M (0.00M, Peak 22.23M) Sce: 1 Ve:6464 Fa:11584 La:0
+[22;104m[97m OUT [0m Saved: /var/tmp/tmp.kuVS7eMLh3/dolphin_59.tga Time: 00:00.14 (Saving: 00:00.00)
+[22;104m[97m OUT [0m Blender quit
+[22;104m[97m OUT [0m ÿ
+Killed by signal 15.
+Killed by signal 15.

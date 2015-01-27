@@ -1,0 +1,2532 @@
+Construct available workers list...
+[22;44m[37m BCH [0m 1422030990621640583 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422030990633732016 LIST END
+[22;44m[37m BCH [0m 12091433 LIST DURATION
+Starting Benchs...
+Construct available workers list...
+[22;44m[37m BCH [0m 1422030990653984019 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031062136678852 LIST END
+[22;44m[37m BCH [0m 71482694833 LIST DURATION
+Iteration 1 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc312.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031067945234943 DEPL END
+[22;44m[37m BCH [0m 3040213103 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031067949445177 MPIRUN START
+[22;44m[37m BCH [0m 1422031101340492435 MPIRUN END
+[22;44m[37m BCH [0m 33391047258 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031101348346742 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031173766764822 LIST END
+[22;44m[37m BCH [0m 72418418080 LIST DURATION
+Iteration 2 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc220.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031177586748360 DEPL END
+[22;44m[37m BCH [0m 1696900855 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031177593636466 MPIRUN START
+[22;44m[37m BCH [0m 1422031223887982574 MPIRUN END
+[22;44m[37m BCH [0m 46294346108 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031223898086158 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031296233204493 LIST END
+[22;44m[37m BCH [0m 72335118335 LIST DURATION
+Iteration 3 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc204.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031300685349120 DEPL END
+[22;44m[37m BCH [0m 2143014855 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031300692169737 MPIRUN START
+[22;44m[37m BCH [0m 1422031331184060664 MPIRUN END
+[22;44m[37m BCH [0m 30491890927 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031331190470987 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031403361862888 LIST END
+[22;44m[37m BCH [0m 72171391901 LIST DURATION
+Iteration 4 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc232.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031407108688064 DEPL END
+[22;44m[37m BCH [0m 1607946846 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031407114259483 MPIRUN START
+[22;44m[37m BCH [0m 1422031440597528168 MPIRUN END
+[22;44m[37m BCH [0m 33483268685 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031440606319328 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031515170862958 LIST END
+[22;44m[37m BCH [0m 74564543630 LIST DURATION
+Iteration 5 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc313.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031519389350287 DEPL END
+[22;44m[37m BCH [0m 1936147678 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031519395282446 MPIRUN START
+[22;44m[37m BCH [0m 1422031549279401217 MPIRUN END
+[22;44m[37m BCH [0m 29884118771 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031549284590773 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031622386642468 LIST END
+[22;44m[37m BCH [0m 73102051695 LIST DURATION
+Iteration 6 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc302.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031626661042049 DEPL END
+[22;44m[37m BCH [0m 2223618534 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031626668432201 MPIRUN START
+[22;44m[37m BCH [0m 1422031656514344696 MPIRUN END
+[22;44m[37m BCH [0m 29845912495 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031656537085404 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031729250834572 LIST END
+[22;44m[37m BCH [0m 72713749168 LIST DURATION
+Iteration 7 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc316.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031732691306538 DEPL END
+[22;44m[37m BCH [0m 1993542010 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031732696502452 MPIRUN START
+[22;44m[37m BCH [0m 1422031764279553528 MPIRUN END
+[22;44m[37m BCH [0m 31583051076 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031764286059550 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031838038380320 LIST END
+[22;44m[37m BCH [0m 73752320770 LIST DURATION
+Iteration 8 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc200.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031843190426078 DEPL END
+[22;44m[37m BCH [0m 2642932657 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031843197113124 MPIRUN START
+[22;44m[37m BCH [0m 1422031873102521372 MPIRUN END
+[22;44m[37m BCH [0m 29905408248 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031873107681945 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422031950427768181 LIST END
+[22;44m[37m BCH [0m 77320086236 LIST DURATION
+Iteration 9 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc217.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422031954571411203 DEPL END
+[22;44m[37m BCH [0m 2217565914 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422031954578588520 MPIRUN START
+[22;44m[37m BCH [0m 1422031985374615738 MPIRUN END
+[22;44m[37m BCH [0m 30796027218 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422031985381567828 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032059516396967 LIST END
+[22;44m[37m BCH [0m 74134829139 LIST DURATION
+Iteration 10 for blender_2.49 avec 4 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc210.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032063820734501 DEPL END
+[22;44m[37m BCH [0m 2375807383 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032063827928023 MPIRUN START
+[22;44m[37m BCH [0m 1422032100868997054 MPIRUN END
+[22;44m[37m BCH [0m 37041069031 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032100882820375 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032173310223794 LIST END
+[22;44m[37m BCH [0m 72427403419 LIST DURATION
+Iteration 1 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc314.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032177553700715 DEPL END
+[22;44m[37m BCH [0m 2327094623 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032177565483311 MPIRUN START
+[22;44m[37m BCH [0m 1422032261985665095 MPIRUN END
+[22;44m[37m BCH [0m 84420181784 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032261993056088 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032333496261860 LIST END
+[22;44m[37m BCH [0m 71503205772 LIST DURATION
+Iteration 2 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc310.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032337932172133 DEPL END
+[22;44m[37m BCH [0m 2250446390 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032337938885252 MPIRUN START
+[22;44m[37m BCH [0m 1422032421308087812 MPIRUN END
+[22;44m[37m BCH [0m 83369202560 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032421327472120 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032492302501018 LIST END
+[22;44m[37m BCH [0m 70975028898 LIST DURATION
+Iteration 3 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc107.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032496139879990 DEPL END
+[22;44m[37m BCH [0m 1977051586 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032496146577802 MPIRUN START
+[22;44m[37m BCH [0m 1422032580835973802 MPIRUN END
+[22;44m[37m BCH [0m 84689396000 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032580853792036 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032651079268265 LIST END
+[22;44m[37m BCH [0m 70225476229 LIST DURATION
+Iteration 4 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032654268850449 DEPL END
+[22;44m[37m BCH [0m 1766901320 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032654274515281 MPIRUN START
+[22;44m[37m BCH [0m 1422032740405742296 MPIRUN END
+[22;44m[37m BCH [0m 86131227015 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032740415782395 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032810838430121 LIST END
+[22;44m[37m BCH [0m 70422647726 LIST DURATION
+Iteration 5 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc203.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032814350868560 DEPL END
+[22;44m[37m BCH [0m 1623690946 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032814357362796 MPIRUN START
+[22;44m[37m BCH [0m 1422032897322107259 MPIRUN END
+[22;44m[37m BCH [0m 82964744463 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422032897334706811 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422032968548386609 LIST END
+[22;44m[37m BCH [0m 71213679798 LIST DURATION
+Iteration 6 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc151.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422032972097406677 DEPL END
+[22;44m[37m BCH [0m 2098254574 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422032972102758738 MPIRUN START
+[22;44m[37m BCH [0m 1422033061032940500 MPIRUN END
+[22;44m[37m BCH [0m 88930181762 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033061044804006 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033134229364266 LIST END
+[22;44m[37m BCH [0m 73184560260 LIST DURATION
+Iteration 7 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc209.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033138408426802 DEPL END
+[22;44m[37m BCH [0m 1882397409 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033138414762728 MPIRUN START
+[22;44m[37m BCH [0m 1422033219946040572 MPIRUN END
+[22;44m[37m BCH [0m 81531277844 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033219955223799 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033292783063198 LIST END
+[22;44m[37m BCH [0m 72827839399 LIST DURATION
+Iteration 8 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc310.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033296855396568 DEPL END
+[22;44m[37m BCH [0m 2269559517 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033296869684168 MPIRUN START
+[22;44m[37m BCH [0m 1422033377476540313 MPIRUN END
+[22;44m[37m BCH [0m 80606856145 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033377515500269 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033452821744072 LIST END
+[22;44m[37m BCH [0m 75306243803 LIST DURATION
+Iteration 9 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc175.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033458703196534 DEPL END
+[22;44m[37m BCH [0m 2444926631 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033458709266929 MPIRUN START
+[22;44m[37m BCH [0m 1422033540860867192 MPIRUN END
+[22;44m[37m BCH [0m 82151600263 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033540871383859 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033610941321110 LIST END
+[22;44m[37m BCH [0m 70069937251 LIST DURATION
+Iteration 10 for blender_2.49 avec 1 process sur 1 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc145.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033614606791515 DEPL END
+[22;44m[37m BCH [0m 1910890706 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033614613419961 MPIRUN START
+[22;44m[37m BCH [0m 1422033695931317659 MPIRUN END
+[22;44m[37m BCH [0m 81317897698 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033695955178256 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033767714154636 LIST END
+[22;44m[37m BCH [0m 71758976380 LIST DURATION
+Iteration 1 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc148.imag.fr
+ensipc132.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033772916068960 DEPL END
+[22;44m[37m BCH [0m 2772193682 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033772922046071 MPIRUN START
+[22;44m[37m BCH [0m 1422033792215591694 MPIRUN END
+[22;44m[37m BCH [0m 19293545623 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033792243928201 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033863657077925 LIST END
+[22;44m[37m BCH [0m 71413149724 LIST DURATION
+Iteration 2 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc312.imag.fr
+ensipc260.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033869464484619 DEPL END
+[22;44m[37m BCH [0m 2737541215 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033869470337034 MPIRUN START
+[22;44m[37m BCH [0m 1422033890952952075 MPIRUN END
+[22;44m[37m BCH [0m 21482615041 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033890963910233 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422033964408796484 LIST END
+[22;44m[37m BCH [0m 73444886251 LIST DURATION
+Iteration 3 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc107.imag.fr
+ensipc152.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422033968619928259 DEPL END
+[22;44m[37m BCH [0m 2247098670 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422033968626574950 MPIRUN START
+[22;44m[37m BCH [0m 1422033986781183534 MPIRUN END
+[22;44m[37m BCH [0m 18154608584 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422033986787224348 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034057850634658 LIST END
+[22;44m[37m BCH [0m 71063410310 LIST DURATION
+Iteration 4 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc208.imag.fr
+ensipc109.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034062505606815 DEPL END
+[22;44m[37m BCH [0m 2396129091 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034062514903091 MPIRUN START
+[22;44m[37m BCH [0m 1422034083426638532 MPIRUN END
+[22;44m[37m BCH [0m 20911735441 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034083457060895 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034153088960831 LIST END
+[22;44m[37m BCH [0m 69631899936 LIST DURATION
+Iteration 5 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc203.imag.fr
+ensipc336.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034157788814763 DEPL END
+[22;44m[37m BCH [0m 2117639350 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034157849951335 MPIRUN START
+[22;44m[37m BCH [0m 1422034177224308696 MPIRUN END
+[22;44m[37m BCH [0m 19374357361 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034177229820869 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034247462323853 LIST END
+[22;44m[37m BCH [0m 70232502984 LIST DURATION
+Iteration 6 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc319.imag.fr
+ensipc209.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034252621672068 DEPL END
+[22;44m[37m BCH [0m 2864890559 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034252627920698 MPIRUN START
+[22;44m[37m BCH [0m 1422034271747635239 MPIRUN END
+[22;44m[37m BCH [0m 19119714541 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034271755017573 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034343420245107 LIST END
+[22;44m[37m BCH [0m 71665227534 LIST DURATION
+Iteration 7 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+ensipc146.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034346774157379 DEPL END
+[22;44m[37m BCH [0m 1424234340 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034346779045568 MPIRUN START
+[22;44m[37m BCH [0m 1422034364706547220 MPIRUN END
+[22;44m[37m BCH [0m 17927501652 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034364714803179 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034435976327133 LIST END
+[22;44m[37m BCH [0m 71261523954 LIST DURATION
+Iteration 8 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc309.imag.fr
+ensipc116.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034442047300502 DEPL END
+[22;44m[37m BCH [0m 3139987208 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034442052123442 MPIRUN START
+[22;44m[37m BCH [0m 1422034462627756088 MPIRUN END
+[22;44m[37m BCH [0m 20575632646 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034462664512106 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034532066910729 LIST END
+[22;44m[37m BCH [0m 69402398623 LIST DURATION
+Iteration 9 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc204.imag.fr
+ensipc213.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034538791653273 DEPL END
+[22;44m[37m BCH [0m 2774818965 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034538798532345 MPIRUN START
+[22;44m[37m BCH [0m 1422034559435301327 MPIRUN END
+[22;44m[37m BCH [0m 20636768982 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034559444993891 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034633555510288 LIST END
+[22;44m[37m BCH [0m 74110516397 LIST DURATION
+Iteration 10 for blender_2.49 avec 8 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc314.imag.fr
+ensipc229.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034639014117052 DEPL END
+[22;44m[37m BCH [0m 2902552256 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034639020998206 MPIRUN START
+[22;44m[37m BCH [0m 1422034659108892999 MPIRUN END
+[22;44m[37m BCH [0m 20087894793 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034659131441340 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034732372374208 LIST END
+[22;44m[37m BCH [0m 73240932868 LIST DURATION
+Iteration 1 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc140.imag.fr
+ensipc315.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034737070627238 DEPL END
+[22;44m[37m BCH [0m 2548005864 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034737077708958 MPIRUN START
+[22;44m[37m BCH [0m 1422034784856276712 MPIRUN END
+[22;44m[37m BCH [0m 47778567754 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034784868602681 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034860409314419 LIST END
+[22;44m[37m BCH [0m 75540711738 LIST DURATION
+Iteration 2 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc143.imag.fr
+ensipc155.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422034865694087322 DEPL END
+[22;44m[37m BCH [0m 3225612974 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422034865706454964 MPIRUN START
+[22;44m[37m BCH [0m 1422034924890680047 MPIRUN END
+[22;44m[37m BCH [0m 59184225083 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422034924900871185 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422034997691297237 LIST END
+[22;44m[37m BCH [0m 72790426052 LIST DURATION
+Iteration 3 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc109.imag.fr
+ensipc151.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035002248708058 DEPL END
+[22;44m[37m BCH [0m 2454820847 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035002253965161 MPIRUN START
+[22;44m[37m BCH [0m 1422035047279545243 MPIRUN END
+[22;44m[37m BCH [0m 45025580082 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035047285451950 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035118315642384 LIST END
+[22;44m[37m BCH [0m 71030190434 LIST DURATION
+Iteration 4 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc146.imag.fr
+ensipc260.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035123629063467 DEPL END
+[22;44m[37m BCH [0m 2050383404 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035123657781647 MPIRUN START
+[22;44m[37m BCH [0m 1422035170482049965 MPIRUN END
+[22;44m[37m BCH [0m 46824268318 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035170487888950 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035241091020636 LIST END
+[22;44m[37m BCH [0m 70603131686 LIST DURATION
+Iteration 5 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc146.imag.fr
+ensipc163.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035245280922695 DEPL END
+[22;44m[37m BCH [0m 1681663112 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035245284430058 MPIRUN START
+[22;44m[37m BCH [0m 1422035290879876170 MPIRUN END
+[22;44m[37m BCH [0m 45595446112 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035290920303944 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035364041738552 LIST END
+[22;44m[37m BCH [0m 73121434608 LIST DURATION
+Iteration 6 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc309.imag.fr
+ensipc305.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035374065415428 DEPL END
+[22;44m[37m BCH [0m 2358580857 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035374071049296 MPIRUN START
+[22;44m[37m BCH [0m 1422035419010064905 MPIRUN END
+[22;44m[37m BCH [0m 44939015609 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035419022170168 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035490265545181 LIST END
+[22;44m[37m BCH [0m 71243375013 LIST DURATION
+Iteration 7 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc203.imag.fr
+ensipc315.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035495526106706 DEPL END
+[22;44m[37m BCH [0m 2563169134 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035495532149377 MPIRUN START
+[22;44m[37m BCH [0m 1422035547320246657 MPIRUN END
+[22;44m[37m BCH [0m 51788097280 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035547326316544 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035618408978648 LIST END
+[22;44m[37m BCH [0m 71082662104 LIST DURATION
+Iteration 8 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc132.imag.fr
+ensipc217.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035623782485601 DEPL END
+[22;44m[37m BCH [0m 2791033049 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035623788845106 MPIRUN START
+[22;44m[37m BCH [0m 1422035666563289400 MPIRUN END
+[22;44m[37m BCH [0m 42774444294 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035666569374135 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035737209879046 LIST END
+[22;44m[37m BCH [0m 70640504911 LIST DURATION
+Iteration 9 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+ensipc209.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035741189185209 DEPL END
+[22;44m[37m BCH [0m 1830013052 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035741195593314 MPIRUN START
+[22;44m[37m BCH [0m 1422035783975122057 MPIRUN END
+[22;44m[37m BCH [0m 42779528743 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035783985530745 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035854445187273 LIST END
+[22;44m[37m BCH [0m 70459656528 LIST DURATION
+Iteration 10 for blender_2.49 avec 2 process sur 2 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+ensipc209.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035862335828610 DEPL END
+[22;44m[37m BCH [0m 2173788381 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035862341185077 MPIRUN START
+[22;44m[37m BCH [0m 1422035910268614051 MPIRUN END
+[22;44m[37m BCH [0m 47927428974 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422035910287351295 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422035981843988706 LIST END
+[22;44m[37m BCH [0m 71556637411 LIST DURATION
+Iteration 1 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc209.imag.fr
+ensipc305.imag.fr
+ensipc312.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422035987010223724 DEPL END
+[22;44m[37m BCH [0m 2403869769 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422035987016556782 MPIRUN START
+[22;44m[37m BCH [0m 1422036001137742010 MPIRUN END
+[22;44m[37m BCH [0m 14121185228 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036001145048988 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036072342910810 LIST END
+[22;44m[37m BCH [0m 71197861822 LIST DURATION
+Iteration 2 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc313.imag.fr
+ensipc121.imag.fr
+ensipc314.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036077785879892 DEPL END
+[22;44m[37m BCH [0m 2488937356 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036077808412037 MPIRUN START
+[22;44m[37m BCH [0m 1422036127842061581 MPIRUN END
+[22;44m[37m BCH [0m 50033649544 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036127851792848 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036197570539523 LIST END
+[22;44m[37m BCH [0m 69718746675 LIST DURATION
+Iteration 3 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+ensipc260.imag.fr
+ensipc203.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036202667319726 DEPL END
+[22;44m[37m BCH [0m 2454391628 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036202676267516 MPIRUN START
+[22;44m[37m BCH [0m 1422036220256156074 MPIRUN END
+[22;44m[37m BCH [0m 17579888558 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036220262728819 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036291641409851 LIST END
+[22;44m[37m BCH [0m 71378681032 LIST DURATION
+Iteration 4 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc151.imag.fr
+ensipc210.imag.fr
+ensipc312.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036296650426343 DEPL END
+[22;44m[37m BCH [0m 2117870454 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036296656656668 MPIRUN START
+[22;44m[37m BCH [0m 1422036320386681417 MPIRUN END
+[22;44m[37m BCH [0m 23730024749 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036320397471585 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036393582906482 LIST END
+[22;44m[37m BCH [0m 73185434897 LIST DURATION
+Iteration 5 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc152.imag.fr
+ensipc142.imag.fr
+ensipc129.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036399725913914 DEPL END
+[22;44m[37m BCH [0m 2472484526 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036399731953025 MPIRUN START
+[22;44m[37m BCH [0m 1422036421943978227 MPIRUN END
+[22;44m[37m BCH [0m 22212025202 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036421953865860 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036494569502601 LIST END
+[22;44m[37m BCH [0m 72615636741 LIST DURATION
+Iteration 6 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc154.imag.fr
+ensipc111.imag.fr
+ensipc121.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036499121082965 DEPL END
+[22;44m[37m BCH [0m 2475747293 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036499127476845 MPIRUN START
+[22;44m[37m BCH [0m 1422036521409710917 MPIRUN END
+[22;44m[37m BCH [0m 22282234072 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036521419750800 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036591863094711 LIST END
+[22;44m[37m BCH [0m 70443343911 LIST DURATION
+Iteration 7 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc315.imag.fr
+ensipc140.imag.fr
+ensipc209.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036596803019864 DEPL END
+[22;44m[37m BCH [0m 2635554945 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036596809635277 MPIRUN START
+[22;44m[37m BCH [0m 1422036612710733194 MPIRUN END
+[22;44m[37m BCH [0m 15901097917 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036612717153184 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422036683689734893 LIST END
+[22;44m[37m BCH [0m 70972581709 LIST DURATION
+Iteration 8 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc150.imag.fr
+ensipc310.imag.fr
+ensipc200.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422036688102155163 DEPL END
+[22;44m[37m BCH [0m 2427107739 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422036688111780095 MPIRUN START
+[22;44m[37m BCH [0m 1422036738128871326 MPIRUN END
+[22;44m[37m BCH [0m 50017091231 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422036738135979183 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038120108074229 LIST END
+[22;44m[37m BCH [0m 1381972095046 LIST DURATION
+Iteration 9 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc110.imag.fr
+ensipc305.imag.fr
+ensipc179.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038125580925953 DEPL END
+[22;44m[37m BCH [0m 3110225205 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038125587141906 MPIRUN START
+[22;44m[37m BCH [0m 1422038152758574563 MPIRUN END
+[22;44m[37m BCH [0m 27171432657 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038152770327541 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038224451501388 LIST END
+[22;44m[37m BCH [0m 71681173847 LIST DURATION
+Iteration 10 for blender_2.49 avec 12 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc316.imag.fr
+ensipc200.imag.fr
+ensipc158.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038229026972571 DEPL END
+[22;44m[37m BCH [0m 2575691609 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038229033268785 MPIRUN START
+[22;44m[37m BCH [0m 1422038247700710843 MPIRUN END
+[22;44m[37m BCH [0m 18667442058 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038247714588988 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038320601020933 LIST END
+[22;44m[37m BCH [0m 72886431945 LIST DURATION
+Iteration 1 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc154.imag.fr
+ensipc181.imag.fr
+ensipc164.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038325237227654 DEPL END
+[22;44m[37m BCH [0m 2445688207 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038325243366331 MPIRUN START
+[22;44m[37m BCH [0m 1422038358088234178 MPIRUN END
+[22;44m[37m BCH [0m 32844867847 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038358095774967 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038428821364602 LIST END
+[22;44m[37m BCH [0m 70725589635 LIST DURATION
+Iteration 2 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc80.imag.fr
+ensipc79.imag.fr
+ensipc125.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038434095474984 DEPL END
+[22;44m[37m BCH [0m 2582862560 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038434102283680 MPIRUN START
+[22;44m[37m BCH [0m 1422038481384373872 MPIRUN END
+[22;44m[37m BCH [0m 47282090192 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038481394528482 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038553426338838 LIST END
+[22;44m[37m BCH [0m 72031810356 LIST DURATION
+Iteration 3 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc329.imag.fr
+ensipc316.imag.fr
+ensipc158.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038559396098393 DEPL END
+[22;44m[37m BCH [0m 3146019192 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038559402745274 MPIRUN START
+[22;44m[37m BCH [0m 1422038595953475793 MPIRUN END
+[22;44m[37m BCH [0m 36550730519 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038595963846479 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038667936594724 LIST END
+[22;44m[37m BCH [0m 71972748245 LIST DURATION
+Iteration 4 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc162.imag.fr
+ensipc140.imag.fr
+ensipc125.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038672748742751 DEPL END
+[22;44m[37m BCH [0m 2409251490 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038672755376544 MPIRUN START
+[22;44m[37m BCH [0m 1422038706735390203 MPIRUN END
+[22;44m[37m BCH [0m 33980013659 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038706740712948 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422038778409793444 LIST END
+[22;44m[37m BCH [0m 71669080496 LIST DURATION
+Iteration 5 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc156.imag.fr
+ensipc111.imag.fr
+ensipc200.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422038782787036116 DEPL END
+[22;44m[37m BCH [0m 2144678690 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422038782793564363 MPIRUN START
+[22;44m[37m BCH [0m 1422038982811435772 MPIRUN END
+[22;44m[37m BCH [0m 200017871409 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422038982816053368 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039054025944185 LIST END
+[22;44m[37m BCH [0m 71209890817 LIST DURATION
+Iteration 6 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc123.imag.fr
+ensipc131.imag.fr
+ensipc312.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039057861673665 DEPL END
+[22;44m[37m BCH [0m 1944402188 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039057867427049 MPIRUN START
+[22;44m[37m BCH [0m 1422039093045803506 MPIRUN END
+[22;44m[37m BCH [0m 35178376457 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039093055478484 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039165713814838 LIST END
+[22;44m[37m BCH [0m 72658336354 LIST DURATION
+Iteration 7 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc162.imag.fr
+ensipc145.imag.fr
+ensipc149.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039170439214293 DEPL END
+[22;44m[37m BCH [0m 2375868637 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039170443416582 MPIRUN START
+[22;44m[37m BCH [0m 1422039203294735123 MPIRUN END
+[22;44m[37m BCH [0m 32851318541 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039203302996666 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039275646157560 LIST END
+[22;44m[37m BCH [0m 72343160894 LIST DURATION
+Iteration 8 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc316.imag.fr
+ensipc20.imag.fr
+ensipc158.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039280845674904 DEPL END
+[22;44m[37m BCH [0m 2555618742 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039280852001800 MPIRUN START
+[22;44m[37m BCH [0m 1422039480879098566 MPIRUN END
+[22;44m[37m BCH [0m 200027096766 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039480885112598 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039553567223586 LIST END
+[22;44m[37m BCH [0m 72682110988 LIST DURATION
+Iteration 9 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc155.imag.fr
+ensipc153.imag.fr
+ensipc151.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039557900226671 DEPL END
+[22;44m[37m BCH [0m 2349948836 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039557905787503 MPIRUN START
+[22;44m[37m BCH [0m 1422039590523330573 MPIRUN END
+[22;44m[37m BCH [0m 32617543070 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039590534917837 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039662539168168 LIST END
+[22;44m[37m BCH [0m 72004250331 LIST DURATION
+Iteration 10 for blender_2.49 avec 3 process sur 3 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc111.imag.fr
+ensipc218.imag.fr
+ensipc313.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039666173485677 DEPL END
+[22;44m[37m BCH [0m 2016885938 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039666178718690 MPIRUN START
+[22;44m[37m BCH [0m 1422039866196039938 MPIRUN END
+[22;44m[37m BCH [0m 200017321248 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039866229479278 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422039937740081804 LIST END
+[22;44m[37m BCH [0m 71510602526 LIST DURATION
+Iteration 1 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc306.imag.fr
+ensipc145.imag.fr
+ensipc131.imag.fr
+ensipc107.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422039944069275050 DEPL END
+[22;44m[37m BCH [0m 3553078923 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422039944074969033 MPIRUN START
+[22;44m[37m BCH [0m 1422039958617381181 MPIRUN END
+[22;44m[37m BCH [0m 14542412148 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422039958622606071 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040028215955032 LIST END
+[22;44m[37m BCH [0m 69593348961 LIST DURATION
+Iteration 2 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc162.imag.fr
+ensipc309.imag.fr
+ensipc169.imag.fr
+ensipc312.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040033251687187 DEPL END
+[22;44m[37m BCH [0m 2570725651 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040033258482986 MPIRUN START
+[22;44m[37m BCH [0m 1422040055719258862 MPIRUN END
+[22;44m[37m BCH [0m 22460775876 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040055726376708 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040126557464839 LIST END
+[22;44m[37m BCH [0m 70831088131 LIST DURATION
+Iteration 3 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc123.imag.fr
+ensipc153.imag.fr
+ensipc151.imag.fr
+ensipc313.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040131128255716 DEPL END
+[22;44m[37m BCH [0m 2432900082 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040131134612239 MPIRUN START
+[22;44m[37m BCH [0m 1422040150118425505 MPIRUN END
+[22;44m[37m BCH [0m 18983813266 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040150126368339 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040221946849445 LIST END
+[22;44m[37m BCH [0m 71820481106 LIST DURATION
+Iteration 4 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc149.imag.fr
+ensipc148.imag.fr
+ensipc160.imag.fr
+ensipc127.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040227092282771 DEPL END
+[22;44m[37m BCH [0m 2519170469 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040227098597721 MPIRUN START
+[22;44m[37m BCH [0m 1422040244240068855 MPIRUN END
+[22;44m[37m BCH [0m 17141471134 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040244248727137 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040315451506684 LIST END
+[22;44m[37m BCH [0m 71202779547 LIST DURATION
+Iteration 5 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc200.imag.fr
+ensipc217.imag.fr
+ensipc157.imag.fr
+ensipc102.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040321081265401 DEPL END
+[22;44m[37m BCH [0m 2886063158 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040321088566441 MPIRUN START
+[22;44m[37m BCH [0m 1422040339710138609 MPIRUN END
+[22;44m[37m BCH [0m 18621572168 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040339716169479 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040412697317711 LIST END
+[22;44m[37m BCH [0m 72981148232 LIST DURATION
+Iteration 6 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc207.imag.fr
+ensipc175.imag.fr
+ensipc117.imag.fr
+ensipc133.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040417286992256 DEPL END
+[22;44m[37m BCH [0m 2404560565 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040417293017971 MPIRUN START
+[22;44m[37m BCH [0m 1422040433694066528 MPIRUN END
+[22;44m[37m BCH [0m 16401048557 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040433700376161 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040505393074196 LIST END
+[22;44m[37m BCH [0m 71692698035 LIST DURATION
+Iteration 7 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc211.imag.fr
+ensipc132.imag.fr
+ensipc222.imag.fr
+ensipc308.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040508818585718 DEPL END
+[22;44m[37m BCH [0m 1643775636 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040508822431374 MPIRUN START
+[22;44m[37m BCH [0m 1422040544837137864 MPIRUN END
+[22;44m[37m BCH [0m 36014706490 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040544841785050 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040615889696778 LIST END
+[22;44m[37m BCH [0m 71047911728 LIST DURATION
+Iteration 8 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc65.imag.fr
+ensipc217.imag.fr
+ensipc123.imag.fr
+ensipc131.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040621347884480 DEPL END
+[22;44m[37m BCH [0m 2758268826 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040621353078218 MPIRUN START
+[22;44m[37m BCH [0m 1422040625573683021 MPIRUN END
+[22;44m[37m BCH [0m 4220604803 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040625584797605 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040697565353594 LIST END
+[22;44m[37m BCH [0m 71980555989 LIST DURATION
+Iteration 9 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc214.imag.fr
+ensipc168.imag.fr
+ensipc79.imag.fr
+ensipc139.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040703021344803 DEPL END
+[22;44m[37m BCH [0m 2599010294 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040703026964008 MPIRUN START
+[22;44m[37m BCH [0m 1422040724533564463 MPIRUN END
+[22;44m[37m BCH [0m 21506600455 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040724542901027 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040797174574763 LIST END
+[22;44m[37m BCH [0m 72631673736 LIST DURATION
+Iteration 10 for blender_2.49 avec 16 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc166.imag.fr
+ensipc178.imag.fr
+ensipc180.imag.fr
+ensipc164.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040802793388687 DEPL END
+[22;44m[37m BCH [0m 2825276479 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040802800889406 MPIRUN START
+[22;44m[37m BCH [0m 1422040821604415700 MPIRUN END
+[22;44m[37m BCH [0m 18803526294 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040821611532872 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422040892292933465 LIST END
+[22;44m[37m BCH [0m 70681400593 LIST DURATION
+Iteration 1 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc176.imag.fr
+ensipc312.imag.fr
+ensipc117.imag.fr
+ensipc118.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422040897427552263 DEPL END
+[22;44m[37m BCH [0m 2614883205 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422040897433447339 MPIRUN START
+[22;44m[37m BCH [0m 1422040932806172781 MPIRUN END
+[22;44m[37m BCH [0m 35372725442 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422040932812310279 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041004577619564 LIST END
+[22;44m[37m BCH [0m 71765309285 LIST DURATION
+Iteration 2 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc105.imag.fr
+ensipc220.imag.fr
+ensipc64.imag.fr
+ensipc80.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041011341607861 DEPL END
+[22;44m[37m BCH [0m 3072719902 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041011348123854 MPIRUN START
+[22;44m[37m BCH [0m 1422041046619204556 MPIRUN END
+[22;44m[37m BCH [0m 35271080702 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041046625434761 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041116805758140 LIST END
+[22;44m[37m BCH [0m 70180323379 LIST DURATION
+Iteration 3 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc70.imag.fr
+ensipc105.imag.fr
+ensipc125.imag.fr
+ensipc104.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041122572957992 DEPL END
+[22;44m[37m BCH [0m 2628865785 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041122578914181 MPIRUN START
+[22;44m[37m BCH [0m 1422041154052174932 MPIRUN END
+[22;44m[37m BCH [0m 31473260751 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041154060877505 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041226212994904 LIST END
+[22;44m[37m BCH [0m 72152117399 LIST DURATION
+Iteration 4 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc77.imag.fr
+ensipc156.imag.fr
+ensipc118.imag.fr
+ensipc151.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041231771841002 DEPL END
+[22;44m[37m BCH [0m 2692631659 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041231777409088 MPIRUN START
+[22;44m[37m BCH [0m 1422041261768168075 MPIRUN END
+[22;44m[37m BCH [0m 29990758987 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041261774604474 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041332315277714 LIST END
+[22;44m[37m BCH [0m 70540673240 LIST DURATION
+Iteration 5 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc158.imag.fr
+ensipc175.imag.fr
+ensipc66.imag.fr
+ensipc116.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041337443623200 DEPL END
+[22;44m[37m BCH [0m 2407853941 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041337449574132 MPIRUN START
+[22;44m[37m BCH [0m 1422041378796053290 MPIRUN END
+[22;44m[37m BCH [0m 41346479158 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041378801438095 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041449571910568 LIST END
+[22;44m[37m BCH [0m 70770472473 LIST DURATION
+Iteration 6 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc158.imag.fr
+ensipc175.imag.fr
+ensipc66.imag.fr
+ensipc117.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041453682590434 DEPL END
+[22;44m[37m BCH [0m 1994407309 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041453686229059 MPIRUN START
+[22;44m[37m BCH [0m 1422041490686005093 MPIRUN END
+[22;44m[37m BCH [0m 36999776034 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041490693097947 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041562033984501 LIST END
+[22;44m[37m BCH [0m 71340886554 LIST DURATION
+Iteration 7 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc166.imag.fr
+ensipc175.imag.fr
+ensipc168.imag.fr
+ensipc149.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041566687686578 DEPL END
+[22;44m[37m BCH [0m 2109875866 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041566692034607 MPIRUN START
+[22;44m[37m BCH [0m 1422041599894270378 MPIRUN END
+[22;44m[37m BCH [0m 33202235771 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041599904231087 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041672569281011 LIST END
+[22;44m[37m BCH [0m 72665049924 LIST DURATION
+Iteration 8 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc103.imag.fr
+ensipc305.imag.fr
+ensipc312.imag.fr
+ensipc333.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041676950058562 DEPL END
+[22;44m[37m BCH [0m 2040757563 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041676952947103 MPIRUN START
+[22;44m[37m BCH [0m 1422041703655111072 MPIRUN END
+[22;44m[37m BCH [0m 26702163969 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041703660672817 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041776140319486 LIST END
+[22;44m[37m BCH [0m 72479646669 LIST DURATION
+Iteration 9 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc110.imag.fr
+ensipc140.imag.fr
+ensipc118.imag.fr
+ensipc112.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041781441171990 DEPL END
+[22;44m[37m BCH [0m 2690328235 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041781453844537 MPIRUN START
+[22;44m[37m BCH [0m 1422041815908257344 MPIRUN END
+[22;44m[37m BCH [0m 34454412807 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041815914452662 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041884614062742 LIST END
+[22;44m[37m BCH [0m 68699610080 LIST DURATION
+Iteration 10 for blender_2.49 avec 4 process sur 4 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc151.imag.fr
+ensipc168.imag.fr
+ensipc163.imag.fr
+ensipc145.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041889319425791 DEPL END
+[22;44m[37m BCH [0m 2399288187 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041889324875958 MPIRUN START
+[22;44m[37m BCH [0m 1422041916359481427 MPIRUN END
+[22;44m[37m BCH [0m 27034605469 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422041916375300688 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422041986382652605 LIST END
+[22;44m[37m BCH [0m 70007351917 LIST DURATION
+Iteration 1 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc163.imag.fr
+ensipc104.imag.fr
+ensipc145.imag.fr
+ensipc166.imag.fr
+ensipc316.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422041992264795509 DEPL END
+[22;44m[37m BCH [0m 3159540286 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422041992270347258 MPIRUN START
+[22;44m[37m BCH [0m 1422042022291451144 MPIRUN END
+[22;44m[37m BCH [0m 30021103886 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042022296169428 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042091793076708 LIST END
+[22;44m[37m BCH [0m 69496907280 LIST DURATION
+Iteration 2 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc311.imag.fr
+ensipc168.imag.fr
+ensipc154.imag.fr
+ensipc147.imag.fr
+ensipc104.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042098864997287 DEPL END
+[22;44m[37m BCH [0m 2985117046 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042098871005940 MPIRUN START
+[22;44m[37m BCH [0m 1422042113414739041 MPIRUN END
+[22;44m[37m BCH [0m 14543733101 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042113420332880 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042184254780943 LIST END
+[22;44m[37m BCH [0m 70834448063 LIST DURATION
+Iteration 3 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc166.imag.fr
+ensipc110.imag.fr
+ensipc144.imag.fr
+ensipc160.imag.fr
+ensipc148.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042189764956103 DEPL END
+[22;44m[37m BCH [0m 2826614391 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042189770842334 MPIRUN START
+[22;44m[37m BCH [0m 1422042204246420791 MPIRUN END
+[22;44m[37m BCH [0m 14475578457 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042204254203183 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042273954095734 LIST END
+[22;44m[37m BCH [0m 69699892551 LIST DURATION
+Iteration 4 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc104.imag.fr
+ensipc166.imag.fr
+ensipc118.imag.fr
+ensipc150.imag.fr
+ensipc110.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042279365459988 DEPL END
+[22;44m[37m BCH [0m 2473418518 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042279371232629 MPIRUN START
+[22;44m[37m BCH [0m 1422042293630514374 MPIRUN END
+[22;44m[37m BCH [0m 14259281745 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042293636165840 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042364079307649 LIST END
+[22;44m[37m BCH [0m 70443141809 LIST DURATION
+Iteration 5 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc104.imag.fr
+ensipc168.imag.fr
+ensipc333.imag.fr
+ensipc117.imag.fr
+ensipc142.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042369316501938 DEPL END
+[22;44m[37m BCH [0m 2743118669 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042369322476067 MPIRUN START
+[22;44m[37m BCH [0m 1422042399341930181 MPIRUN END
+[22;44m[37m BCH [0m 30019454114 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042399353038516 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042470602757307 LIST END
+[22;44m[37m BCH [0m 71249718791 LIST DURATION
+Iteration 6 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc121.imag.fr
+ensipc105.imag.fr
+ensipc104.imag.fr
+ensipc305.imag.fr
+ensipc179.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042475289763516 DEPL END
+[22;44m[37m BCH [0m 2360098352 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042475295023840 MPIRUN START
+[22;44m[37m BCH [0m 1422042491671098922 MPIRUN END
+[22;44m[37m BCH [0m 16376075082 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042491677282853 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042562243175042 LIST END
+[22;44m[37m BCH [0m 70565892189 LIST DURATION
+Iteration 7 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc105.imag.fr
+ensipc117.imag.fr
+ensipc144.imag.fr
+ensipc171.imag.fr
+ensipc158.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042567336431329 DEPL END
+[22;44m[37m BCH [0m 2535598043 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042567342973100 MPIRUN START
+[22;44m[37m BCH [0m 1422042585797433070 MPIRUN END
+[22;44m[37m BCH [0m 18454459970 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042585806096045 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042656139336626 LIST END
+[22;44m[37m BCH [0m 70333240581 LIST DURATION
+Iteration 8 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc106.imag.fr
+ensipc168.imag.fr
+ensipc141.imag.fr
+ensipc175.imag.fr
+ensipc150.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042661465290507 DEPL END
+[22;44m[37m BCH [0m 2805059978 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042661470978749 MPIRUN START
+[22;44m[37m BCH [0m 1422042674659161811 MPIRUN END
+[22;44m[37m BCH [0m 13188183062 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042674669353564 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042745864025088 LIST END
+[22;44m[37m BCH [0m 71194671524 LIST DURATION
+Iteration 9 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc333.imag.fr
+ensipc114.imag.fr
+ensipc180.imag.fr
+ensipc305.imag.fr
+ensipc169.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042750633588302 DEPL END
+[22;44m[37m BCH [0m 2630033443 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042750639496450 MPIRUN START
+[22;44m[37m BCH [0m 1422042769553666851 MPIRUN END
+[22;44m[37m BCH [0m 18914170401 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042769572826518 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042839492209861 LIST END
+[22;44m[37m BCH [0m 69919383343 LIST DURATION
+Iteration 10 for blender_2.49 avec 20 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc305.imag.fr
+ensipc179.imag.fr
+ensipc322.imag.fr
+ensipc163.imag.fr
+ensipc167.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042843275602744 DEPL END
+[22;44m[37m BCH [0m 1501110347 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042843279204297 MPIRUN START
+[22;44m[37m BCH [0m 1422042873292559737 MPIRUN END
+[22;44m[37m BCH [0m 30013355440 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042873301492389 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422042943140716797 LIST END
+[22;44m[37m BCH [0m 69839224408 LIST DURATION
+Iteration 1 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc180.imag.fr
+ensipc105.imag.fr
+ensipc159.imag.fr
+ensipc126.imag.fr
+ensipc169.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422042948248033346 DEPL END
+[22;44m[37m BCH [0m 2455610296 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422042948254124144 MPIRUN START
+[22;44m[37m BCH [0m 1422042977790194251 MPIRUN END
+[22;44m[37m BCH [0m 29536070107 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422042977798932880 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043047570951206 LIST END
+[22;44m[37m BCH [0m 69772018326 LIST DURATION
+Iteration 2 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc105.imag.fr
+ensipc104.imag.fr
+ensipc158.imag.fr
+ensipc110.imag.fr
+ensipc311.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043053098604023 DEPL END
+[22;44m[37m BCH [0m 2737619049 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043053103799352 MPIRUN START
+[22;44m[37m BCH [0m 1422043173127852256 MPIRUN END
+[22;44m[37m BCH [0m 120024052904 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043173132100752 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043243525744574 LIST END
+[22;44m[37m BCH [0m 70393643822 LIST DURATION
+Iteration 3 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc174.imag.fr
+ensipc128.imag.fr
+ensipc149.imag.fr
+ensipc145.imag.fr
+ensipc168.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043247111967104 DEPL END
+[22;44m[37m BCH [0m 2012249779 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043247116516906 MPIRUN START
+[22;44m[37m BCH [0m 1422043278512639233 MPIRUN END
+[22;44m[37m BCH [0m 31396122327 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043278519130627 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043347717416817 LIST END
+[22;44m[37m BCH [0m 69198286190 LIST DURATION
+Iteration 4 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc322.imag.fr
+ensipc142.imag.fr
+ensipc169.imag.fr
+ensipc126.imag.fr
+ensipc162.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043353038170654 DEPL END
+[22;44m[37m BCH [0m 2644889893 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043353043561745 MPIRUN START
+[22;44m[37m BCH [0m 1422043382420463389 MPIRUN END
+[22;44m[37m BCH [0m 29376901644 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043382427394450 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043452133446417 LIST END
+[22;44m[37m BCH [0m 69706051967 LIST DURATION
+Iteration 5 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc102.imag.fr
+ensipc131.imag.fr
+ensipc133.imag.fr
+ensipc217.imag.fr
+ensipc308.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043457580095723 DEPL END
+[22;44m[37m BCH [0m 2814769339 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043457586849726 MPIRUN START
+[22;44m[37m BCH [0m 1422043577609446422 MPIRUN END
+[22;44m[37m BCH [0m 120022596696 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043577617250092 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043647354184810 LIST END
+[22;44m[37m BCH [0m 69736934718 LIST DURATION
+Iteration 6 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc162.imag.fr
+ensipc120.imag.fr
+ensipc126.imag.fr
+ensipc145.imag.fr
+ensipc128.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043652759053784 DEPL END
+[22;44m[37m BCH [0m 2818825428 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043652764414934 MPIRUN START
+[22;44m[37m BCH [0m 1422043682827218654 MPIRUN END
+[22;44m[37m BCH [0m 30062803720 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043682832582360 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043751265520213 LIST END
+[22;44m[37m BCH [0m 68432937853 LIST DURATION
+Iteration 7 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc178.imag.fr
+ensipc134.imag.fr
+ensipc322.imag.fr
+ensipc152.imag.fr
+ensipc149.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043756807299230 DEPL END
+[22;44m[37m BCH [0m 2878400577 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043756813008975 MPIRUN START
+[22;44m[37m BCH [0m 1422043876831635088 MPIRUN END
+[22;44m[37m BCH [0m 120018626113 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043876836398063 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422043944585825690 LIST END
+[22;44m[37m BCH [0m 67749427627 LIST DURATION
+Iteration 8 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc180.imag.fr
+ensipc169.imag.fr
+ensipc102.imag.fr
+ensipc125.imag.fr
+ensipc162.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422043948310440777 DEPL END
+[22;44m[37m BCH [0m 2251587657 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422043948314962971 MPIRUN START
+[22;44m[37m BCH [0m 1422043977000770992 MPIRUN END
+[22;44m[37m BCH [0m 28685808021 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422043977009712183 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044045113595777 LIST END
+[22;44m[37m BCH [0m 68103883594 LIST DURATION
+Iteration 9 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc131.imag.fr
+ensipc164.imag.fr
+ensipc160.imag.fr
+ensipc175.imag.fr
+ensipc220.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044049083351782 DEPL END
+[22;44m[37m BCH [0m 1791007828 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044049086729683 MPIRUN START
+[22;44m[37m BCH [0m 1422044075998664976 MPIRUN END
+[22;44m[37m BCH [0m 26911935293 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044076019530212 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044144316765924 LIST END
+[22;44m[37m BCH [0m 68297235712 LIST DURATION
+Iteration 10 for blender_2.49 avec 5 process sur 5 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc112.imag.fr
+ensipc127.imag.fr
+ensipc120.imag.fr
+ensipc176.imag.fr
+ensipc133.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044148578716345 DEPL END
+[22;44m[37m BCH [0m 1871156862 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044148582141864 MPIRUN START
+[22;44m[37m BCH [0m 1422044179654391906 MPIRUN END
+[22;44m[37m BCH [0m 31072250042 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044179668764496 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044249271633741 LIST END
+[22;44m[37m BCH [0m 69602869245 LIST DURATION
+Iteration 1 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc181.imag.fr
+ensipc166.imag.fr
+ensipc123.imag.fr
+ensipc151.imag.fr
+ensipc200.imag.fr
+ensipc148.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044254019494639 DEPL END
+[22;44m[37m BCH [0m 2516306820 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044254022982512 MPIRUN START
+[22;44m[37m BCH [0m 1422044278055788165 MPIRUN END
+[22;44m[37m BCH [0m 24032805653 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044278063927177 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044346736149748 LIST END
+[22;44m[37m BCH [0m 68672222571 LIST DURATION
+Iteration 2 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc118.imag.fr
+ensipc178.imag.fr
+ensipc163.imag.fr
+ensipc154.imag.fr
+ensipc143.imag.fr
+ensipc171.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044350478955370 DEPL END
+[22;44m[37m BCH [0m 1772513715 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044350483838220 MPIRUN START
+[22;44m[37m BCH [0m 1422044365682289632 MPIRUN END
+[22;44m[37m BCH [0m 15198451412 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044365687505057 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044434623397531 LIST END
+[22;44m[37m BCH [0m 68935892474 LIST DURATION
+Iteration 3 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc149.imag.fr
+ensipc132.imag.fr
+ensipc157.imag.fr
+ensipc139.imag.fr
+ensipc178.imag.fr
+ensipc147.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044440542490826 DEPL END
+[22;44m[37m BCH [0m 2676490928 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044440548014593 MPIRUN START
+[22;44m[37m BCH [0m 1422044455979804241 MPIRUN END
+[22;44m[37m BCH [0m 15431789648 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044455990301360 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044524044544205 LIST END
+[22;44m[37m BCH [0m 68054242845 LIST DURATION
+Iteration 4 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc64.imag.fr
+ensipc65.imag.fr
+ensipc308.imag.fr
+ensipc72.imag.fr
+ensipc153.imag.fr
+ensipc211.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044529237029142 DEPL END
+[22;44m[37m BCH [0m 2604726606 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044529240669393 MPIRUN START
+[22;44m[37m BCH [0m 1422044553269489903 MPIRUN END
+[22;44m[37m BCH [0m 24028820510 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044553286245741 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044621953529723 LIST END
+[22;44m[37m BCH [0m 68667283982 LIST DURATION
+Iteration 5 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc70.imag.fr
+ensipc77.imag.fr
+ensipc80.imag.fr
+ensipc214.imag.fr
+ensipc217.imag.fr
+ensipc213.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044627821355485 DEPL END
+[22;44m[37m BCH [0m 2377438696 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044627832419866 MPIRUN START
+[22;44m[37m BCH [0m 1422044651868785109 MPIRUN END
+[22;44m[37m BCH [0m 24036365243 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044651895943219 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044720955555645 LIST END
+[22;44m[37m BCH [0m 69059612426 LIST DURATION
+Iteration 6 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc222.imag.fr
+ensipc105.imag.fr
+ensipc79.imag.fr
+ensipc168.imag.fr
+ensipc163.imag.fr
+ensipc175.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044726072430154 DEPL END
+[22;44m[37m BCH [0m 2534871365 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044726078332754 MPIRUN START
+[22;44m[37m BCH [0m 1422044744445828562 MPIRUN END
+[22;44m[37m BCH [0m 18367495808 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044744470799300 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044813478418504 LIST END
+[22;44m[37m BCH [0m 69007619204 LIST DURATION
+Iteration 7 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc111.imag.fr
+ensipc104.imag.fr
+ensipc127.imag.fr
+ensipc139.imag.fr
+ensipc147.imag.fr
+ensipc207.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044817154001453 DEPL END
+[22;44m[37m BCH [0m 2043133378 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044817158590801 MPIRUN START
+[22;44m[37m BCH [0m 1422044828149423457 MPIRUN END
+[22;44m[37m BCH [0m 10990832656 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044828160191338 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044897179450957 LIST END
+[22;44m[37m BCH [0m 69019259619 LIST DURATION
+Iteration 8 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc120.imag.fr
+ensipc328.imag.fr
+ensipc118.imag.fr
+ensipc105.imag.fr
+ensipc161.imag.fr
+ensipc139.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044901326374438 DEPL END
+[22;44m[37m BCH [0m 1796920865 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044901332410420 MPIRUN START
+[22;44m[37m BCH [0m 1422044916278360581 MPIRUN END
+[22;44m[37m BCH [0m 14945950161 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422044916308885040 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422044985397850487 LIST END
+[22;44m[37m BCH [0m 69088965447 LIST DURATION
+Iteration 9 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc322.imag.fr
+ensipc163.imag.fr
+ensipc42.imag.fr
+ensipc142.imag.fr
+ensipc101.imag.fr
+ensipc311.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422044991739566414 DEPL END
+[22;44m[37m BCH [0m 3251280256 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422044991746472214 MPIRUN START
+[22;44m[37m BCH [0m 1422045015767788478 MPIRUN END
+[22;44m[37m BCH [0m 24021316264 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045015781318478 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045085612478918 LIST END
+[22;44m[37m BCH [0m 69831160440 LIST DURATION
+Iteration 10 for blender_2.49 avec 24 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc146.imag.fr
+ensipc173.imag.fr
+ensipc160.imag.fr
+ensipc127.imag.fr
+ensipc142.imag.fr
+ensipc161.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045091520587457 DEPL END
+[22;44m[37m BCH [0m 3133608289 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045091525139513 MPIRUN START
+[22;44m[37m BCH [0m 1422045107866866120 MPIRUN END
+[22;44m[37m BCH [0m 16341726607 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045107890975950 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045176266403183 LIST END
+[22;44m[37m BCH [0m 68375427233 LIST DURATION
+Iteration 1 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc156.imag.fr
+ensipc105.imag.fr
+ensipc168.imag.fr
+ensipc125.imag.fr
+ensipc139.imag.fr
+ensipc322.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045181433368686 DEPL END
+[22;44m[37m BCH [0m 2542702433 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045181440579199 MPIRUN START
+[22;44m[37m BCH [0m 1422045281458614108 MPIRUN END
+[22;44m[37m BCH [0m 100018034909 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045281463691653 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045351649646644 LIST END
+[22;44m[37m BCH [0m 70185954991 LIST DURATION
+Iteration 2 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc120.imag.fr
+ensipc70.imag.fr
+ensipc167.imag.fr
+ensipc128.imag.fr
+ensipc141.imag.fr
+ensipc152.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045357303771670 DEPL END
+[22;44m[37m BCH [0m 2781133057 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045357309688946 MPIRUN START
+[22;44m[37m BCH [0m 1422045380429678955 MPIRUN END
+[22;44m[37m BCH [0m 23119990009 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045380441368909 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045450230609680 LIST END
+[22;44m[37m BCH [0m 69789240771 LIST DURATION
+Iteration 3 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc166.imag.fr
+ensipc125.imag.fr
+ensipc138.imag.fr
+ensipc136.imag.fr
+ensipc106.imag.fr
+ensipc64.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045455941470391 DEPL END
+[22;44m[37m BCH [0m 3090192153 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045455947189235 MPIRUN START
+[22;44m[37m BCH [0m 1422045478943255311 MPIRUN END
+[22;44m[37m BCH [0m 22996066076 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045478951113180 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045547655280934 LIST END
+[22;44m[37m BCH [0m 68704167754 LIST DURATION
+Iteration 4 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc214.imag.fr
+ensipc126.imag.fr
+ensipc149.imag.fr
+ensipc139.imag.fr
+ensipc327.imag.fr
+ensipc155.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045552658017713 DEPL END
+[22;44m[37m BCH [0m 2499925704 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045552664419981 MPIRUN START
+[22;44m[37m BCH [0m 1422045652683535441 MPIRUN END
+[22;44m[37m BCH [0m 100019115460 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045652690591637 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045723297763946 LIST END
+[22;44m[37m BCH [0m 70607172309 LIST DURATION
+Iteration 5 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc158.imag.fr
+ensipc126.imag.fr
+ensipc164.imag.fr
+ensipc136.imag.fr
+ensipc180.imag.fr
+ensipc306.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045728437491073 DEPL END
+[22;44m[37m BCH [0m 2649305396 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045728443181471 MPIRUN START
+[22;44m[37m BCH [0m 1422045828458062654 MPIRUN END
+[22;44m[37m BCH [0m 100014881183 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045828462771252 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045897428180335 LIST END
+[22;44m[37m BCH [0m 68965409083 LIST DURATION
+Iteration 6 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc152.imag.fr
+ensipc160.imag.fr
+ensipc153.imag.fr
+ensipc164.imag.fr
+ensipc120.imag.fr
+ensipc133.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045902610691917 DEPL END
+[22;44m[37m BCH [0m 2448631778 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045902614624844 MPIRUN START
+[22;44m[37m BCH [0m 1422045923396702045 MPIRUN END
+[22;44m[37m BCH [0m 20782077201 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422045923403538833 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422045992943503020 LIST END
+[22;44m[37m BCH [0m 69539964187 LIST DURATION
+Iteration 7 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc162.imag.fr
+ensipc108.imag.fr
+ensipc167.imag.fr
+ensipc101.imag.fr
+ensipc135.imag.fr
+ensipc156.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422045997604776125 DEPL END
+[22;44m[37m BCH [0m 2396012138 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422045997611499835 MPIRUN START
+[22;44m[37m BCH [0m 1422046024839833048 MPIRUN END
+[22;44m[37m BCH [0m 27228333213 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046024845676386 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046093610808089 LIST END
+[22;44m[37m BCH [0m 68765131703 LIST DURATION
+Iteration 8 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc143.imag.fr
+ensipc115.imag.fr
+ensipc126.imag.fr
+ensipc150.imag.fr
+ensipc109.imag.fr
+ensipc140.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046098960376240 DEPL END
+[22;44m[37m BCH [0m 2496083561 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046098967122845 MPIRUN START
+[22;44m[37m BCH [0m 1422046125350126588 MPIRUN END
+[22;44m[37m BCH [0m 26383003743 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046125361471864 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046196418380043 LIST END
+[22;44m[37m BCH [0m 71056908179 LIST DURATION
+Iteration 9 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc176.imag.fr
+ensipc80.imag.fr
+ensipc131.imag.fr
+ensipc175.imag.fr
+ensipc181.imag.fr
+ensipc178.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046201729337786 DEPL END
+[22;44m[37m BCH [0m 2711017068 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046201735103073 MPIRUN START
+[22;44m[37m BCH [0m 1422046301757109397 MPIRUN END
+[22;44m[37m BCH [0m 100022006324 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046301764675729 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046371949369997 LIST END
+[22;44m[37m BCH [0m 70184694268 LIST DURATION
+Iteration 10 for blender_2.49 avec 6 process sur 6 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc116.imag.fr
+ensipc133.imag.fr
+ensipc169.imag.fr
+ensipc136.imag.fr
+ensipc164.imag.fr
+ensipc125.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046376939323616 DEPL END
+[22;44m[37m BCH [0m 2332800789 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046376946004631 MPIRUN START
+[22;44m[37m BCH [0m 1422046402580851180 MPIRUN END
+[22;44m[37m BCH [0m 25634846549 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046402592542435 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046473637420740 LIST END
+[22;44m[37m BCH [0m 71044878305 LIST DURATION
+Iteration 1 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc116.imag.fr
+ensipc114.imag.fr
+ensipc117.imag.fr
+ensipc176.imag.fr
+ensipc64.imag.fr
+ensipc146.imag.fr
+ensipc144.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046478659972477 DEPL END
+[22;44m[37m BCH [0m 2515500002 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046478665102116 MPIRUN START
+[22;44m[37m BCH [0m 1422046497397594010 MPIRUN END
+[22;44m[37m BCH [0m 18732491894 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046497402567572 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046567002974887 LIST END
+[22;44m[37m BCH [0m 69600407315 LIST DURATION
+Iteration 2 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc139.imag.fr
+ensipc132.imag.fr
+ensipc108.imag.fr
+ensipc162.imag.fr
+ensipc127.imag.fr
+ensipc308.imag.fr
+ensipc176.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046572461593613 DEPL END
+[22;44m[37m BCH [0m 2756950245 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046572467653953 MPIRUN START
+[22;44m[37m BCH [0m 1422046592482155012 MPIRUN END
+[22;44m[37m BCH [0m 20014501059 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046592486506704 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046663543609826 LIST END
+[22;44m[37m BCH [0m 71057103122 LIST DURATION
+Iteration 3 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc120.imag.fr
+ensipc123.imag.fr
+ensipc131.imag.fr
+ensipc102.imag.fr
+ensipc104.imag.fr
+ensipc168.imag.fr
+ensipc175.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046667707064442 DEPL END
+[22;44m[37m BCH [0m 2191258409 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046667712775350 MPIRUN START
+[22;44m[37m BCH [0m 1422046686478060642 MPIRUN END
+[22;44m[37m BCH [0m 18765285292 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046686486439637 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046756820719421 LIST END
+[22;44m[37m BCH [0m 70334279784 LIST DURATION
+Iteration 4 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc168.imag.fr
+ensipc117.imag.fr
+ensipc105.imag.fr
+ensipc121.imag.fr
+ensipc111.imag.fr
+ensipc112.imag.fr
+ensipc118.imag.fr
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422046761618573573 DEPL END
+[22;44m[37m BCH [0m 2498020940 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046761623421185 MPIRUN START
+[22;44m[37m BCH [0m 1422046779929366097 MPIRUN END
+[22;44m[37m BCH [0m 18305944912 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046779935046781 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422046805757983095 LIST END
+[22;44m[37m BCH [0m 25822936314 LIST DURATION
+Iteration 5 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+ensipc117.imag.fr
+ensipc136.imag.fr
+ensipc121.imag.fr
+Cleaning /tmp...
+ensipcserveur.imag.fr: ensipc121.imag.fr (1883): state > Connection failed
+ensipcserveur.imag.fr: ensipc117.imag.fr (1881): state > Connection failed
+ensipcserveur.imag.fr: ensipc136.imag.fr (1882): state > Connection failed
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+ensipcserveur.imag.fr: ensipc117.imag.fr (1888): connector > ssh: connect to host ensipc117.imag.fr port 22: Connection refused
+ensipcserveur.imag.fr: ensipc117.imag.fr (1888): state > Connection failed
+ensipcserveur.imag.fr: ensipc136.imag.fr (1889): connector > ssh: connect to host ensipc136.imag.fr port 22: Connection refused
+ensipcserveur.imag.fr: ensipc136.imag.fr (1889): state > Connection failed
+ensipcserveur.imag.fr: ensipc121.imag.fr (1890): connector > ssh: connect to host ensipc121.imag.fr port 22: Connection refused
+ensipcserveur.imag.fr: ensipc121.imag.fr (1890): state > Connection failed
+[22;44m[37m BCH [0m 1422046806996111623 DEPL END
+[22;44m[37m BCH [0m 1116903114 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422046806999396498 MPIRUN START
+[22;44m[37m BCH [0m 1422046807323055965 MPIRUN END
+[22;44m[37m BCH [0m 323659467 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422046807327677992 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422047024356008874 LIST END
+[22;44m[37m BCH [0m 217028330882 LIST DURATION
+Iteration 6 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422047024700861471 DEPL END
+[22;44m[37m BCH [0m 171228150 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422047024706589387 MPIRUN START
+[22;44m[37m BCH [0m 1422047025060317125 MPIRUN END
+[22;44m[37m BCH [0m 353727738 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422047025070004558 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422047171469478716 LIST END
+[22;44m[37m BCH [0m 146399474158 LIST DURATION
+Iteration 7 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422047171831232656 DEPL END
+[22;44m[37m BCH [0m 170984277 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422047171837515111 MPIRUN START
+[22;44m[37m BCH [0m 1422047172182238579 MPIRUN END
+[22;44m[37m BCH [0m 344723468 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422047172190403063 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422047305281631377 LIST END
+[22;44m[37m BCH [0m 133091228314 LIST DURATION
+Iteration 8 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422047305579593819 DEPL END
+[22;44m[37m BCH [0m 140583883 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422047305584326416 MPIRUN START
+[22;44m[37m BCH [0m 1422047305928685598 MPIRUN END
+[22;44m[37m BCH [0m 344359182 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422047305936882623 LIST START
+ workers available
+[22;44m[37m BCH [0m 1422047437367585663 LIST END
+[22;44m[37m BCH [0m 131430703040 LIST DURATION
+Iteration 9 for blender_2.49 avec 28 process sur 7 worker(s)
+ensipcserveur.imag.fr slots=1 max_slots=1
+Cleaning /tmp...
+[22;44m[37m BCH [0m  DEPL START
+Deploy job...
+[22;44m[37m BCH [0m 1422047437544634861 DEPL END
+[22;44m[37m BCH [0m 88091122 DEPL DURATION
+Execute job...
+[22;44m[37m BCH [0m 1422047437549631734 MPIRUN START
+[22;44m[37m BCH [0m 1422047437879591918 MPIRUN END
+[22;44m[37m BCH [0m 329960184 MPIRUN DURATION
+Construct available workers list...
+[22;44m[37m BCH [0m 1422047437885723999 LIST START
